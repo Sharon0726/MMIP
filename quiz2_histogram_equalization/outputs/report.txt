@@ -1,0 +1,15 @@
+重複執行次數 N = 100
+
+--- 動態範圍 / 對比度 (標準差) ---
+處理前 (低對比輸入)        : range=70, std=13.46
+處理後 - NumPy 手刻 HE     : range=255, std=74.43
+處理後 - OpenCV equalizeHist: range=255, std=74.43
+
+--- 執行速度 (平均每次) ---
+NumPy 手刻 HE      : 1.1852 ms
+OpenCV equalizeHist: 0.2666 ms  (NumPy 約為 OpenCV 的 4.4 倍)
+
+--- 轉換結果差異 (NumPy vs OpenCV) ---
+平均絕對誤差 MAE : 0.000000
+最大絕對誤差 Max : 0
+完全相同的像素比例: 100.00%

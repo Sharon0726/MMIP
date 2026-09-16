@@ -1,0 +1,9 @@
+{
+  "n_kp_left": 2534,
+  "n_kp_right": 3851,
+  "n_good_matches": 630,
+  "n_inliers": 513,
+  "inlier_ratio": 0.8142857142857143,
+  "mean_reproj_error": 0.12931907176971436,
+  "success": true
+}

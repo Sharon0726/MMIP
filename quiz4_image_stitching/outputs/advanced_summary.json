@@ -1,0 +1,299 @@
+{
+  "defaults": {
+    "overlap_ratio": 0.35,
+    "angle_deg": 6,
+    "brightness_factor": 0.85
+  },
+  "sweeps": {
+    "overlap_ratio": [
+      {
+        "n_kp_left": 2810,
+        "n_kp_right": 4151,
+        "n_good_matches": 880,
+        "n_inliers": 761,
+        "inlier_ratio": 0.8647727272727272,
+        "mean_reproj_error": 0.12488089501857758,
+        "success": true
+      },
+      {
+        "n_kp_left": 2618,
+        "n_kp_right": 3937,
+        "n_good_matches": 759,
+        "n_inliers": 632,
+        "inlier_ratio": 0.8326745718050066,
+        "mean_reproj_error": 0.1087643951177597,
+        "success": true
+      },
+      {
+        "n_kp_left": 2433,
+        "n_kp_right": 3767,
+        "n_good_matches": 581,
+        "n_inliers": 432,
+        "inlier_ratio": 0.7435456110154905,
+        "mean_reproj_error": 0.11800194531679153,
+        "success": true
+      },
+      {
+        "n_kp_left": 2262,
+        "n_kp_right": 3544,
+        "n_good_matches": 301,
+        "n_inliers": 246,
+        "inlier_ratio": 0.8172757475083057,
+        "mean_reproj_error": 0.10878383368253708,
+        "success": true
+      },
+      {
+        "n_kp_left": 2155,
+        "n_kp_right": 3455,
+        "n_good_matches": 149,
+        "n_inliers": 93,
+        "inlier_ratio": 0.6241610738255033,
+        "mean_reproj_error": 0.10329325497150421,
+        "success": true
+      },
+      {
+        "n_kp_left": 2095,
+        "n_kp_right": 3405,
+        "n_good_matches": 104,
+        "n_inliers": 53,
+        "inlier_ratio": 0.5096153846153846,
+        "mean_reproj_error": 0.11495094746351242,
+        "success": true
+      },
+      {
+        "n_kp_left": 2044,
+        "n_kp_right": 3259,
+        "n_good_matches": 65,
+        "n_inliers": 20,
+        "inlier_ratio": 0.3076923076923077,
+        "mean_reproj_error": 0.12001373618841171,
+        "success": false
+      },
+      {
+        "n_kp_left": 2014,
+        "n_kp_right": 3283,
+        "n_good_matches": 49,
+        "n_inliers": 12,
+        "inlier_ratio": 0.24489795918367346,
+        "mean_reproj_error": 1.2825807332992554,
+        "success": false
+      }
+    ],
+    "angle_deg": [
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3497,
+        "n_good_matches": 1005,
+        "n_inliers": 887,
+        "inlier_ratio": 0.882587064676617,
+        "mean_reproj_error": 0.0177747942507267,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3881,
+        "n_good_matches": 648,
+        "n_inliers": 517,
+        "inlier_ratio": 0.7978395061728395,
+        "mean_reproj_error": 0.1232883557677269,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3645,
+        "n_good_matches": 591,
+        "n_inliers": 482,
+        "inlier_ratio": 0.8155668358714044,
+        "mean_reproj_error": 0.12552152574062347,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3611,
+        "n_good_matches": 541,
+        "n_inliers": 436,
+        "inlier_ratio": 0.8059149722735675,
+        "mean_reproj_error": 0.11934031546115875,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3568,
+        "n_good_matches": 576,
+        "n_inliers": 433,
+        "inlier_ratio": 0.7517361111111112,
+        "mean_reproj_error": 0.143391415476799,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3569,
+        "n_good_matches": 544,
+        "n_inliers": 423,
+        "inlier_ratio": 0.7775735294117647,
+        "mean_reproj_error": 0.13808199763298035,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3459,
+        "n_good_matches": 544,
+        "n_inliers": 401,
+        "inlier_ratio": 0.7371323529411765,
+        "mean_reproj_error": 0.12217849493026733,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3356,
+        "n_good_matches": 486,
+        "n_inliers": 367,
+        "inlier_ratio": 0.7551440329218106,
+        "mean_reproj_error": 0.13121849298477173,
+        "success": true
+      }
+    ],
+    "brightness_factor": [
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 4215,
+        "n_good_matches": 656,
+        "n_inliers": 526,
+        "inlier_ratio": 0.801829268292683,
+        "mean_reproj_error": 0.12683629989624023,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 3589,
+        "n_good_matches": 605,
+        "n_inliers": 498,
+        "inlier_ratio": 0.8231404958677686,
+        "mean_reproj_error": 0.13000138103961945,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 2945,
+        "n_good_matches": 513,
+        "n_inliers": 421,
+        "inlier_ratio": 0.8206627680311891,
+        "mean_reproj_error": 0.13194811344146729,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 2604,
+        "n_good_matches": 460,
+        "n_inliers": 377,
+        "inlier_ratio": 0.8195652173913044,
+        "mean_reproj_error": 0.1263635754585266,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 1416,
+        "n_good_matches": 302,
+        "n_inliers": 235,
+        "inlier_ratio": 0.7781456953642384,
+        "mean_reproj_error": 0.11238905042409897,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 226,
+        "n_good_matches": 46,
+        "n_inliers": 27,
+        "inlier_ratio": 0.5869565217391305,
+        "mean_reproj_error": 0.10510525852441788,
+        "success": true
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 0,
+        "n_good_matches": 0,
+        "n_inliers": 0,
+        "inlier_ratio": 0.0,
+        "mean_reproj_error": null,
+        "success": false
+      },
+      {
+        "n_kp_left": 2534,
+        "n_kp_right": 0,
+        "n_good_matches": 0,
+        "n_inliers": 0,
+        "inlier_ratio": 0.0,
+        "mean_reproj_error": null,
+        "success": false
+      }
+    ]
+  },
+  "sweep_values": {
+    "overlap_ratio": [
+      0.5,
+      0.4,
+      0.3,
+      0.2,
+      0.12,
+      0.08,
+      0.05,
+      0.03
+    ],
+    "angle_deg": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40
+    ],
+    "brightness_factor": [
+      1.0,
+      0.8,
+      0.6,
+      0.45,
+      0.3,
+      0.2,
+      0.12,
+      0.08
+    ]
+  },
+  "first_failure_condition": {
+    "overlap_ratio": 0.05,
+    "brightness_factor": 0.12
+  },
+  "clahe_low_light": {
+    "brightness_values": [
+      1.0,
+      0.8,
+      0.6,
+      0.45,
+      0.3,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "no_preprocess_inliers": [
+      526,
+      498,
+      421,
+      377,
+      235,
+      27,
+      0,
+      0
+    ],
+    "clahe_inliers": [
+      588,
+      584,
+      590,
+      558,
+      493,
+      409,
+      273,
+      80
+    ]
+  }
+}
