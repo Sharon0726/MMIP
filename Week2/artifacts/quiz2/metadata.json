@@ -1,0 +1,70 @@
+{
+  "seed": 42,
+  "dataset_sha256": "a0f0ab49d6326671d6cd83be5c88dcf18007025fe9a53ecd699119c871176ca1",
+  "train_count": 24000,
+  "validation_count": 6000,
+  "target": "default.payment.next.month",
+  "positive_label": 1,
+  "feature_names": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "configs": {
+    "Baseline MLP": {
+      "epochs": 60,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "hidden_dims": [
+        64,
+        32
+      ],
+      "dropout": 0.0,
+      "weight_decay": 0.0
+    },
+    "Improved MLP": {
+      "epochs": 60,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "hidden_dims": [
+        64,
+        32
+      ],
+      "dropout": 0.25,
+      "weight_decay": 0.001
+    }
+  },
+  "best_epochs": {
+    "Baseline MLP": 24,
+    "Improved MLP": 53
+  },
+  "checkpoint_selection": "lowest validation BCE after all 60 epochs",
+  "quiz3_mlp": "Improved MLP",
+  "threshold": 0.5,
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  }
+}

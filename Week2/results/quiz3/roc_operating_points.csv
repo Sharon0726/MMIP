@@ -1,0 +1,7 @@
+Model,FPR upper bound,Max TPR at or below bound
+Improved MLP,0.05,0.359457422758101
+Random Forest,0.05,0.3436322532027129
+Improved MLP,0.1,0.48379804069329313
+Random Forest,0.1,0.493594574227581
+Improved MLP,0.2,0.6073850791258478
+Random Forest,0.2,0.6254709871891485

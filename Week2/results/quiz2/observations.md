@@ -1,0 +1,11 @@
+### 實測觀察
+- 原始與改良模型各完成 60 epochs；最佳 checkpoint 分別是 epoch 24 與 53。
+- 最佳 checkpoint 的 validation BCE：原始 0.43569 → 改良 0.43326；差值 -0.00243（負值才代表下降）。
+- Accuracy：0.8175 → 0.8195，差值 +0.0020。
+- Precision：0.6518 → 0.6704，差值 +0.0186。
+- Recall：0.3753 → 0.3617，差值 -0.0136。
+- F1：0.4763 → 0.4699，差值 -0.0064。
+- 最後 epoch 的 validation−training loss 差距變化 -0.02739；差距縮小，與較少過擬合的現象一致。
+- 末 10 epochs 的 validation loss 標準差變化 -0.00116；這個波動指標較小。
+- Dropout 與 L2 不保證每個分類指標同時提高；本次比較只支持上述實測變化。
+- Quiz 3 固定沿用 Improved MLP 的最佳 checkpoint 機率與同一驗證集。
