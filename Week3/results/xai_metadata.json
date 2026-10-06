@@ -1,0 +1,11 @@
+{
+  "model": "plain_lr0.001_aug",
+  "target": "predicted class logit",
+  "layer": "features[6]",
+  "spatial_resolution": [
+    8,
+    8
+  ],
+  "selection": "first two correct and first two errors with distinct true classes per group",
+  "occlusion": "mask 256/1024 highest or lowest CAM pixels to ImageNet channel means"
+}

@@ -1,0 +1,11 @@
+# Colab already includes these libraries; use its CUDA-enabled torch.
+# 本機 CPU 安裝方式請見 README；以下為相容版本範圍。
+torch>=2.6,<3
+torchvision>=0.21,<1
+numpy>=1.26,<3
+scikit-learn>=1.6,<2
+matplotlib>=3.8,<4
+pillow>=10,<13
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6,<8

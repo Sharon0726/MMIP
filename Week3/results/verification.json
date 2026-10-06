@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "Disjoint, class-balanced train/validation; official test indices; complete source accounting",
+    "All six runs: 10,000 probability rows, normalized scores, recomputed Top-1/Top-5/Macro-AUC, CSV/NPZ equality",
+    "Every checkpoint is the earliest maximum validation Top-1 epoch; complete training histories",
+    "Validation-only family selection, controlled augmentation settings, correct total/trainable parameter counts",
+    "Reloaded end-to-end models reproduce saved probabilities, including cached ResNet features",
+    "Finite, nonzero Grad-CAM maps; two kernels exactly match the trained checkpoint"
+  ],
+  "experiments": 6,
+  "prediction_rows": 60000
+}

@@ -1,0 +1,16 @@
+{
+  "criterion": "validation Top-1 only; first candidate wins ties",
+  "selected": {
+    "plain": {
+      "baseline": "plain_lr0.001_base",
+      "augmented": "plain_lr0.001_aug",
+      "final": "plain_lr0.001_aug"
+    },
+    "resnet": {
+      "baseline": "resnet_lr0.001_base",
+      "augmented": "resnet_lr0.001_aug",
+      "final": "resnet_lr0.001_base"
+    }
+  },
+  "selected_at_utc": "2026-10-06T09:16:11.550524+00:00"
+}

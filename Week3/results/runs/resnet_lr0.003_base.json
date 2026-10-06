@@ -1,0 +1,35 @@
+{
+  "run": "resnet_lr0.003_base",
+  "family": "resnet",
+  "lr": 0.003,
+  "augmentation": false,
+  "epochs": 25,
+  "best_epoch": 2,
+  "val_top1": 0.7599999904632568,
+  "val_top5": 0.9828000068664551,
+  "training_seconds": 16.474300585000037,
+  "parameters_total": 11181642,
+  "parameters_trainable": 5130,
+  "config": {
+    "seed": 20260923,
+    "train_per_class": 4500,
+    "val_per_class": 500,
+    "batch_size": 128,
+    "threads": 2,
+    "device": "auto",
+    "plain_epochs": 15,
+    "resnet_epochs": 25,
+    "plain_learning_rates": [
+      0.001,
+      0.0003
+    ],
+    "resnet_learning_rates": [
+      0.001,
+      0.003
+    ],
+    "weight_decay": 0.0001,
+    "augmentation_views": 2,
+    "resnet_input_size": 64,
+    "author": "蘇芯儀 / Sharon0726"
+  }
+}

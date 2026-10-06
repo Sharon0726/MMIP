@@ -1,0 +1,14 @@
+# Local teaching materials / 本機教材
+*.[pP][dD][fF]
+md檔/
+新增資料夾/
+# Runtime caches / 執行快取
+.venv/
+.publish/
+.local/
+*.zip
+data/
+cache/
+__pycache__/
+.ipynb_checkpoints/
+*.log

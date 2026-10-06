@@ -1,0 +1,16 @@
+{
+  "seed": 20260923,
+  "train_per_class": 4500,
+  "val_per_class": 500,
+  "batch_size": 128,
+  "threads": 2,
+  "device": "auto",
+  "plain_epochs": 15,
+  "resnet_epochs": 25,
+  "plain_learning_rates": [0.001, 0.0003],
+  "resnet_learning_rates": [0.001, 0.003],
+  "weight_decay": 0.0001,
+  "augmentation_views": 2,
+  "resnet_input_size": 64,
+  "author": "蘇芯儀 / Sharon0726"
+}
