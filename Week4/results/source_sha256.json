@@ -1,0 +1,10 @@
+{
+  "run_all.py": "d9fb70d9b9c5aac625d76e226d7f8c543bea2bd561d873642fb2aa277cb8ee9f",
+  "common.py": "393f49d7620990a07a97481be39725620d37c41da054fe5e6fc0d88aea2e79f5",
+  "quiz2_sentiment.py": "eacb134dd7fb54fc9bfa969e0669b8ee870d3f2846aad9f41cd9c9d80bac4ece",
+  "models.py": "46a14100633178207cb8e4d52e080731b321e1f850681be3cf307062bb3e2ca8",
+  "analyze_results.py": "ea2295fe983461c40c077d1b40fc49963080f0a59979b86560af7dc562dc1fdd",
+  "quiz3_vision.py": "633094e5f1b331bc48658a57a257d3160c6b5b4c305f7de471b03140d2cb9b93",
+  "quiz4_caption.py": "f4e2e526fff46e09a4592f706d304a211bd278a51e2a28ae07ec8fdc290c8988",
+  "verify_results.py": "f734bf2e1b88796555c8059e5fc268388abc4b8c999ac46ac9db2f9161bd6ffd"
+}

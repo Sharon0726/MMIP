@@ -1,0 +1,28 @@
+{
+  "training_sources_match": true,
+  "embedded_runner_sources_match": true,
+  "local_markdown_links_exist": true,
+  "gemini_candidates": 12,
+  "notebooks": {
+    "MMIP_Week4_Colab.ipynb": {
+      "code_cells": 3,
+      "executed": 0
+    },
+    "Quiz1_Datasets.ipynb": {
+      "code_cells": 5,
+      "executed": 5
+    },
+    "Quiz2_Sentiment.ipynb": {
+      "code_cells": 5,
+      "executed": 5
+    },
+    "Quiz3_Vision_Transformer.ipynb": {
+      "code_cells": 5,
+      "executed": 5
+    },
+    "Quiz4_Image_Captioning.ipynb": {
+      "code_cells": 5,
+      "executed": 5
+    }
+  }
+}

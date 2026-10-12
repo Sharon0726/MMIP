@@ -1,0 +1,13 @@
+case,candidate,model,caption,verdict,reason
+1,A,gru,a group of men playing soccer,不符合,畫面中是一群穿著棒球服的男子在棒球場進行滑壘與守備，並非在踢足球（playing soccer）。
+1,B,lstm,a basketball player in a white uniform is dribbling the ball,不符合,畫面中為棒球比賽的滑壘場景，既非籃球選手（basketball player），也沒有運球（dribbling the ball）的動作。
+2,A,lstm,a little boy is jumping on a trampoline,不符合,圖片主要主體為一名站立的成年女性以及地上的粉筆畫，完全沒有小男孩在彈跳床跳躍（jumping on a trampoline）的實體場景。
+2,B,gru,a little girl in a pink shirt is jumping over a hurdle,不符合,地面彩繪雖繪有粉色衣著的小孩，但並非真實小女孩，亦無跨欄（jumping over a hurdle）的動作或設施。
+3,A,gru,a man in a black shirt and a hat is holding a cup,部分符合,圖片支持光頭男子身穿黑衣且帶有微笑，但他並未配戴帽子（hat）亦無手持杯子（holding a cup）。
+3,B,lstm,a man in a black shirt and sunglasses smiles,部分符合,圖片支持該名身穿黑衣的男子正面微笑，但他配戴的是耳掛式耳機而非太陽眼鏡（sunglasses）。
+4,A,lstm,a group of people are playing soccer,不符合,畫面呈現的是英式橄欖球（rugby）爭球或拋球場景，並非進行英式足球（playing soccer）運動。
+4,B,gru,a group of people are playing football,符合,畫面中一群男子正在草地上進行橄欖球（football/rugby）比賽，主要人物、數量、運動情境與空間關係皆能由圖片支持。
+5,A,gru,a group of people are standing in front of a building,符合,圖片支持畫面中央與右側有一群人（婦女與孩童）站立於戶外，背景確實為平房建物（building）。
+5,B,lstm,a group of people are standing in front of a large rock formation,不符合,畫面支持有一群人站立在沙地上，但背景為數間磚瓦平房與茅草屋，並不存在大型岩石地形（large rock formation）。
+6,A,lstm,a boy in a blue shirt is jumping off a swing,不符合,畫面為一名赤膊青年在室外蓮蓬頭下沖水淋浴，既非身穿藍衣，也沒有從鞦韆上跳下（jumping off a swing）。
+6,B,gru,a little boy is sitting on a wooden bench,不符合,主體為一名站立仰頭沖澡的青年，並非坐在木質長椅（sitting on a wooden bench）上的小男孩。

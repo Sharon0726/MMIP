@@ -1,0 +1,30 @@
+{
+  "source": "uoft-cs/cifar10",
+  "fingerprints": {
+    "train": "dc9b490412f5c250",
+    "test": "bab4620c7501a3e6"
+  },
+  "counts": {
+    "train": 10000,
+    "validation": 2000,
+    "test": 10000
+  },
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "selection": "seeded class-balanced subset for train/val; full official test",
+  "train_unused": 38000,
+  "pretraining": {
+    "vit": "ImageNet-21k then ImageNet-1k",
+    "resnet": "ImageNet-1k"
+  }
+}

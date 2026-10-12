@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.log text eol=lf
+# Preserve whitespace in original external evidence and progress-bar logs.
+results/gemini_review/raw_response.txt -whitespace
+results/training.log -whitespace

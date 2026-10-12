@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "service": "Google Gemini web",
+  "visible_mode": "Flash",
+  "exact_model_version": "not displayed",
+  "conversation_url": "https://gemini.google.com/app/312a28627583ecff",
+  "sample_count": 6,
+  "candidate_count": 12,
+  "extraction": "Visible rendered DOM text; JPG labels are attachment citation controls."
+}

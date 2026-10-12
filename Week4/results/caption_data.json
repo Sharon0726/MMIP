@@ -1,0 +1,18 @@
+{
+  "source": "tsystems/flickr8k",
+  "fingerprint": "9b1bbaa48e4888f2",
+  "counts": {
+    "train": 6000,
+    "validation": 1000,
+    "test": 1091
+  },
+  "caption_counts": {
+    "train": 30000,
+    "validation": 5000,
+    "test": 5455
+  },
+  "vocab_size": 6000,
+  "split": "custom seed-42 image-level 6000/1000/remainder; NOT official Karpathy split",
+  "encoder": "ResNet18 ImageNet1K_V1, frozen",
+  "max_length_including_bos_eos": 32
+}

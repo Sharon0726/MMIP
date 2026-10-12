@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "sentiment split separation",
+    "vision split separation",
+    "caption split separation",
+    "sentiment metrics and paired test IDs",
+    "vision metrics and paired test IDs",
+    "caption BLEU and paired test IDs",
+    "latency measured samples",
+    "nonempty generated captions",
+    "both pretrained backbones really updated"
+  ]
+}

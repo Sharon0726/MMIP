@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "sentiment": {"epochs": 12, "batch_size": 64, "lr": 0.001, "max_length": 64, "vocab_size": 12000, "embedding": 128, "hidden": 128},
+  "vision": {"train_per_class": 1000, "val_per_class": 200, "test_per_class": 1000, "epochs": 6, "batch_size": 64, "lr": 0.0003, "size": 224},
+  "caption": {"train_images": 6000, "val_images": 1000, "epochs": 20, "batch_size": 128, "lr": 0.001, "max_length": 32, "vocab_size": 6000, "embedding": 256, "hidden": 256}
+}

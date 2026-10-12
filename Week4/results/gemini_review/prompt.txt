@@ -1,0 +1,29 @@
+你是影像描述的獨立評審。這是學術作業的六張 Flickr8k 測試圖片，檔名 caption_sample_1.jpg 到 caption_sample_6.jpg 對應案例 1 到 6。每張圖片有兩個模型實際生成的描述 A/B；請依圖片本身判斷，不要根據模型身分、句子流暢度或猜測參考答案評分。
+
+逐一評估每個 A/B 描述的主要物體、數量、動作、屬性和空間關係。評為「符合」：重要內容皆可由圖片支持，省略細節可接受；「部分符合」：主要物體或場景合理，但有錯誤動作、數量或其他重要細節；「不符合」：主要物體/事件不符，或幻覺是核心內容。請明確寫出圖片能支持及不能支持的部分；無法辨識則說不確定，不要補出細節。
+
+請以繁體中文回覆一個 Markdown 表格，共 12 列，欄位為 case、candidate、verdict、reason。每個 reason 限一到兩句。最後給兩到三句整體限制說明。不要提供新 caption，不要修改原始候選句。
+
+案例 1（caption_sample_1.jpg）
+A: a group of men playing soccer
+B: a basketball player in a white uniform is dribbling the ball
+
+案例 2（caption_sample_2.jpg）
+A: a little boy is jumping on a trampoline
+B: a little girl in a pink shirt is jumping over a hurdle
+
+案例 3（caption_sample_3.jpg）
+A: a man in a black shirt and a hat is holding a cup
+B: a man in a black shirt and sunglasses smiles
+
+案例 4（caption_sample_4.jpg）
+A: a group of people are playing soccer
+B: a group of people are playing football
+
+案例 5（caption_sample_5.jpg）
+A: a group of people are standing in front of a building
+B: a group of people are standing in front of a large rock formation
+
+案例 6（caption_sample_6.jpg）
+A: a boy in a blue shirt is jumping off a swing
+B: a little boy is sitting on a wooden bench

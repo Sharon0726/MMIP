@@ -1,0 +1,19 @@
+{
+  "source": "cornell-movie-review-data/rotten_tomatoes",
+  "fingerprints": {
+    "train": "0346a9d2308d9056",
+    "validation": "4d310508c191379e",
+    "test": "23aa2ff3ad95b6f5"
+  },
+  "counts": {
+    "test": 1066,
+    "validation": 1066,
+    "train": 8530
+  },
+  "vocab_size": 12000,
+  "labels": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "deduplication": "normalized exact text; test > validation > train"
+}

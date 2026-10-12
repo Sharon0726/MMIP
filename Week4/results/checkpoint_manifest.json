@@ -1,0 +1,26 @@
+{
+  "caption_gru.pt": {
+    "bytes": 14419781,
+    "sha256": "24e6bcd41dd162361b85bca49ede624007039a9c223273d8714458a25aef499f"
+  },
+  "caption_lstm.pt": {
+    "bytes": 15472019,
+    "sha256": "9a18df293a9b766c814f29c02eb88c0a7d7e1384b143bd0529a4ab36301fae45"
+  },
+  "sentiment_lstm.pt": {
+    "bytes": 6676323,
+    "sha256": "71fd4492787ca0e768d67f3a25f92f1985fa993acefa77bbc0c4a9dc81639b25"
+  },
+  "sentiment_rnn.pt": {
+    "bytes": 6280025,
+    "sha256": "4b3d3f12e31018b895750548cbc42948838a761d37e9978c9c72e3b491fae81e"
+  },
+  "vision_resnet.pt": {
+    "bytes": 44806539,
+    "sha256": "f5926a85b5aa07f8a8d083e2ba8b375a14fc91d2907dd4a420afaea5650a66bb"
+  },
+  "vision_vit.pt": {
+    "bytes": 22164073,
+    "sha256": "7524d3ddd46dec179f6ecf1ff63eb1d13536bec377e0ab159a5feeeb0d1d5263"
+  }
+}
