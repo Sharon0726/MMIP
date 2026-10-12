@@ -1,0 +1,16 @@
+{
+  "task": "binary original image-caption pairing (1=original, 0=within-split permutation)",
+  "caption_selection": "first human caption per image, no reference text used as label string",
+  "counts": {
+    "test": 2182,
+    "train": 12000,
+    "validation": 2000
+  },
+  "labels": {
+    "0": "permuted pair",
+    "1": "original pair"
+  },
+  "negative_caveat": "A different-image caption can still be semantically plausible. This is noisy correspondence supervision, not human-verified semantic truth.",
+  "balance": "Each image and each text occurs exactly once per label within each split.",
+  "backbones": "fresh frozen ImageNet ResNet18/ViT-Tiny plus frozen all-MiniLM-L6-v2; not Quiz1 fine-tuned weights"
+}

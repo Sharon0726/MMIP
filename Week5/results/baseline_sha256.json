@@ -1,0 +1,7 @@
+{
+  "caption_lstm.json": "3fd8ec03ee81f8d5737068d8d8051cb18c59eed616df933205f4f3e12688f13c",
+  "caption_gru.json": "991568b4d14f70c2f09bc3ce9f778cff71ac98d6cba2b1b57b5c7d7197cd5c96",
+  "caption_vocab.json": "276dd19b6ce47368b6ca17b3cb8b69d88d1c9203f3b45566a3470c83da7ba029",
+  "caption_split.csv": "8a38f15fe7b1eb2744ef95ebb51f45b4cead2a1baa01757062c7c0afb4cadbe6",
+  "caption_metrics.csv": "3e7b72fcea26f0cb819524851087ee66fc3d13e661e5f192c6dcd31130ad293b"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "source_id": 2800,
+    "filename": "2736508369_fd9ff0b42f.jpg",
+    "clip_gru": "three men play baseball",
+    "clip_lstm": "a baseball player in a red uniform is throwing the ball while another player watches",
+    "resnet_gru": "a group of men playing soccer",
+    "resnet_lstm": "a basketball player in a white uniform is dribbling the ball",
+    "references": [
+      "A baseball player is tagged out sliding into second base .",
+      "A baseball player slides toward a base .",
+      "a man in a grey uniform sliding into a base",
+      "Three men playing baseball .",
+      "two fielder are defending the base as a member of the batting team slide towards it ."
+    ]
+  },
+  {
+    "source_id": 79,
+    "filename": "1093737381_b313cd49ff.jpg",
+    "clip_gru": "a woman in a blue shirt is standing next to a woman in a blue dress",
+    "clip_lstm": "a woman in a red dress is holding a baby in a park",
+    "resnet_gru": "a little girl in a pink shirt is jumping over a hurdle",
+    "resnet_lstm": "a little boy is jumping on a trampoline",
+    "references": [
+      "A woman in a blue dress stands with a chalk portrait of two children playing by a stream .",
+      "A woman standing in front of a chalk drawing",
+      "A woman stands next to a chalk drawing in front of a barn-like structure .",
+      "A woman stands outside near an elaborate chalk illustration .",
+      "A woman wearing a blue dress is drawing a picture of a boy and a girl on the sidewalk with sidewalk chalk ."
+    ]
+  },
+  {
+    "source_id": 5490,
+    "filename": "3412249548_00820fc4ca.jpg",
+    "clip_gru": "a man with a beard and a beard and a beard and a beard",
+    "clip_lstm": "a man with a beard and a beard and a blue shirt is sitting on a bench",
+    "resnet_gru": "a man in a black shirt and a hat is holding a cup",
+    "resnet_lstm": "a man in a black shirt and sunglasses smiles",
+    "references": [
+      "A bald man with an earpiece is smiling nearby a building opening .",
+      "A man with a white mustache and an earpiece is smiling .",
+      "A mustache man wears an earphone .",
+      "A smiling man with a headphones and a grey mustache",
+      "The bald man with the white mustache is wearing a bluetooth earpiece ."
+    ]
+  },
+  {
+    "source_id": 5359,
+    "filename": "3380072636_4cd59385fd.jpg",
+    "clip_gru": "a group of people are playing soccer",
+    "clip_lstm": "a group of men are playing football",
+    "resnet_gru": "a group of people are playing football",
+    "resnet_lstm": "a group of people are playing soccer",
+    "references": [
+      "A group of men are playing rugby in a field with houses visible in the distance .",
+      "A group of rugby players in action on a green field .",
+      "A group of young men in colorful uniforms playing with a white ball .",
+      "A team of soccer players lifts one teammate so that he can reach the ball .",
+      "Two rugby teams playing in a field with a ball ."
+    ]
+  },
+  {
+    "source_id": 5961,
+    "filename": "3501083764_cf592292a6.jpg",
+    "clip_gru": "a group of people are standing in front of a large building",
+    "clip_lstm": "a group of people are standing in front of a large building",
+    "resnet_gru": "a group of people are standing in front of a building",
+    "resnet_lstm": "a group of people are standing in front of a large rock formation",
+    "references": [
+      "A black mother and five children in a rural area",
+      "A family in the desert .",
+      "An african family are standing in front of some makeshift houses .",
+      "Family standing in a small village .",
+      "Woman in a white and gold shirt holding a baby and with three children and a man in a jacket ."
+    ]
+  },
+  {
+    "source_id": 3357,
+    "filename": "2911919938_6bb6587a36.jpg",
+    "clip_gru": "a man in a blue shirt is standing in a pool with a small child in his mouth",
+    "clip_lstm": "a man is holding a baby in a pool",
+    "resnet_gru": "a little boy is sitting on a wooden bench",
+    "resnet_lstm": "a boy in a blue shirt is jumping off a swing",
+    "references": [
+      "A boy getting a shower",
+      "A man is taking a shower .",
+      "A man sticks his tongue out in an outdoor shower .",
+      "A man takes a shower outdoors and looks up to stick out his tongue .",
+      "The man is standing under a shower with his tongue sticking out ."
+    ]
+  }
+]

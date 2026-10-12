@@ -1,0 +1,177 @@
+Running quiz1_retrieval.py
+
+Generating train split:   0%|          | 0/50000 [00:00<?, ? examples/s]
+Generating train split:   8%|▊         | 4200/50000 [00:00<00:01, 37003.98 examples/s]
+Generating train split:  40%|███▉      | 19800/50000 [00:00<00:00, 102955.06 examples/s]
+Generating train split:  62%|██████▏   | 30900/50000 [00:00<00:00, 105336.20 examples/s]
+Generating train split:  84%|████████▎ | 41800/50000 [00:00<00:00, 106194.88 examples/s]
+Generating train split: 100%|██████████| 50000/50000 [00:00<00:00, 104101.92 examples/s]
+
+Generating test split:   0%|          | 0/10000 [00:00<?, ? examples/s]
+Generating test split:  77%|███████▋  | 7700/10000 [00:00<00:00, 76299.35 examples/s]
+Generating test split: 100%|██████████| 10000/10000 [00:00<00:00, 84731.87 examples/s]
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+
+  0%|          | 0.00/44.7M [00:00<?, ?B/s]
+ 23%|██▎       | 10.4M/44.7M [00:00<00:00, 109MB/s]
+ 60%|█████▉    | 26.6M/44.7M [00:00<00:00, 145MB/s]
+ 98%|█████████▊| 43.8M/44.7M [00:00<00:00, 160MB/s]
+100%|██████████| 44.7M/44.7M [00:00<00:00, 153MB/s]
+retrieval resnet epoch=1 val_hit@1=0.8780
+retrieval resnet epoch=2 val_hit@1=0.8840
+retrieval resnet epoch=3 val_hit@1=0.8875
+retrieval resnet epoch=4 val_hit@1=0.8865
+retrieval resnet epoch=5 val_hit@1=0.8930
+retrieval resnet epoch=6 val_hit@1=0.8955
+{'model': 'resnet', 'best_epoch': 6, 'trainable_parameters': 8460682, 'train_seconds': 159.68700810099972, 'mean_query_ms': 4.816388970029948, 'backbone_max_abs_change': 0.046069905161857605, 'hit_at_1': 0.8869, 'hit_at_5': 0.9481, 'hit_at_10': 0.9635, 'precision_at_5': 0.88156, 'map_at_10': 0.8547444920634922}
+retrieval vit epoch=1 val_hit@1=0.9125
+retrieval vit epoch=2 val_hit@1=0.9255
+retrieval vit epoch=3 val_hit@1=0.9235
+retrieval vit epoch=4 val_hit@1=0.9285
+retrieval vit epoch=5 val_hit@1=0.9250
+retrieval vit epoch=6 val_hit@1=0.9230
+{'model': 'vit', 'best_epoch': 4, 'trainable_parameters': 471242, 'train_seconds': 155.28604759400014, 'mean_query_ms': 7.052878080016853, 'backbone_max_abs_change': 0.053578030318021774, 'hit_at_1': 0.9158, 'hit_at_5': 0.9633, 'hit_at_10': 0.9743, 'precision_at_5': 0.91654, 'map_at_10': 0.8964753253968254}
+Running quiz2_multimodal.py
+
+Generating train split:   0%|          | 0/8091 [00:00<?, ? examples/s]
+Generating train split:   1%|          | 100/8091 [00:00<00:09, 870.43 examples/s]
+Generating train split:   5%|▍         | 400/8091 [00:00<00:04, 1790.27 examples/s]
+Generating train split:   9%|▊         | 700/8091 [00:00<00:03, 1895.17 examples/s]
+Generating train split:  12%|█▏        | 1000/8091 [00:00<00:03, 1921.94 examples/s]
+Generating train split:  16%|█▌        | 1300/8091 [00:00<00:03, 1792.64 examples/s]
+Generating train split:  26%|██▌       | 2100/8091 [00:02<00:10, 557.07 examples/s] 
+Generating train split:  32%|███▏      | 2600/8091 [00:03<00:07, 775.44 examples/s]
+Generating train split:  35%|███▍      | 2797/8091 [00:03<00:06, 849.35 examples/s]
+Generating train split:  38%|███▊      | 3097/8091 [00:06<00:19, 253.40 examples/s]
+Generating train split:  44%|████▍     | 3597/8091 [00:08<00:18, 236.77 examples/s]
+Generating train split:  52%|█████▏    | 4197/8091 [00:09<00:10, 378.76 examples/s]
+Generating train split:  54%|█████▍    | 4397/8091 [00:09<00:08, 415.83 examples/s]
+Generating train split:  57%|█████▋    | 4597/8091 [00:09<00:07, 471.73 examples/s]
+Generating train split:  59%|█████▉    | 4797/8091 [00:09<00:06, 547.01 examples/s]
+Generating train split:  68%|██████▊   | 5494/8091 [00:13<00:09, 288.00 examples/s]
+Generating train split:  72%|███████▏  | 5794/8091 [00:13<00:06, 362.81 examples/s]
+Generating train split:  74%|███████▍  | 5994/8091 [00:13<00:04, 425.70 examples/s]
+Generating train split:  79%|███████▉  | 6394/8091 [00:13<00:02, 598.72 examples/s]
+Generating train split:  83%|████████▎ | 6694/8091 [00:13<00:01, 743.01 examples/s]
+Generating train split:  88%|████████▊ | 7094/8091 [00:13<00:01, 945.36 examples/s]
+Generating train split:  90%|█████████ | 7294/8091 [00:14<00:00, 1047.00 examples/s]
+Generating train split:  93%|█████████▎| 7494/8091 [00:14<00:00, 1165.59 examples/s]
+Generating train split:  98%|█████████▊| 7894/8091 [00:14<00:00, 1551.76 examples/s]
+Generating train split: 100%|██████████| 8091/8091 [00:14<00:00, 563.22 examples/s] 
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791780418.351385   16034 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791780421.357839   16034 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+resnet frozen features: 0/8091
+resnet frozen features: 1920/8091
+resnet frozen features: 3840/8091
+resnet frozen features: 5760/8091
+resnet frozen features: 7680/8091
+multimodal resnet_fusion epoch=1 val_f1=0.8764
+multimodal resnet_fusion epoch=5 val_f1=0.8864
+multimodal resnet_fusion epoch=10 val_f1=0.8760
+multimodal resnet_fusion epoch=15 val_f1=0.8805
+multimodal resnet_fusion epoch=20 val_f1=0.8775
+multimodal resnet_fusion epoch=25 val_f1=0.8760
+{'model': 'resnet_fusion', 'best_epoch': 4, 'train_seconds': 12.080728883999654, 'trainable_parameters': 494594, 'image_backbone': 'resnet', 'text_backbone': 'all-MiniLM-L6-v2', 'mode': 'fusion', 'accuracy': 0.8707607699358387, 'macro_f1': 0.8704995454086271, 'macro_precision': 0.873776655257958, 'macro_recall': 0.8707607699358386, 'auc': 0.942096446133308}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+vit frozen features: 0/8091
+vit frozen features: 1920/8091
+vit frozen features: 3840/8091
+vit frozen features: 5760/8091
+vit frozen features: 7680/8091
+multimodal vit_fusion epoch=1 val_f1=0.8794
+multimodal vit_fusion epoch=5 val_f1=0.9120
+multimodal vit_fusion epoch=10 val_f1=0.9075
+multimodal vit_fusion epoch=15 val_f1=0.8930
+multimodal vit_fusion epoch=20 val_f1=0.8990
+multimodal vit_fusion epoch=25 val_f1=0.9018
+{'model': 'vit_fusion', 'best_epoch': 5, 'train_seconds': 11.969466900000043, 'trainable_parameters': 412034, 'image_backbone': 'vit', 'text_backbone': 'all-MiniLM-L6-v2', 'mode': 'fusion', 'accuracy': 0.8909257561869844, 'macro_f1': 0.8908637741098936, 'macro_precision': 0.8918158569928518, 'macro_recall': 0.8909257561869843, 'auc': 0.9515601778067532}
+multimodal resnet_image epoch=1 val_f1=0.4981
+multimodal resnet_image epoch=5 val_f1=0.3590
+multimodal resnet_image epoch=10 val_f1=0.4007
+{'model': 'resnet_image', 'best_epoch': 1, 'train_seconds': 3.9975633009999, 'trainable_parameters': 297986, 'image_backbone': 'resnet', 'text_backbone': 'all-MiniLM-L6-v2', 'mode': 'image', 'accuracy': 0.5, 'macro_f1': 0.49443145779828457, 'macro_precision': 0.5, 'macro_recall': 0.5, 'auc': 0.5}
+multimodal resnet_text epoch=1 val_f1=0.4999
+multimodal resnet_text epoch=5 val_f1=0.3582
+multimodal resnet_text epoch=10 val_f1=0.3793
+{'model': 'resnet_text', 'best_epoch': 1, 'train_seconds': 4.253144135000184, 'trainable_parameters': 297986, 'image_backbone': 'resnet', 'text_backbone': 'all-MiniLM-L6-v2', 'mode': 'text', 'accuracy': 0.5, 'macro_f1': 0.4998856100847998, 'macro_precision': 0.5, 'macro_recall': 0.5, 'auc': 0.5}
+Running quiz3_clip_caption.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791780568.735182   16871 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791780571.348736   16871 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+clip frozen features: 0/8091
+clip frozen features: 1920/8091
+clip frozen features: 3840/8091
+clip frozen features: 5760/8091
+clip frozen features: 7680/8091
+clip_gru epoch=1 val_loss=3.4311
+clip_gru epoch=2 val_loss=3.0514
+clip_gru epoch=3 val_loss=2.8872
+clip_gru epoch=4 val_loss=2.7928
+clip_gru epoch=5 val_loss=2.7361
+clip_gru epoch=6 val_loss=2.6969
+clip_gru epoch=7 val_loss=2.6709
+clip_gru epoch=8 val_loss=2.6546
+clip_gru epoch=9 val_loss=2.6402
+clip_gru epoch=10 val_loss=2.6305
+clip_gru epoch=11 val_loss=2.6254
+clip_gru epoch=12 val_loss=2.6259
+clip_gru epoch=13 val_loss=2.6224
+clip_gru epoch=14 val_loss=2.6220
+clip_gru epoch=15 val_loss=2.6251
+clip_gru epoch=16 val_loss=2.6300
+clip_gru epoch=17 val_loss=2.6308
+clip_gru epoch=18 val_loss=2.6361
+clip_gru epoch=19 val_loss=2.6406
+clip_gru epoch=20 val_loss=2.6486
+clip_lstm epoch=1 val_loss=3.7310
+clip_lstm epoch=2 val_loss=3.3477
+clip_lstm epoch=3 val_loss=3.1471
+clip_lstm epoch=4 val_loss=3.0095
+clip_lstm epoch=5 val_loss=2.9194
+clip_lstm epoch=6 val_loss=2.8517
+clip_lstm epoch=7 val_loss=2.8010
+clip_lstm epoch=8 val_loss=2.7630
+clip_lstm epoch=9 val_loss=2.7407
+clip_lstm epoch=10 val_loss=2.7158
+clip_lstm epoch=11 val_loss=2.7067
+clip_lstm epoch=12 val_loss=2.6953
+clip_lstm epoch=13 val_loss=2.6794
+clip_lstm epoch=14 val_loss=2.6753
+clip_lstm epoch=15 val_loss=2.6688
+clip_lstm epoch=16 val_loss=2.6709
+clip_lstm epoch=17 val_loss=2.6746
+clip_lstm epoch=18 val_loss=2.6706
+clip_lstm epoch=19 val_loss=2.6710
+clip_lstm epoch=20 val_loss=2.6748
+
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]
+Fetching 5 files:  20%|██        | 1/5 [00:00<00:00,  7.64it/s]
+Fetching 5 files:  40%|████      | 2/5 [00:03<00:05,  1.92s/it]
+Fetching 5 files: 100%|██████████| 5/5 [00:03<00:00,  1.51it/s]
+{'model': 'clip_gru', 'week': 5, 'best_epoch': 14, 'train_seconds': 95.53812411000035, 'decoder_parameters': 3604080, 'bleu1': 0.6595763616945532, 'bleu4': 0.2409617491735175, 'bertscore_precision': 0.7356269955635071, 'bertscore_recall': 0.6917948126792908, 'bertscore_f1': 0.7060748934745789, 'test_images': 1091}
+{'model': 'clip_lstm', 'week': 5, 'best_epoch': 15, 'train_seconds': 100.76202755899976, 'decoder_parameters': 3866992, 'bleu1': 0.657797420402273, 'bleu4': 0.23388142020702435, 'bertscore_precision': 0.7342489361763, 'bertscore_recall': 0.6911594867706299, 'bertscore_f1': 0.7051327228546143, 'test_images': 1091}
+{'model': 'resnet_gru', 'week': 4, 'bleu1': 0.5372703412073491, 'bleu4': 0.14464914346218577, 'bertscore_precision': 0.6883199214935303, 'bertscore_recall': 0.6521060466766357, 'bertscore_f1': 0.663346529006958, 'test_images': 1091}
+{'model': 'resnet_lstm', 'week': 4, 'bleu1': 0.5080750407830342, 'bleu4': 0.133642215707454, 'bertscore_precision': 0.6844214200973511, 'bertscore_recall': 0.6472625732421875, 'bertscore_f1': 0.6587291955947876, 'test_images': 1091}
+Running analyze_results.py
+Running verify_results.py
+VERIFIED: Retrieval partitions, qualified IDs, ranked labels, Hit@K/P@5/mAP@10, latency, backbone update; Multimodal within-split pairing, per-input label balance, common test IDs, probability metrics; Exact Week4 split/references, nonempty captions, corpus BLEU recomputation and BERTScore per-image mean; Executed training source SHA-256 matches delivered source
+ALL_WEEK5_EXPERIMENTS_COMPLETE

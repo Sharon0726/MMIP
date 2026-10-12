@@ -1,0 +1,11 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "num_layers": 9,
+  "idf": false,
+  "rescale_with_baseline": false,
+  "use_fast_tokenizer": false,
+  "batch_size": 32,
+  "multiple_references": "BERTScore 0.3.13 max across all five references for each P/R/F component, then mean over images",
+  "hash": "google-bert/bert-base-uncased_L9_no-idf_version=0.3.12(hug_trans=4.49.0)"
+}

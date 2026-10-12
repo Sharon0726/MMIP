@@ -1,0 +1,50 @@
+[
+  {
+    "image_id": 2800,
+    "text_id": 2800,
+    "text": "A baseball player is tagged out sliding into second base .",
+    "label": 1,
+    "prediction": 1,
+    "p_1": 0.9993619322776794
+  },
+  {
+    "image_id": 2800,
+    "text_id": 6521,
+    "text": "A boy carries a boogieboard on the beach .",
+    "label": 0,
+    "prediction": 0,
+    "p_1": 6.579525813066311e-11
+  },
+  {
+    "image_id": 79,
+    "text_id": 79,
+    "text": "A woman in a blue dress stands with a chalk portrait of two children playing by a stream .",
+    "label": 1,
+    "prediction": 1,
+    "p_1": 0.9458639025688171
+  },
+  {
+    "image_id": 79,
+    "text_id": 4535,
+    "text": "A group of people walking on the side of a railroad track .",
+    "label": 0,
+    "prediction": 0,
+    "p_1": 0.0003956515865866095
+  },
+  {
+    "image_id": 5490,
+    "text_id": 5490,
+    "text": "A bald man with an earpiece is smiling nearby a building opening .",
+    "label": 1,
+    "prediction": 1,
+    "p_1": 0.9907575249671936
+  },
+  {
+    "image_id": 5490,
+    "text_id": 7744,
+    "text": "A man dressed in green with a blue backpack takes photos while sitting on a rocky surface .",
+    "label": 0,
+    "prediction": 0,
+    "p_1": 0.0854659229516983
+  }
+]

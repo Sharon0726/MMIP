@@ -1,0 +1,13 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "max_length": 128,
+  "text_sha256": "1eb90008a0d6d9adf22a2da65cb82f76fc775046d360b3ba9b8beb6c5f364ef9",
+  "shape": [
+    8091,
+    384
+  ],
+  "extraction_seconds": 3.363258554999902,
+  "frozen": true,
+  "pooling": "attention-mask mean; L2 normalize"
+}

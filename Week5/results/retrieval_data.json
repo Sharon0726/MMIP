@@ -1,0 +1,25 @@
+{
+  "dataset": "uoft-cs/cifar10",
+  "revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "counts": {
+    "train": 10000,
+    "validation": 2000,
+    "gallery": 10000,
+    "query": 10000
+  },
+  "relevance": "same CIFAR-10 class; semantic category retrieval, not instance identity",
+  "gallery_relevant_per_class": 1000,
+  "unused_official_train": 28000
+}

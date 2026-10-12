@@ -1,0 +1,42 @@
+{
+  "caption_clip_gru.pt": {
+    "bytes": 14419841,
+    "sha256": "c96201b37089fb654a735db439c6da18492cdcdfcfe6b1ad0361f49613dead14"
+  },
+  "caption_clip_lstm.pt": {
+    "bytes": 15472089,
+    "sha256": "632a3d7c0da9cd67331f0e37a354ddeb2f829d5787389f0b995ab289c40874d0"
+  },
+  "gallery_resnet.pt": {
+    "bytes": 5282208,
+    "sha256": "4cea8adef03dbe42b39d9dbb861fe6fe5e02416d7544fec7dbc8b92a8b59e6b8"
+  },
+  "gallery_vit.pt": {
+    "bytes": 5282181,
+    "sha256": "d3a334012f88660630d157a47153d38ebb1c565a11684c6b8b47c8594c9f9f11"
+  },
+  "multimodal_resnet_fusion.pt": {
+    "bytes": 1983665,
+    "sha256": "66602e37b7692166d16899e59f8f71f80c4650c088824934588bc93b43b0d5df"
+  },
+  "multimodal_resnet_image.pt": {
+    "bytes": 1197215,
+    "sha256": "d8a9c873eb4e35a6a5d0e5793284e3d7e73258ccb199bbb6d8c85bea81d56723"
+  },
+  "multimodal_resnet_text.pt": {
+    "bytes": 1197197,
+    "sha256": "f77bfc09f94ec01574882d243591655cd80a751ba7869c70fe17070d6eb424b9"
+  },
+  "multimodal_vit_fusion.pt": {
+    "bytes": 1653307,
+    "sha256": "b6029dc1d982a0329d6c9def1c550d7e3742cd759420c1f8bb2c8ba6e7db4815"
+  },
+  "retrieval_resnet.pt": {
+    "bytes": 45056601,
+    "sha256": "09503f4b49ca6a058f81de6aa9cc3a5412cace1871b5236a24a8077bf5f593d8"
+  },
+  "retrieval_vit.pt": {
+    "bytes": 22265227,
+    "sha256": "4d8a5c8ed9e0c55ae7e1cfd6bb08cf700bc3db6b1b364d0b2ec33620929c4703"
+  }
+}

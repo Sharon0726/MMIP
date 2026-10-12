@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Retrieval partitions, qualified IDs, ranked labels, Hit@K/P@5/mAP@10, latency, backbone update",
+    "Multimodal within-split pairing, per-input label balance, common test IDs, probability metrics",
+    "Exact Week4 split/references, nonempty captions, corpus BLEU recomputation and BERTScore per-image mean",
+    "Executed training source SHA-256 matches delivered source"
+  ],
+  "bertscore_check": "per-image output aggregation; no CPU rerun of contextual model"
+}

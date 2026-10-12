@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "retrieval": {"train_per_class": 1000, "val_per_class": 200, "gallery_per_class": 1000, "epochs": 6, "batch_size": 64, "lr": 0.0003, "embedding": 128, "temperature": 0.1},
+  "fusion": {"epochs": 25, "batch_size": 128, "lr": 0.001, "hidden": 256, "text_max_length": 128},
+  "caption": {"epochs": 20, "batch_size": 128, "lr": 0.001, "embedding": 256, "hidden": 256, "max_length": 32},
+  "revisions": {
+    "uoft-cs/cifar10": "0b2714987fa478483af9968de7c934580d0bb9a2",
+    "tsystems/flickr8k": "81fc5f3a41274c80f17b0406426d57cac57ce6fb",
+    "openai/clip-vit-base-patch32": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "sentence-transformers/all-MiniLM-L6-v2": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "google-bert/bert-base-uncased": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  }
+}

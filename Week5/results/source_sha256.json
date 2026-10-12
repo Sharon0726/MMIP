@@ -1,0 +1,14 @@
+{
+  "run_all.py": "6cfcc8c3ceb54b27f1219e14d00bee841bb4ad57cf48759a49ed4dae70cbae97",
+  "common.py": "393f49d7620990a07a97481be39725620d37c41da054fe5e6fc0d88aea2e79f5",
+  "quiz2_multimodal.py": "b31570ca5bbb6e759170425c52f1df48bbec072793f87f4b21cee73f12972753",
+  "models.py": "81b72c167408b7caccec96ca9f58c7499642552d1a21294158cc52d6b66b8e5c",
+  "data_utils.py": "0ba9e445f71bd0586cd32586e89c08d15870b8a0f1e8696622934da927f3ca4e",
+  "quiz1_retrieval.py": "d5cef13fe4f41bdba5c965bd344792ff35b9024db75fa16a6a50b7fe824c9005",
+  "analyze_results.py": "2d5d120bd2f3f12fb6dc79c1e099fa9f281e588dfff8bb491aa6c795da7462d1",
+  "quiz3_clip_caption.py": "7be3531e86e3d8c794ece0f9d1a8576e6080a484c3ac8763d48c20e0985dbe68",
+  "test_invariants.py": "3ced7591f960676e7435316805346636bd75f082e334fd1723806ee6ee54e320",
+  "verify_results.py": "16ecac011f816fd171af91eb260e59b886fb0c19ced40902dd9376a940961517",
+  "caption_decoder.py": "b48b4b3b40785ff6b2606df7bfdb4f230239834825e23c5f93c1be204e7daaf6",
+  "features.py": "77635bcef782f5c7546bed6983e4da5a1523fd37d75ed92b5d3e5f2273872aa6"
+}

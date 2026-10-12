@@ -1,0 +1,11 @@
+{
+  "dataset": "tsystems/flickr8k",
+  "revision": "81fc5f3a41274c80f17b0406426d57cac57ce6fb",
+  "fingerprint": "9b1bbaa48e4888f2",
+  "counts": {
+    "train": 6000,
+    "validation": 1000,
+    "test": 1091
+  },
+  "split": "Exact Week4 custom image-level split; first caption only for binary pairing; all five for caption training."
+}

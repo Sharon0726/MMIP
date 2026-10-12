@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.log text eol=lf
+# Preserve whitespace in original external evidence and progress-bar logs.
+results/training.log -whitespace
+# Preserve the decoder's exact executed bytes for SHA-256 provenance (CRLF).
+caption_decoder.py -text -whitespace

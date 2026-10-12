@@ -1,0 +1,12 @@
+{
+  "kind": "vit",
+  "dataset_revision": "81fc5f3a41274c80f17b0406426d57cac57ce6fb",
+  "model_revision": "ImageNet pretrained; timm 1.0.15 / torchvision V1",
+  "transform": "resize224 + ImageNet/model normalization",
+  "shape": [
+    8091,
+    192
+  ],
+  "extraction_seconds": 43.57219768499999,
+  "frozen": true
+}
