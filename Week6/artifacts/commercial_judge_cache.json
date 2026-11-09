@@ -1,0 +1,727 @@
+{
+  "1062abc9c6459add5b65da0b6c2969f3e29a189b563d94668db028361941ea73": {
+    "id": "u0",
+    "score": 3,
+    "reason": "correct number but used simplified Chinese character '张' instead of requested format or traditional context matching"
+  },
+  "0c1785036571d7db64383578863cb7b11a1b3b933600cc46a80624562a4257e6": {
+    "id": "u1",
+    "score": 0,
+    "reason": "wrong calculation result (1200*0.8 = 960, 960*1.05 = 1008, answer provided 912)"
+  },
+  "d8064aed98b4b8bcd94527af13e6df1428351960f8567700df5cbbed030b11bd": {
+    "id": "u2",
+    "score": 0,
+    "reason": "wrong calculation result"
+  },
+  "73136d640c2df7506e24fe3daf3d866502d413e64e5df56ee75eef5f50183e7e": {
+    "id": "u3",
+    "score": 4,
+    "reason": "fully correct and follows format"
+  },
+  "36cc05a173543a7d3151fd2856c53e23225c0b7aa8ac5443bd7f01037a6682bd": {
+    "id": "u4",
+    "score": 1,
+    "reason": "wrong order of words"
+  },
+  "eaa7fd9ba57b46146f8f570819cf248c8b01f74024d8a664a46685307e2c98bb": {
+    "id": "u5",
+    "score": 3,
+    "reason": "correct translation with extra quotation marks"
+  },
+  "779cbc27e2697e896d59a3afae5cf00fb430609c6a2757667de432c892620105": {
+    "id": "u6",
+    "score": 4,
+    "reason": "fully correct and follows constraints"
+  },
+  "b3d6605a902b4125b7d95977c8c6dd35eb5d1b8df0fc4546a7e9194d9d443191": {
+    "id": "u7",
+    "score": 2,
+    "reason": "contains conversational filler and repeats the question instead of just the translation"
+  },
+  "7dddae2a23d2cb3ed019d102273ecedda0ad004a9cfb0af0fd4aee13fc7803a7": {
+    "id": "u0",
+    "score": 2,
+    "reason": "答案正確但違反了「只回答數字」的格式要求"
+  },
+  "258deae87c443c62111a9157759b644605067ee82873a1471b958e5726c98844": {
+    "id": "u1",
+    "score": 1,
+    "reason": "要求翻譯成英文，但回答卻是中文"
+  },
+  "0322debca49f19d498c4534bc9f9f6018174b8f25a8d7929da6a440f64814aad": {
+    "id": "u2",
+    "score": 0,
+    "reason": "答案錯誤，推理邏輯不符（應為不能）"
+  },
+  "ff823a53215f1d84d0462ca89183c8bae39daaf4cdf49dea071a5e38f4da0c72": {
+    "id": "u3",
+    "score": 0,
+    "reason": "計算錯誤，第四次應為80分而非70分"
+  },
+  "730b1347f568cf4819869257e098dd3c9e8ec132a8ec53565933640ce076f6fa": {
+    "id": "u4",
+    "score": 0,
+    "reason": "邏輯錯誤（肯定後件謬誤），答案應為否"
+  },
+  "5f6155f2b06a38d53a571bdd441bc608a774cec56fc69556f0146e8df9f05050": {
+    "id": "u5",
+    "score": 4,
+    "reason": "完全正確且符合HH:MM格式要求"
+  },
+  "6fc3e740dfc8440a32c897383250e5225abca514727406ec183d65ba4e4360be": {
+    "id": "u6",
+    "score": 0,
+    "reason": "答案錯誤，B組完成15件最多，卻回答A組"
+  },
+  "bab67032e0dcb85f3797b3f7d51e90e13bad08bc1ea700acbf475d8fa12464d1": {
+    "id": "u7",
+    "score": 3,
+    "reason": "內容正確但陣列中包含字串而非數字，有輕微格式瑕疵"
+  },
+  "44c4b7e8d8c8fcd2a189ed6d8c6031280545bef82896208dc6d156468aa44d23": {
+    "id": "u0",
+    "score": 4,
+    "reason": "fully correct and matches JSON format without markdown"
+  },
+  "fceb192606e0f91f5621c178e10d36384ca21862617393985965c723b5964f0c": {
+    "id": "u1",
+    "score": 3,
+    "reason": "correct answer but included extra text violating the strict constraint"
+  },
+  "155e4bbfd16bda62b7cb7a2ec99f1c606435dea4d2a8bfa1482037b41d3c6162": {
+    "id": "u2",
+    "score": 1,
+    "reason": "translated to simplified Chinese instead of traditional Chinese"
+  },
+  "0a5234f5e0b4dba04b08beba91991c5794ecaa04058af6d935d555464cb17ebf": {
+    "id": "u3",
+    "score": 4,
+    "reason": "correctly sorted array and valid JSON format"
+  },
+  "b3b7fa30d2cb412b27886af3765fc46932f0d5e4bf1bb9551b3965b90d53986e": {
+    "id": "u4",
+    "score": 3,
+    "reason": "contains correct translation but also includes unnecessary conversational text"
+  },
+  "3d2c89ce7fa5c77fb2e592be20b017084d0db74049dbadd561ed5c209fa32d1a": {
+    "id": "u5",
+    "score": 0,
+    "reason": "wrong calculation result (should be 1200 * 0.8 * 1.05 = 1008)"
+  },
+  "a5da97d42e4ebf32980c95c9417ae36046c52274b00832f7874fece6a8088fdc": {
+    "id": "u6",
+    "score": 1,
+    "reason": "failed to translate to English, outputted Chinese instead"
+  },
+  "ecfb697d9b582ec0aac7e34e5c4587c57297e21f92319e61e80555fbc441cc3f": {
+    "id": "u7",
+    "score": 2,
+    "reason": "included a space after the comma violating the negative constraint"
+  },
+  "b6910e8e7dba35b4b1cc22e7132eb38ede6e6663ada3dce21848b9bb45a113f5": {
+    "id": "u0",
+    "score": 2,
+    "reason": "雖然結論正確，但未遵守「只回答『可能』或『不可能』」的格式要求。"
+  },
+  "e24158860041ac99728fb029e564c4c91843da336d75ef7e80cd6b4390faa23e": {
+    "id": "u1",
+    "score": 4,
+    "reason": "完全正確並符合格式要求。"
+  },
+  "64a80ebc8ba3692532b874e0233da40f775020389f073f20e112924c39abf7ce": {
+    "id": "u2",
+    "score": 2,
+    "reason": "雖然答案包含正確數字，但未遵守「只回答數字」的格式要求。"
+  },
+  "20491f712bca4da9dedbe177d606d46866c26f55d751cdc2a3572b50037a0f64": {
+    "id": "u3",
+    "score": 0,
+    "reason": "計算錯誤，答案應為170。"
+  },
+  "02c7315f12b2e3ded2ea889ccd4d99da4785815091bef66fc13bda04ed84e734": {
+    "id": "u4",
+    "score": 0,
+    "reason": "計算錯誤，答案應為170。"
+  },
+  "e2388889e3e9b80bcbc129c3a95a5f36d0f9ab71343d63477a241c374a3c72a0": {
+    "id": "u5",
+    "score": 4,
+    "reason": "完全正確並符合格式要求。"
+  },
+  "f48a2bda9ca8167d059f9cc84d9c2a46d1d6d2232c3792ee1e5c334a7961b358": {
+    "id": "u6",
+    "score": 0,
+    "reason": "計算錯誤，答案應為170。"
+  },
+  "e5eef5fda86bb599eb55e2c188ab5b77604fe341a4f6184fb7964cb0e0cc8f0c": {
+    "id": "u7",
+    "score": 4,
+    "reason": "完全正確並符合格式要求。"
+  },
+  "7bb4bf392bc1a2822a5ac14549fd6c473f88903279d68cb404df82648eecf5d9": {
+    "id": "u0",
+    "score": 0,
+    "reason": "calculated 1200 * 0.8 * 0.7 = 672 instead of 1200 * 0.8 * 1.05 = 1008"
+  },
+  "7b639e4517b2d022571809c6fcca38c4ec92d0c89df5f297b671f019ce346f62": {
+    "id": "u1",
+    "score": 3,
+    "reason": "correct answer B but included extra character '組' despite formatting constraint"
+  },
+  "045eb2c356485e2e642165cb467f457f3c4ab01a63421a5a8f3444fbf55e7840": {
+    "id": "u2",
+    "score": 4,
+    "reason": "fully correct, outputs valid JSON without markdown"
+  },
+  "73763d6cfacaf9721b7524a3fb06e8c77b834b88bd0d87e743b450c886783c22": {
+    "id": "u3",
+    "score": 4,
+    "reason": "semantically equivalent and natural Traditional Chinese translation"
+  },
+  "450bb141afb9f527f7535f82fd6f4c74122b97b305714f9c8c86bccb60fb12dd": {
+    "id": "u4",
+    "score": 4,
+    "reason": "correct English translation with synonymous verb 'identify'"
+  },
+  "fa91cb522a6a6fa8a1265ed5a07efb5a0908b5b6d68ab8c7e1f3ac52110806de": {
+    "id": "u5",
+    "score": 4,
+    "reason": "correctly sorted array outputted as requested"
+  },
+  "0c3cf81dfea537bd62f3bd1d3f7bf70a069065c81bfea81940b0c05c784519aa": {
+    "id": "u6",
+    "score": 0,
+    "reason": "wrong calculation: 500 - (45*7) = 500 - 315 = 185, answer gave 285"
+  },
+  "2fc6f2979d8d5e0b5db05669df97b0e047fe651f398a0d9d97355aff1e762afa": {
+    "id": "u7",
+    "score": 0,
+    "reason": "calculated 1200 * 0.8 = 960, ignoring the 5% service fee instruction"
+  },
+  "312d082916a8b17dfebb63103bf0854330ca6e28887d0b29434e46ec8176b6d9": {
+    "id": "u0",
+    "score": 3,
+    "reason": "correct meaning with a minor format addition ('了')"
+  },
+  "1aa7b56574ea12104df9b6f218854dae5ca4da10839bf573ac5d8923fb449f2d": {
+    "id": "u1",
+    "score": 2,
+    "reason": "failed to use the requested MM-DD format"
+  },
+  "b4504c2c128d37a08f3aa8f7f1a63e3f47a68122d76c6b38572e6d529d86ca8f": {
+    "id": "u2",
+    "score": 0,
+    "reason": "completely wrong format and output structure"
+  },
+  "67fb9cb7e54736bb08891836b5c87446a2853f75ca8ae4cdf8fc35bfab1300ba": {
+    "id": "u3",
+    "score": 0,
+    "reason": "wrong answer to logic question and ignored format constraint"
+  },
+  "54d03b25c34199e22a590ece06c043c390733bce4e7314f3a484cc63861732cb": {
+    "id": "u4",
+    "score": 3,
+    "reason": "correct meaning with slight phrasing variation ('關閉燈光' instead of '關燈')"
+  },
+  "40b769c8e1d73551d7db91a383edc4b41bad94dad61ec2bdcdddd36a7018c52a": {
+    "id": "u5",
+    "score": 4,
+    "reason": "fully correct"
+  },
+  "1516c7d2ad7bfdd96c2edf5d8617275c63fe98224e557edb7519ed273533e8fa": {
+    "id": "u6",
+    "score": 4,
+    "reason": "fully correct and follows format"
+  },
+  "b16bec03b4856a16a4d47586c4802d4952cb37bdc4ed8997f8218b14de026f32": {
+    "id": "u7",
+    "score": 3,
+    "reason": "correct meaning and format with trailing punctuation"
+  },
+  "c9ba6d132ca6c3eecac64829e8fdcf7a2f9aa2888501b87590df507af2ac7f4b": {
+    "id": "u0",
+    "score": 3,
+    "reason": "正確翻譯了含義，但包含了額外的說明文字。"
+  },
+  "9680ff31e9b04e909fcb10629fd7a7dc2e6365e60a7c2e4c7242411aa3469d19": {
+    "id": "u1",
+    "score": 4,
+    "reason": "完全正確，符合要求的MM-DD格式。"
+  },
+  "a6cf94b9c244125f88561d18db5bea2266229c145d0dca8636580c292bea59e0": {
+    "id": "u2",
+    "score": 4,
+    "reason": "計算正確，且只回答了數字。"
+  },
+  "3eebdd58d838c29da0c81cd316e508b38088c916a5c8cc356155386f54cc5ba9": {
+    "id": "u3",
+    "score": 1,
+    "reason": "邏輯錯誤（漏掉了第一個出現的 red），且未遵守「只輸出JSON字串陣列」的格式限制。"
+  },
+  "051e2e44b26b1fa5febe51efaed6b39def7345a241b1d43895f7f581dea14276": {
+    "id": "u4",
+    "score": 0,
+    "reason": "計算錯誤（68+72+80+x = 300 => x=80，答案給了69），且未遵守只回答數字的限制。"
+  },
+  "8b0e7042fa5d495bb8d7cd67a6c6c967bb0f5b983eed25cf9ac9f4d757ebd946": {
+    "id": "u5",
+    "score": 3,
+    "reason": "含義正確，但多了一個句號，未嚴格只回答指定的詞彙。"
+  },
+  "18cbef5d7e7a327fd7d45bc149937e49048f43c63633c61d6b4a2a67b84a1cf1": {
+    "id": "u6",
+    "score": 4,
+    "reason": "完全正確。"
+  },
+  "41081a2f26ebba795811efbec25c9d93cc0fc343da6354a30bdbbb6f53f2860e": {
+    "id": "u7",
+    "score": 0,
+    "reason": "計算錯誤（應為80），且未遵守只回答數字的限制。"
+  },
+  "9f573fc7c26d7fb33d43837075b365f107c9a54f39a8468cd65cd3e2d030b832": {
+    "id": "u0",
+    "score": 2,
+    "reason": "答案正確但違反了「只回答數字」的格式要求"
+  },
+  "d8293cce4a209c8f1ce83cb99187cbc860f6e1e6bb6db1f704791d1f58194fb4": {
+    "id": "u1",
+    "score": 0,
+    "reason": "計算錯誤，45*7=315，500-315=185，回答了355且未遵循只回答數字的要求"
+  },
+  "cd97c76ae48081909474447bded61191f89b167deb026ccfa6df8a6bea7c1e0d": {
+    "id": "u2",
+    "score": 2,
+    "reason": "內容正確但違反了「只輸出JSON陣列」的要求，輸出成了物件陣列"
+  },
+  "86ec8614f0a4ec377b5cffa8bc6853276caa03527c65ddc0d1574fd71daf211e": {
+    "id": "u3",
+    "score": 0,
+    "reason": "答案錯誤且推理邏輯有誤，未遵循「能」或「不能」的格式要求"
+  },
+  "f07f77adfe2be97376ef211e074d70af1866d36063e661b22d3a532a9c79875a": {
+    "id": "u4",
+    "score": 0,
+    "reason": "答案錯誤，甲都是乙且沒有乙是丙，不可能有甲是丙，且未遵循格式要求"
+  },
+  "30640c48aaa3533c8a0bdb45536975ddc57afdfe6a9d051ff4ad2211e1fcd424": {
+    "id": "u5",
+    "score": 0,
+    "reason": "計算錯誤，45*7=315，500-315=185，回答了105且未遵循只回答數字的要求"
+  },
+  "58842d3deedaaa9edd7abacd51c80910c43a9c24e72d9afd85aece1563c63736": {
+    "id": "u6",
+    "score": 4,
+    "reason": "完全正確且符合格式要求"
+  },
+  "77c6d5ac2af2ec22660dd47c78ceb5ed853d25d6f4f628191fad21d42d1b056f": {
+    "id": "u7",
+    "score": 4,
+    "reason": "完全正確且符合格式要求"
+  },
+  "94f0c5363b33e5eeb593d85a84dd03efdfe881f385df13d30735d697a29f81dd": {
+    "id": "u0",
+    "score": 4,
+    "reason": "正確回答數字80"
+  },
+  "d3c3ef0cd3c4cafae649be74c20374b7653856ce6add344febcfe1648173ceb0": {
+    "id": "u1",
+    "score": 0,
+    "reason": "計算錯誤，45*7=315，500-315=185，回答了25"
+  },
+  "34e5e363e0e4e3c0540f4b5c14acb6b7879ad24c7fa09c6cba9a80b8670cc3ba": {
+    "id": "u2",
+    "score": 0,
+    "reason": "未轉為大寫，且格式不符要求"
+  },
+  "50a9f3bdb9343ee9dc253a1d7ff0ace49cacec65e7ea65feade18bc6cdc3b495": {
+    "id": "u3",
+    "score": 2,
+    "reason": "意思正確但未按要求僅回答「能」或「不能」"
+  },
+  "b3a72fdd89ba0ab851cd39d54fa61bddf8999d3855455bc5f19ed6ee501d1675": {
+    "id": "u4",
+    "score": 0,
+    "reason": "邏輯錯誤，犯了肯定後件謬誤，應回答「否」"
+  },
+  "a4128e97c79cdaa0ee851732fe0ea0e0e069c5efc3f71322ccbed7ec84a7eb11": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Correctly identifies the shape as a square."
+  },
+  "573ee734b71b4dfe2066c2ed9a333eb96c5ffa8843f8999af3a799879bb84231": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial relationship."
+  },
+  "ee58203fcfad6a2e25c00985073d66bf517c5a34277346c9e7ca6291c12195c6": {
+    "id": "u2",
+    "score": 4,
+    "reason": "Correctly identifies the shape as a square."
+  },
+  "747a42619d1e1608d80219fc39797d4b9498e3be0b930e3db991c055f8c476ae": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial relationship."
+  },
+  "77e9ec39784718e45395db79a4b3615b76020b2ae283905c7bba2534cbb7855a": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Correctly identifies the shape as a triangle."
+  },
+  "e7ed97e608c0b02cb96a81926ff6e2b98fad43b9bb80adc669681a325acb6c23": {
+    "id": "u5",
+    "score": 0,
+    "reason": "Incorrect count of green triangles."
+  },
+  "b460d19f6fc9a21d477048b69d2b8434c09e98f039919a803afdd23b9ab8bbd4": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Correctly identifies the shape as a square."
+  },
+  "e6f2bb11f130d99ada61d0e9ea2700c524d16c82c7ebd40d7604b95aabf72caa": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Correctly counts the total number of shapes."
+  },
+  "c271a133fa2584d1d299318da09a5d0378d0777654fdfc082e4e2b96fdcf5746": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Correctly identifies the animal as a cat."
+  },
+  "9a9b526378c0668061f1ccd6b19ff7d52379d143ee6f58768c8048f811da8516": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correctly identifies the vehicle as a rocket."
+  },
+  "6a5fcb97d81b900c889dea684a174aeb4035a6288a110f34ed6c76e448822ed3": {
+    "id": "u2",
+    "score": 3,
+    "reason": "Correctly identifies the shape as a triangle, omitting the color."
+  },
+  "3783d96482145c1bb8a7e17ac4818f7c456726eea64fc3557b2452097affe03d": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Correctly gives the count as 3."
+  },
+  "a99b88fb761de58bd6dbf26ae1ef321469dd3c0baa3fc681432ddad69cdc0b83": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Accurately transcribes the text without extra words."
+  },
+  "c24374022987cd9ede832502a0b956144140db1437047694e69c41d720a8ca0a": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Correctly gives the count as 4."
+  },
+  "9510986be893f4fa44d9e9219b40f8bc84d8f3d873d275aad3c0566e128747f3": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Accurately describes the shapes, colors, and spatial relationship in one sentence."
+  },
+  "ec1a9f597a91be170b8f980beef964170de3c0b4e0e89e325bb5cc7f4535644d": {
+    "id": "u7",
+    "score": 0,
+    "reason": "Incorrect count provided (10 instead of 8)."
+  },
+  "0c1b186357c3b539164270445d15a37862461b77b7a7f609d6f3fdf512854ddc": {
+    "id": "u0",
+    "score": 3,
+    "reason": "Minor transcription error missing the leading zero in 09:30."
+  },
+  "6c696a99cafc23c98e4190a3fd0cd32b1ba3729e20fa1ddf6890617cd035f9ae": {
+    "id": "u1",
+    "score": 3,
+    "reason": "Correctly identified the shape, missing color."
+  },
+  "e17ae3b84b9800cc826f8562ea899289282ba10e400d30c0d0f0914febd97296": {
+    "id": "u2",
+    "score": 0,
+    "reason": "Incorrect count."
+  },
+  "0a5589773f172723a77ac72d3ae63962dfb89a5786c5e54b69c20d4584a12431": {
+    "id": "u3",
+    "score": 3,
+    "reason": "Correct meaning with minor additional detail."
+  },
+  "7ab1f45fe092af34c98d9b2e94aee47183b0592b3d733be3a75244c630bcde57": {
+    "id": "u4",
+    "score": 3,
+    "reason": "Correct shape, missing color."
+  },
+  "7676a85d04b0714b319534088063c831f1e46c79dfc7f023e55aa121c1f85f08": {
+    "id": "u5",
+    "score": 1,
+    "reason": "Incorrect transcription (MMMP instead of MMIP)."
+  },
+  "1d13a220d62bbc6c8971e8d45c2f59732a24b14be8001da94dc0988978da34cf": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Fully correct."
+  },
+  "0dfb5f402908b17d1e751030eef30ebf03fa44accf63ad03561f2356148848f5": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Fully correct."
+  },
+  "fc4c49c30f84491b630eaf72e2c1e7c18f31aefac9b0e1c36e4c6c1efc77d829": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Accurately identifies the beverage as coffee."
+  },
+  "1dfa97b517d66cd3633d5a82312c7cc315f5e05cb282e11394484761c11a216a": {
+    "id": "u1",
+    "score": 3,
+    "reason": "Describes the shapes and colors, but adds an unmentioned white background."
+  },
+  "abd22b750aaf2a97ef0cca69e0cc8ad9985211e9002bc39f92c5ca9154fdb8cb": {
+    "id": "u2",
+    "score": 2,
+    "reason": "Incorrect count of shapes (says three red squares instead of two)."
+  },
+  "688474ad9c2f906afb6aa7fe18a44318394522652d2f4316fa04f034126b9a75": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial relationship."
+  },
+  "bf873dc5da0650fd2e06cc8759b7fa21bd243aac7e8a2aff088afd56bc31461f": {
+    "id": "u4",
+    "score": 3,
+    "reason": "Correctly identifies the shape, though misses the color."
+  },
+  "efdc7f92c15be7d1be6b9952e2b6c8b68271583a45ec21eb17ba060eb2f2b58c": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial arrangement."
+  },
+  "9783598e5ef8c656b3046ed069ab006eee7a5f54d4aabecd8cf464d5e48b8a4b": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Correctly identifies the suit as a space suit."
+  },
+  "c4a1399fe2581bded31c4687eaaa91515466aee875aa4b67671d216b06c38ad8": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Correctly provides the integer 5."
+  },
+  "61b61ff2e65aacfaa6e294eb16fcd645ed6a26fdea6e5b4f415e1dc82c0d8e82": {
+    "id": "u0",
+    "score": 1,
+    "reason": "The transcribed number is incorrect (485.0 instead of 48.50)."
+  },
+  "c1f61fc910fee9529ce30731bc63026c659228d5ebddfff5cb009d17016f5a7c": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correctly identified the animal."
+  },
+  "f9d79b389980aa836297364a2d7ea7d905727e907c03b625b465309964f8ac3a": {
+    "id": "u2",
+    "score": 4,
+    "reason": "Exact transcription match."
+  },
+  "4158aae4bfc35279d0c73dc217bc60344fe8c2315a6063286b1347ef51b3fa8a": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Correctly identified the vehicle type."
+  },
+  "d4cfca64326d5fe048fe4a76fcb9fea026ff00e0c4f89c0d6721582d250da8ec": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Semantically equivalent to the reference."
+  },
+  "d9cf070cf8f1f79b1833d13000be062d64370dca91c9b9024a2dfbc36a2f06de": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Exact transcription match."
+  },
+  "10dd32f77c7ba7cbcf23699eaec35fb40beef28addbb15795bae3cceaa12c3b8": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Correctly identified the shape as a square."
+  },
+  "4158790c74b940c10f7410776c8ce979d2a1e9f34895d92edc707bbcef2dd981": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correctly described the shapes, colors, and spatial relationship."
+  },
+  "bf0ea91a87ea0e1f559d62b323adda250d96aa3cb4c3115ad541fe676211babd": {
+    "id": "u2",
+    "score": 4,
+    "reason": "Correctly identified the shape as a square."
+  },
+  "c4432732e7fb2b41b8ea6d5b89dc79ef4359e86f13c48f0b66b5e39a94da2d67": {
+    "id": "u3",
+    "score": 3,
+    "reason": "Mentions both objects and background, but missed the precise spatial relationship (side by side instead of left of)."
+  },
+  "b2f581f96d3366d33da815331d6d7bb72012132341e5fab35a5d4445889487e9": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Correctly identified the shape as a triangle."
+  },
+  "2eeee298c018d3152f9e78e09584338c150dd40e350496a9e6c68a732346ac95": {
+    "id": "u5",
+    "score": 0,
+    "reason": "Incorrect count, answered 6 instead of 4."
+  },
+  "98c8c3d7b808efa433f6d518f88b0076da276f86fb76b3a40af7eb95530ab0db": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Correctly identified the shape as a square."
+  },
+  "a2e1350b7b8231333f3a85bd2ad8ce4d5ace87a9db343d048dca0ea7ec79105d": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Correctly answered total number of shapes as 8."
+  },
+  "de5420892e61ec92e4ed81621989ff250428b70460823f1a0f13d0249b420464": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Correctly identifies the animal."
+  },
+  "c483f12839b75c00db37e4c26b9d30f20766457ff2a6ad8e949c99f09fe2e731": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correctly identifies the vehicle."
+  },
+  "32995326e40d141d2d67a1e9f90bfd0b30ad35b17938d98cb029324edcb2e3ca": {
+    "id": "u2",
+    "score": 4,
+    "reason": "Correctly identifies the shape."
+  },
+  "09fc79500b86d1e6b42f31004c24008698cc68f47df8f3a403f85955414b3a15": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Correctly counts the red circles."
+  },
+  "822121db85133822d5a62c51a278a0281379d898bf6870bd20fd59dc3f40e11e": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Accurately transcribes the text."
+  },
+  "df1f31a8f4b480ebe7851a5e60ca1398df2f0bf7f6029baf285d685747cc5e09": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Correctly counts the green triangles."
+  },
+  "b4c0650375618019d4f991d5eb3637e1d606354ad5b1383371a22ce65654acf1": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial relationship."
+  },
+  "86b09624e00af9a6470a83fe09a4463063ce6ef64208088028895a47ed99a244": {
+    "id": "u7",
+    "score": 0,
+    "reason": "Incorrect count of total shapes (reference is 8, answer is 10)."
+  },
+  "8619814b15c93ac89e84e0a4f4a38d9c0e1c8c34e848bc3e6aa57277b5bba2e8": {
+    "id": "u0",
+    "score": 3,
+    "reason": "Missing '0' in '9:30' compared to reference '09:30', but meaning is correct."
+  },
+  "3fb28426b2a584d934ad11607876849094c5abc89d41fccea509ff194f66aaa8": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correct shape provided."
+  },
+  "45c4abfcd411eff00190f18e4d7f331cd6ec70035ef8c41c4ecd2a9bfc6ab59f": {
+    "id": "u2",
+    "score": 0,
+    "reason": "Incorrect count (7 instead of 5)."
+  },
+  "bff85f561ef060274f56b87d8c13b0b3ee5e01710ec94319b2072bd8cafdd059": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Accurately describes the shapes, colors, and spatial relationship."
+  },
+  "e28d282e052151d664e335026aa62a2c645d70ca7da95ea1d41da830cddbdab7": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Correct shape provided."
+  },
+  "90a996ff2c6217cce4b58ed189b3ff57590f0dae38cdc71ff981532932215f25": {
+    "id": "u5",
+    "score": 1,
+    "reason": "Inaccurate transcription ('MMMP' instead of 'MMIP')."
+  },
+  "13bc3ba8c75324fc7ed524954cab22829df13caf1f595db2be6702abbd403c84": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Exact transcription."
+  },
+  "ba429e362ca6d47e8cb06aee37a99da73dbc296ba62a69c729b6d5ec00a74994": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Correct beverage."
+  },
+  "c856f25a9e486873293983b3526d18867e590ad0b01e915c909775bf69c873ba": {
+    "id": "u0",
+    "score": 4,
+    "reason": "Correctly identified the beverage as coffee."
+  },
+  "689d322b064a0bc41a70ad4631d56b85d0d806ace6a917bd6fcc37c46e0ca072": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Accurately describes shapes, colors, and spatial relationship in one sentence."
+  },
+  "a86fc1e7cce22cf643887cbfb1872ac653cc81d6c18eb1fd81194a46212b53b5": {
+    "id": "u2",
+    "score": 2,
+    "reason": "Incorrectly states there are three red squares instead of two."
+  },
+  "68806157757ddfbd5ac4bb2dfc262b8f926fa70c271617a9ce16434c401666ef": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Accurately describes the shapes, colors, and spatial relationship."
+  },
+  "c47b4bbe32b731f2c51f5c78a4d09354cc210667f573b5ee926a8076b19e5bf6": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Correctly states the shape to the left of the blue circle."
+  },
+  "991973243394f89fbc021c1be2161e2ea34cc63ba532a9b76d201235c0602b5e": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Accurately describes the shapes, colors, and their spatial relationship."
+  },
+  "257ed41a1d54c305b0a92215dd200cf8ddf1ce5357cc92a079ed3de2a69f43cd": {
+    "id": "u6",
+    "score": 4,
+    "reason": "Correctly identified the suit as a space suit."
+  },
+  "4a81fb2b0b0f5d50a95dad15fd8df2116744791ed811351f8a8a1525b8fe7f1f": {
+    "id": "u7",
+    "score": 4,
+    "reason": "Correctly counted the number of blue squares as 5."
+  },
+  "b0fb81a6df42589861aa68e7513637eb25c606d6ef93f8c6abcc80b1cb2dceee": {
+    "id": "u0",
+    "score": 1,
+    "reason": "The transcribed text is incorrect ('485.0' instead of '48.50')."
+  },
+  "bf057929c5ea9c808a841ee768918a96d0b97055274c394139ed4eeafe5d6d94": {
+    "id": "u1",
+    "score": 4,
+    "reason": "Correctly identifies the animal."
+  },
+  "8695c0c21325ec42db2830d47081d7bc2efe1b3bf3ae8212a373ff6cebfc1360": {
+    "id": "u2",
+    "score": 4,
+    "reason": "Exact transcription of the visible text."
+  },
+  "c411206c133ebbdde8a547a4196782ba543ff8c25ccbaddf658f7f764a91ab18": {
+    "id": "u3",
+    "score": 4,
+    "reason": "Correctly identifies the vehicle."
+  },
+  "c2b85549186532b4fe6829253c3fcb35e243b9a61397844d62a8652ed2394d3c": {
+    "id": "u4",
+    "score": 4,
+    "reason": "Correctly identifies the suit."
+  },
+  "6a9c8c448035d9ebf29613ad9f84ddb54c4671f0563d9b0397adf94f422c54f9": {
+    "id": "u5",
+    "score": 4,
+    "reason": "Exact transcription of the visible text."
+  }
+}

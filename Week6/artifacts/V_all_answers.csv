@@ -1,0 +1,467 @@
+id,category,prompt,gold,image,answer,objective_score,seconds,input_tokens,output_tokens,tokens_per_second,truncated,torch_peak_allocated_mib,gpu_mean_mib,gpu_peak_mib,gpu_samples,shape_f1,shape_recall,hallucination_rate,exact_set,predicted_shapes,true_shapes,phase,condition
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The shapes are: circle, square, triangle, star.",0.4,1.8464627410003231,125,13,7.040488665889481,False,1480.85009765625,3683.8705644866345,3690.1875,20,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,original
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.354114152999955,125,22,9.34534120699474,False,1480.85009765625,3690.2569819753644,3692.1875,25,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['square'],before,original
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.8608297289997608,125,18,9.673104271434559,False,1480.85009765625,3692.1875000000005,3692.1875,20,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,original
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The visible shapes are:
+1. Square
+2. Circle
+3. Triangle
+4. Star",0.6666666666666666,2.7909036500000184,125,22,7.8827515238657035,False,1480.85009765625,3692.1874999999995,3692.1875,29,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",before,original
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The visible shapes are:
+- Square
+- Triangle
+- Star
+- Star
+- Triangle
+- Star
+- Triangle
+- Star
+- Triangle",1.0,5.442402227000002,125,32,5.87975652392,True,1480.85009765625,3692.1875000000005,3692.1875,55,1.0,1.0,0.0,1.0,"['square', 'star', 'triangle']","['square', 'star', 'triangle']",before,original
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.251455958000406,125,22,9.771454743240433,False,1480.85009765625,3692.1874999999995,3692.1875,24,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,original
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"The visible shapes are:
+- Triangle
+- Square
+- Star",0.8,3.4907829720000336,125,15,4.297030242302859,False,1480.85009765625,3692.1875000000005,3692.1875,36,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'triangle']",before,original
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.8787409760002447,125,22,7.642229774547848,False,1480.85009765625,3692.1874999999995,3692.1875,30,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,original
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,4.0889221870002075,125,22,5.380390967072929,False,1480.85009765625,3692.1874999999995,3692.1875,41,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,original
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The visible shapes are:
+- Square
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle",1.0,3.498265384000206,125,32,9.147390631470204,True,1480.85009765625,3692.1874999999995,3692.1875,36,1.0,1.0,0.0,1.0,"['square', 'triangle']","['square', 'triangle']",before,original
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The visible shapes are:
+- Triangle
+- Circle
+- Star
+- Square",0.8571428571428571,2.148588807000124,125,18,8.377591813452542,False,1480.85009765625,3692.1875,3692.1875,23,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",before,original
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square
+
+The list of shapes is:
+- Circle
+- Triangle",0.8571428571428571,5.22647767799981,125,32,6.122670366449648,True,1480.85009765625,3692.1875000000005,3692.1875,53,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",before,original
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,2.4910706320001736,125,18,7.225808762213671,False,1480.85009765625,3692.1874999999995,3692.1875,26,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'triangle']",before,original
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,2.018156091000037,125,18,8.91903261609494,False,1480.85009765625,3692.1874999999995,3692.1875,22,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,original
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The visible shapes are: square, triangle, star.",1.0,1.4055192949999764,125,12,8.537769664699054,False,1480.85009765625,3692.1874999999995,3692.1875,15,1.0,1.0,0.0,1.0,"['square', 'star', 'triangle']","['square', 'star', 'triangle']",before,original
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The visible shapes are: circle, square, triangle, star.",0.4,2.816126339999755,125,14,4.9713678683894615,False,1480.85009765625,3692.1875,3692.1875,29,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,original
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.7225516099997549,125,22,12.7717508562795,False,1480.85009765625,3692.1875,3692.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,original
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.6666666666666666,1.2296762440000748,125,18,14.63799930089477,False,1480.85009765625,3692.1875000000005,3692.1875,14,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",before,original
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.0550040389998685,125,18,17.06154605537225,False,1480.85009765625,3692.1874999999995,3692.1875,12,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,original
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The visible shapes are:
+1. Square
+2. Star
+3. Triangle
+4. Circle",0.6666666666666666,1.2803563209999993,125,22,17.182716747801344,False,1480.85009765625,3692.1875000000005,3692.1875,14,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star']",before,original
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The visible shapes are: circle, square, triangle, star.",0.4,0.8740163410002424,125,14,16.018007150733716,False,1480.85009765625,3692.1875,3692.1875,10,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,dark_035
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The visible shapes are:
+1. Square
+2. Triangle
+3. Star",0.5,1.1056240459997753,125,18,16.280398445678937,False,1480.85009765625,3692.1874999999995,3692.1875,13,0.5,1.0,0.6666666666666666,0.0,"['square', 'star', 'triangle']",['square'],before,dark_035
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.0812831680000272,125,18,16.64688819053137,False,1480.85009765625,3692.1875,3692.1875,12,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,dark_035
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The visible shapes are: square, circle, triangle, star.",0.6666666666666666,0.8570248460000585,125,14,16.335582410873354,False,1480.85009765625,3692.1875000000005,3692.1875,10,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",before,dark_035
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The visible shapes are:
+- Square
+- Triangle
+- Star
+- Star
+- Star
+- Star
+- Star
+- Star
+- Star",1.0,1.8829858129997774,125,32,16.994286297367754,True,1480.85009765625,3692.1874999999995,3692.1875,20,1.0,1.0,0.0,1.0,"['square', 'star', 'triangle']","['square', 'star', 'triangle']",before,dark_035
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.8110224110000672,125,22,12.147834210318441,False,1480.85009765625,3692.1874999999995,3692.1875,20,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,dark_035
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"The visible shapes are:
+- Triangle
+- Square
+- Star",0.8,1.222465920999639,125,15,12.270280702577091,False,1480.85009765625,3692.187500000001,3692.1875,14,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'triangle']",before,dark_035
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.4,1.113423315000091,125,18,16.166358075588285,False,1480.85009765625,3692.1874999999995,3692.1875,13,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,dark_035
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.3862154670000564,125,22,15.870548643935384,False,1480.85009765625,3692.1875000000005,3692.1875,15,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,dark_035
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The visible shapes are:
+- Square
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle",1.0,1.979708716999994,125,32,16.163994089237573,True,1480.85009765625,3692.1874999999995,3692.1875,21,1.0,1.0,0.0,1.0,"['square', 'triangle']","['square', 'triangle']",before,dark_035
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square",0.8571428571428571,1.1668815809998705,125,18,15.425729819624257,False,1480.85009765625,3692.1875,3692.1875,13,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",before,dark_035
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square
+
+The list of unique shape types is:
+- Circle
+-",0.8571428571428571,2.0288342039998497,125,32,15.77260474853586,True,1480.85009765625,3692.1875000000005,3692.1875,22,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",before,dark_035
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"circle, square, triangle, star",0.8571428571428571,0.5458865639998294,125,8,14.655059361385016,False,1480.85009765625,3692.1875,3692.1875,7,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'triangle']",before,dark_035
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.2332788400003665,125,18,14.595239467495162,False,1480.85009765625,3692.1875,3692.1875,14,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,dark_035
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The visible shapes are: square, triangle, star, circle.",0.8571428571428571,2.9668760549998296,125,14,4.718768071354704,False,1480.85009765625,3692.1875,3692.1875,30,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",before,dark_035
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The visible shapes are: circle, square, triangle, star.",0.4,1.7853342679995876,125,14,7.8416687849085935,False,1480.85009765625,3692.1875,3692.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,dark_035
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.6701100259997474,125,22,8.239360844975938,False,1480.85009765625,3692.1874999999995,3692.1875,28,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,dark_035
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"circle, square, triangle",0.8,0.9252689700001611,125,6,6.484600904749843,False,1480.85009765625,3692.1875,3692.1875,11,0.8,1.0,0.3333333333333333,0.0,"['circle', 'square', 'triangle']","['circle', 'square']",before,dark_035
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.7822267450001164,125,18,10.099724993184761,False,1480.85009765625,3692.1875000000005,3692.1875,19,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,dark_035
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The visible shapes are:
+- Square
+- Star
+- Triangle",0.8,2.1588010000000395,125,15,6.948301395079827,False,1480.85009765625,3692.1875000000005,3692.1875,23,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'star']",before,dark_035
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The answer is circle, square, triangle, star",0.4,2.0632658849999643,125,11,5.331353598181647,False,1480.85009765625,3692.1874999999995,3692.1875,22,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,lowres32_jpeg20
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The answer is circle, square, triangle, star",0.4,1.2960013820002132,125,11,8.487645270117614,False,1480.85009765625,3692.1875000000005,3692.1875,14,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['square'],before,lowres32_jpeg20
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The shapes visible in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.8571428571428571,2.083983107000222,125,25,11.996258470629407,False,1480.85009765625,3692.1875000000005,3692.1875,22,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,lowres32_jpeg20
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.7146663500002433,125,11,15.391797864830568,False,1480.85009765625,3692.1874999999995,3692.1875,9,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",before,lowres32_jpeg20
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The shapes visible are:
+- Square
+- Triangle
+- Star
+- Circle",0.8571428571428571,1.1883811590000732,125,18,15.146655484798789,False,1480.85009765625,3692.1875,3692.1875,13,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",before,lowres32_jpeg20
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The shapes that can be seen in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.6609830279999187,125,28,16.857487119369512,False,1480.85009765625,3692.1875000000005,3692.1875,18,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,lowres32_jpeg20
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"circle, square, triangle, star",0.6666666666666666,0.53079301400021,125,8,15.071788416561255,False,1480.85009765625,3692.1875,3692.1875,7,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'triangle']",before,lowres32_jpeg20
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The answer is circle, square, triangle, star",0.4,0.7277941860002102,125,11,15.114163058176482,False,1480.85009765625,3692.1875,3692.1875,9,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,lowres32_jpeg20
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The answer is circle, square, triangle, star",0.4,0.7489673139998558,125,11,14.686889259899154,False,1480.85009765625,3692.1875,3692.1875,9,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,lowres32_jpeg20
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.9797168279997095,125,11,11.227734061135532,False,1480.85009765625,3692.1875,3692.1875,11,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'triangle']",before,lowres32_jpeg20
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The shapes visible in the image are:
+1. Circle
+2. Triangle
+3. Star
+4. Square",0.8571428571428571,2.1229198329997416,125,25,11.776233662424428,False,1480.85009765625,3692.1874999999995,3692.1875,23,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",before,lowres32_jpeg20
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The shapes are:
+- Circle
+- Triangle
+- Star",1.0,0.885024139000052,125,14,15.818777571217385,False,1480.85009765625,3692.1875,3692.1875,10,1.0,1.0,0.0,1.0,"['circle', 'star', 'triangle']","['circle', 'star', 'triangle']",before,lowres32_jpeg20
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"The answer is triangle, square, circle",1.0,0.6501378889997795,125,9,13.843217188658654,False,1480.85009765625,3692.1875,3692.1875,8,1.0,1.0,0.0,1.0,"['circle', 'square', 'triangle']","['circle', 'square', 'triangle']",before,lowres32_jpeg20
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The shapes are: circle, square, triangle, star.",0.8571428571428571,0.8821324639998238,125,13,14.737015732370322,False,1480.85009765625,3692.1875,3692.1875,10,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,lowres32_jpeg20
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.1322818740000002,125,17,15.013929296548994,False,1480.85009765625,3692.1875,3692.1875,13,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",before,lowres32_jpeg20
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The answer is circle, square, triangle, star",0.4,0.75594608099982,125,11,14.551302369940615,False,1480.85009765625,3692.1875,3692.1875,9,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],before,lowres32_jpeg20
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The answer is circle, square, triangle, star",0.4,0.7447665869999582,125,11,14.769728116173688,False,1480.85009765625,3692.1875,3692.1875,9,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],before,lowres32_jpeg20
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.7415612909999254,125,11,14.833568220864844,False,1480.85009765625,3692.1874999999995,3692.1875,9,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",before,lowres32_jpeg20
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"circle, square, triangle, star",0.8571428571428571,0.5874361279998084,125,8,13.618501856941645,False,1480.85009765625,3692.1874999999995,3692.1875,7,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",before,lowres32_jpeg20
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.7433865299999525,125,11,14.797147319848133,False,1480.85009765625,3692.1875,3692.1875,9,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star']",before,lowres32_jpeg20
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.081840629999988,125,22,10.567571639717748,False,1919.748046875,3735.4204088537113,3742.1875,22,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,original
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The visible shapes are:
+1. Square
+2. Triangle
+3. Star",0.5,1.509206784000071,125,18,11.926795049444433,False,1919.748046875,3742.187499999999,3742.1875,16,0.5,1.0,0.6666666666666666,0.0,"['square', 'star', 'triangle']",['square'],after,original
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.5241593399996418,125,18,11.809788863678932,False,1919.748046875,3742.1875,3742.1875,17,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,original
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.6666666666666666,1.5775592400000278,125,18,11.4100311060266,False,1919.748046875,3742.1875,3742.1875,17,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,original
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The visible shapes are:
+- Square
+- Triangle
+- Star
+- Circle",0.8571428571428571,1.4991499509997084,125,18,12.00680424796512,False,1919.748046875,3742.1875000000005,3742.1875,16,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",after,original
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.0133241839998846,125,22,10.927201975139669,False,1919.748046875,3742.1875,3742.1875,22,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,original
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"The visible shapes are:
+- Triangle
+- Square
+- Star",0.8,1.6237122890001956,125,15,9.238089839940969,False,1919.748046875,3742.1874999999995,3742.1875,18,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'triangle']",after,original
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.115353949999644,125,22,10.400150764369103,False,1919.748046875,3742.1874999999995,3742.1875,23,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,original
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.930243050000172,125,22,11.397528409698479,False,1919.748046875,3742.1875,3742.1875,21,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,original
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The visible shapes are:
+- Square
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle",1.0,2.621270672999799,125,32,12.207819791223237,True,1919.748046875,3742.1875,3742.1875,28,1.0,1.0,0.0,1.0,"['square', 'triangle']","['square', 'triangle']",after,original
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square
+
+The list of unique shape types is:
+- Circle
+-",0.8571428571428571,2.6607413550000274,125,32,12.026723281414052,True,1919.748046875,3742.1875,3742.1875,28,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",after,original
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The visible shapes are a triangle, a circle, and a star.",1.0,1.2492839540000205,125,15,12.006877981560752,False,1919.748046875,3742.1875,3742.1875,14,1.0,1.0,0.0,1.0,"['circle', 'star', 'triangle']","['circle', 'star', 'triangle']",after,original
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"The visible shapes are a circle, a square, and a triangle.",1.0,1.727264911999555,125,15,8.684249819348999,False,1919.748046875,3742.1874999999995,3742.1875,19,1.0,1.0,0.0,1.0,"['circle', 'square', 'triangle']","['circle', 'square', 'triangle']",after,original
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.694370225000057,125,18,10.62341614271426,False,1919.748046875,3742.1875,3742.1875,18,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,original
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The visible shapes are: square, triangle, star.",1.0,1.1249455329998455,125,12,10.667183119524106,False,1919.748046875,3742.1875,3742.1875,13,1.0,1.0,0.0,1.0,"['square', 'star', 'triangle']","['square', 'star', 'triangle']",after,original
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The shapes you've mentioned are:
+1. Circle
+2. Square
+3. Triangle
+4. Star
+5. Star (if you consider the",0.4,2.598868591000155,125,32,12.313050421562501,True,1919.748046875,3742.1875,3742.1875,27,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,original
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.7843454389999351,125,22,12.32945119210227,False,1919.748046875,3742.1875,3742.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,original
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.6666666666666666,1.7426442199998746,125,22,12.62449313951277,False,1919.748046875,3742.1875000000005,3742.1875,19,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,original
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"The visible shapes are:
+- Circle
+- Square
+- Star
+- Triangle",0.8571428571428571,1.5672478340002272,125,18,11.48510121341625,False,1919.748046875,3742.1874999999995,3742.1875,17,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,original
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The visible shapes are:
+1. Square
+2. Star
+3. Triangle",0.8,2.007770113999868,125,18,8.965169804296222,False,1919.748046875,3742.1874999999995,3742.1875,21,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'star']",after,original
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The visible shapes are: circle, square, triangle, star.",0.4,1.2571924359999684,125,14,11.1359244608121,False,1919.748046875,3742.1874999999995,3742.1875,14,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,dark_035
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The visible shapes are:
+1. Square
+2. Triangle
+3. Star",0.5,1.4858908500000325,125,18,12.113944977855947,False,1919.748046875,3742.1875000000005,3742.1875,16,0.5,1.0,0.6666666666666666,0.0,"['square', 'star', 'triangle']",['square'],after,dark_035
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.4974906820002616,125,18,12.020108182547514,False,1919.748046875,3742.1875,3742.1875,16,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,dark_035
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.6666666666666666,1.4769681699999637,125,18,12.187127905403974,False,1919.748046875,3742.1875,3742.1875,16,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,dark_035
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The visible shapes are:
+1. Square
+2. Triangle
+3. Star
+4. Circle",0.8571428571428571,1.8850735109999732,125,22,11.670632403258205,False,1919.748046875,3742.1874999999995,3742.1875,20,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",after,dark_035
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.9252906609999627,125,22,11.426846057921239,False,1919.748046875,3742.1875000000005,3742.1875,21,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,dark_035
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"The visible shapes are:
+- Square
+- Triangle
+- Star",0.8,1.7374664270000721,125,15,8.63326034212883,False,1919.748046875,3742.1874999999995,3742.1875,19,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'triangle']",after,dark_035
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.1024107770003866,125,22,10.464177714779643,False,1919.748046875,3742.1874999999995,3742.1875,22,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,dark_035
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.8038097619996734,125,22,12.19640810437303,False,1919.748046875,3742.1874999999995,3742.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,dark_035
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The visible shapes are:
+- Square
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle
+- Triangle",1.0,2.6124555819997113,125,32,12.249012086745418,True,1919.748046875,3742.187500000001,3742.1875,28,1.0,1.0,0.0,1.0,"['square', 'triangle']","['square', 'triangle']",after,dark_035
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square",0.8571428571428571,1.4576568090001274,125,18,12.348585681390267,False,1919.748046875,3742.1875,3742.1875,16,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",after,dark_035
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The visible shapes are:
+- Circle
+- Triangle
+- Star
+- Square
+
+The list of unique shape types is:
+- Circle
+-",0.8571428571428571,2.7515997580003386,125,32,11.62959834800075,True,1919.748046875,3742.1875000000005,3742.1875,29,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'star', 'triangle']",after,dark_035
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"The visible shapes are a circle, a square, a triangle, and a star.",0.8571428571428571,2.015593697999975,125,18,8.9303712438975,False,1919.748046875,3742.1875,3742.1875,22,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'triangle']",after,dark_035
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The visible shapes are a circle, a square, a star, and a triangle.",0.8571428571428571,1.5927675389998512,125,18,11.301084156513364,False,1919.748046875,3742.1875,3742.1875,17,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,dark_035
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The visible shapes are: square, triangle, star.",1.0,1.0357849280003393,125,12,11.58541669762168,False,1919.748046875,3742.1875,3742.1875,12,1.0,1.0,0.0,1.0,"['square', 'star', 'triangle']","['square', 'star', 'triangle']",after,dark_035
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.7911316400000032,125,22,12.282737632840856,False,1919.748046875,3742.1874999999995,3742.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,dark_035
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The visible shapes are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,1.7813197589998708,125,22,12.350393515172138,False,1919.748046875,3742.1875,3742.1875,19,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,dark_035
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"The visible shapes are: square, circle, triangle, star.",0.6666666666666666,1.1732268719997592,125,14,11.932900902735948,False,1919.748046875,3742.1875000000005,3742.1875,13,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,dark_035
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"The visible shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.4644470799998999,125,18,12.291328410447738,False,1919.748046875,3742.1874999999995,3742.1875,16,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,dark_035
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The visible shapes are:
+1. Square
+2. Star
+3. Triangle",0.8,1.807572467999762,125,18,9.958106974221943,False,1919.748046875,3742.1875,3742.1875,19,0.8,1.0,0.3333333333333333,0.0,"['square', 'star', 'triangle']","['square', 'star']",after,dark_035
+V_test_140,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_140.png,"The shapes that can be seen in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.5315910090002944,125,28,11.060238364117504,False,1919.748046875,3742.187499999999,3742.1875,27,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,lowres32_jpeg20
+V_test_141,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",square,/content/mmip_week6/vlm_preference_images/test_141.png,"The answer is circle, square, triangle, star",0.4,0.9611481550000462,125,11,11.44464559680653,False,1919.748046875,3742.1875000000005,3742.1875,11,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['square'],after,lowres32_jpeg20
+V_test_142,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_142.png,"The shapes visible in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.8571428571428571,2.0587083969999185,125,25,12.143536227098311,False,1919.748046875,3742.1875000000005,3742.1875,22,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,lowres32_jpeg20
+V_test_143,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_143.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.9397159069999361,125,11,11.705665422986979,False,1919.748046875,3742.1875,3742.1875,11,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,lowres32_jpeg20
+V_test_144,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_144.png,"The answer is square, triangle, star, circle",0.8571428571428571,0.9636083490004239,125,11,11.415426206519056,False,1919.748046875,3742.1875,3742.1875,11,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",after,lowres32_jpeg20
+V_test_145,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_145.png,"The shapes that can be seen in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.349081685999863,125,28,11.91955144296401,False,1919.748046875,3742.1875,3742.1875,25,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,lowres32_jpeg20
+V_test_146,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_146.png,"The answer is circle, square, triangle, star",0.6666666666666666,1.021930495000106,125,11,10.763941436153011,False,1919.748046875,3742.1875,3742.1875,12,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'triangle']",after,lowres32_jpeg20
+V_test_147,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_147.png,"The answer is circle, square, triangle, star",0.4,1.2419539659999828,125,11,8.857011049635114,False,1919.748046875,3742.1875,3742.1875,14,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,lowres32_jpeg20
+V_test_148,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_148.png,"The shapes you can see are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.4,2.276205115999801,125,24,10.543865239252938,False,1919.748046875,3742.187499999999,3742.1875,24,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,lowres32_jpeg20
+V_test_149,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, triangle",/content/mmip_week6/vlm_preference_images/test_149.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.9652152680000654,125,11,11.396421466469441,False,1919.748046875,3742.1875,3742.1875,11,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'triangle']",after,lowres32_jpeg20
+V_test_150,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_150.png,"The shapes visible in the image are:
+1. Circle
+2. Triangle
+3. Star",1.0,1.6887149829999544,125,21,12.435491016189182,False,1919.748046875,3742.1874999999995,3742.1875,18,1.0,1.0,0.0,1.0,"['circle', 'star', 'triangle']","['circle', 'star', 'triangle']",after,lowres32_jpeg20
+V_test_151,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, star, triangle",/content/mmip_week6/vlm_preference_images/test_151.png,"The shapes visible in the image are:
+1. Triangle
+2. Star
+3. Circle",1.0,1.7067269240001224,125,21,12.304253073351349,False,1919.748046875,3742.1875,3742.1875,18,1.0,1.0,0.0,1.0,"['circle', 'star', 'triangle']","['circle', 'star', 'triangle']",after,lowres32_jpeg20
+V_test_152,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, triangle",/content/mmip_week6/vlm_preference_images/test_152.png,"The answer is triangle, square, circle",1.0,0.8087221440000576,125,9,11.128667697269533,False,1919.748046875,3742.1875,3742.1875,10,1.0,1.0,0.0,1.0,"['circle', 'square', 'triangle']","['circle', 'square', 'triangle']",after,lowres32_jpeg20
+V_test_153,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_153.png,"The shapes visible are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.5088408889996572,125,18,11.929687305819089,False,1919.748046875,3742.1875,3742.1875,17,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,lowres32_jpeg20
+V_test_154,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star, triangle",/content/mmip_week6/vlm_preference_images/test_154.png,"The shapes are:
+- Circle
+- Square
+- Triangle
+- Star",0.8571428571428571,1.4122966259997156,125,17,12.037131355437667,False,1919.748046875,3742.1874999999995,3742.1875,16,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star', 'triangle']",after,lowres32_jpeg20
+V_test_155,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",circle,/content/mmip_week6/vlm_preference_images/test_155.png,"The answer is circle, square, triangle, star",0.4,1.2126572850002049,125,11,9.070988263595135,False,1919.748046875,3742.1875,3742.1875,14,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['circle'],after,lowres32_jpeg20
+V_test_156,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",star,/content/mmip_week6/vlm_preference_images/test_156.png,"The answer is circle, square, triangle, star",0.4,1.2516304340001625,125,11,8.788536696766332,False,1919.748046875,3742.1874999999995,3742.1875,14,0.4,1.0,0.75,0.0,"['circle', 'square', 'star', 'triangle']",['star'],after,lowres32_jpeg20
+V_test_157,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square",/content/mmip_week6/vlm_preference_images/test_157.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.9731883980002749,125,11,11.303052957272198,False,1919.748046875,3742.1875000000005,3742.1875,11,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square']",after,lowres32_jpeg20
+V_test_158,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","circle, square, star",/content/mmip_week6/vlm_preference_images/test_158.png,"The shapes visible in the image are:
+1. Circle
+2. Square
+3. Triangle
+4. Star",0.8571428571428571,1.9878816120003648,125,25,12.57620164555122,False,1919.748046875,3742.1874999999995,3742.1875,21,0.8571428571428571,1.0,0.25,0.0,"['circle', 'square', 'star', 'triangle']","['circle', 'square', 'star']",after,lowres32_jpeg20
+V_test_159,shape_presence,"List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.","square, star",/content/mmip_week6/vlm_preference_images/test_159.png,"The answer is circle, square, triangle, star",0.6666666666666666,0.9775167990001137,125,11,11.253003540452424,False,1919.748046875,3742.1875,3742.1875,11,0.6666666666666666,1.0,0.5,0.0,"['circle', 'square', 'star', 'triangle']","['square', 'star']",after,lowres32_jpeg20

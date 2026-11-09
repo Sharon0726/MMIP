@@ -1,0 +1,25 @@
+{
+  "seed": 20261104,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "GPU": "Tesla T4",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130",
+  "packages": {
+    "transformers": "4.57.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.48.1",
+    "peft": "0.17.1",
+    "trl": "0.23.1",
+    "datasets": "4.2.0",
+    "nvidia-ml-py": "13.615.71",
+    "qwen-vl-utils": "0.0.14",
+    "pillow": "11.3.0",
+    "matplotlib": "3.10.0",
+    "pandas": "2.2.3"
+  },
+  "baseline_dtype": "float16; original BF16 checkpoint converted for T4",
+  "sampling": "greedy; do_sample=False; batch_size=1",
+  "judge": "google/gemini-3.5-flash-lite",
+  "memory_measurement": "NVML device total used MiB sampled every 0.1 s during synchronized generation; excludes model loading"
+}

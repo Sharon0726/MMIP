@@ -1,0 +1,12 @@
+{
+  "text": {
+    "tensors": 112,
+    "nonzero_lora_B": 401408,
+    "trainable_parameters": 1089536
+  },
+  "vision": {
+    "tensors": 204,
+    "nonzero_lora_B": 786432,
+    "trainable_parameters": 2568192
+  }
+}

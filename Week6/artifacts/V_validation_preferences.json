@@ -1,0 +1,262 @@
+[
+  {
+    "id": "V_validation_120",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_120.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, triangle",
+    "shape_types": [
+      "circle",
+      "triangle"
+    ],
+    "chosen": "circle, triangle",
+    "rejected": "circle, star, triangle"
+  },
+  {
+    "id": "V_validation_121",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_121.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "shape_types": [
+      "square",
+      "triangle"
+    ],
+    "chosen": "square, triangle",
+    "rejected": "square, star, triangle"
+  },
+  {
+    "id": "V_validation_122",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_122.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "shape_types": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "chosen": "circle, square, star",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_123",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_123.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "shape_types": [
+      "square"
+    ],
+    "chosen": "square",
+    "rejected": "circle, square"
+  },
+  {
+    "id": "V_validation_124",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_124.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star",
+    "shape_types": [
+      "square",
+      "star"
+    ],
+    "chosen": "square, star",
+    "rejected": "square, star, triangle"
+  },
+  {
+    "id": "V_validation_125",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_125.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "shape_types": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "chosen": "circle, square, star",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_126",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_126.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "shape_types": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "chosen": "circle, star, triangle",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_127",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_127.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "triangle",
+    "shape_types": [
+      "triangle"
+    ],
+    "chosen": "triangle",
+    "rejected": "circle, triangle"
+  },
+  {
+    "id": "V_validation_128",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_128.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "shape_types": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "chosen": "circle, square, star",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_129",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_129.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star",
+    "shape_types": [
+      "square",
+      "star"
+    ],
+    "chosen": "square, star",
+    "rejected": "square, star, triangle"
+  },
+  {
+    "id": "V_validation_130",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_130.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "shape_types": [
+      "square"
+    ],
+    "chosen": "square",
+    "rejected": "circle, square"
+  },
+  {
+    "id": "V_validation_131",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_131.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "shape_types": [
+      "star"
+    ],
+    "chosen": "star",
+    "rejected": "square, star"
+  },
+  {
+    "id": "V_validation_132",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_132.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "shape_types": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "chosen": "circle, square, star",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_133",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_133.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "shape_types": [
+      "circle",
+      "square"
+    ],
+    "chosen": "circle, square",
+    "rejected": "circle, square, triangle"
+  },
+  {
+    "id": "V_validation_134",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_134.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, triangle",
+    "shape_types": [
+      "circle",
+      "triangle"
+    ],
+    "chosen": "circle, triangle",
+    "rejected": "circle, square, triangle"
+  },
+  {
+    "id": "V_validation_135",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_135.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "shape_types": [
+      "square"
+    ],
+    "chosen": "square",
+    "rejected": "circle, square"
+  },
+  {
+    "id": "V_validation_136",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_136.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "shape_types": [
+      "circle"
+    ],
+    "chosen": "circle",
+    "rejected": "circle, triangle"
+  },
+  {
+    "id": "V_validation_137",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_137.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "shape_types": [
+      "star"
+    ],
+    "chosen": "star",
+    "rejected": "circle, star"
+  },
+  {
+    "id": "V_validation_138",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_138.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, triangle",
+    "shape_types": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "chosen": "circle, square, triangle",
+    "rejected": "circle, square, star, triangle"
+  },
+  {
+    "id": "V_validation_139",
+    "category": "shape_presence",
+    "image": "/content/mmip_week6/vlm_preference_images/validation_139.png",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "shape_types": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "chosen": "square, star, triangle",
+    "rejected": "circle, square, star, triangle"
+  }
+]

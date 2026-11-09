@@ -1,0 +1,76 @@
+[
+  {
+    "id": "D01",
+    "category": "算術",
+    "prompt": "每盒6顆糖，4盒共有幾顆？只回答數字。",
+    "gold": "24",
+    "metric": "number"
+  },
+  {
+    "id": "D02",
+    "category": "算術",
+    "prompt": "90元的物品打九折後幾元？只回答數字。",
+    "gold": "81",
+    "metric": "number"
+  },
+  {
+    "id": "D03",
+    "category": "邏輯",
+    "prompt": "P比Q早，Q比R早，誰最晚？只回答P、Q或R。",
+    "gold": "R",
+    "metric": "exact"
+  },
+  {
+    "id": "D04",
+    "category": "邏輯",
+    "prompt": "所有貓都是動物，是否所有動物都是貓？只回答「是」或「否」。",
+    "gold": "否",
+    "metric": "exact"
+  },
+  {
+    "id": "D05",
+    "category": "閱讀",
+    "prompt": "圖書館平日9點開門、假日10點開門。星期日幾點開門？只回答數字。",
+    "gold": "10",
+    "metric": "number"
+  },
+  {
+    "id": "D06",
+    "category": "閱讀",
+    "prompt": "通知：上課地點從A101改為B202。新地點為何？只回答教室代碼。",
+    "gold": "B202",
+    "metric": "exact"
+  },
+  {
+    "id": "D07",
+    "category": "翻譯",
+    "prompt": "Translate into English: 我今天很忙。",
+    "gold": "I am very busy today.",
+    "metric": "translation"
+  },
+  {
+    "id": "D08",
+    "category": "翻譯",
+    "prompt": "Translate into Traditional Chinese: The train is late.",
+    "gold": "火車誤點了。",
+    "metric": "translation"
+  },
+  {
+    "id": "D09",
+    "category": "格式",
+    "prompt": "只輸出JSON陣列，將3,1,4由小到大排序。",
+    "gold": [
+      1,
+      3,
+      4
+    ],
+    "metric": "json"
+  },
+  {
+    "id": "D10",
+    "category": "格式",
+    "prompt": "將cat和dog變成大寫，用一個逗號連接，不要空格。",
+    "gold": "CAT,DOG",
+    "metric": "exact"
+  }
+]

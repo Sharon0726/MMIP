@@ -1,0 +1,9 @@
+{
+  "dev_scores": {
+    "baseline": 0.8,
+    "fewshot": 1.0,
+    "cot": 0.6
+  },
+  "selected": "fewshot",
+  "rule": "best of fewshot/cot; tie=fewshot; selected using development set only"
+}

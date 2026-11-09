@@ -1,0 +1,282 @@
+[
+  {
+    "id": "C_validation_120",
+    "category": "order_extraction",
+    "prompt": "訂單備註：商品：文件夾；購買者：顧客120；數量：18。",
+    "gold": {
+      "buyer": "顧客120",
+      "item": "文件夾",
+      "quantity": 18
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客120\",\"item\":\"文件夾\",\"quantity\":18}",
+    "rejected": "{\"buyer\":\"顧客120\",\"item\":\"文件夾\",\"quantity\":19}"
+  },
+  {
+    "id": "C_validation_121",
+    "category": "order_extraction",
+    "prompt": "收到以下訂購訊息：數量：14；購買者：顧客121。",
+    "gold": {
+      "buyer": "顧客121",
+      "item": null,
+      "quantity": 14
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客121\",\"item\":null,\"quantity\":14}",
+    "rejected": "{\"buyer\":\"顧客121\",\"item\":\"書籤\",\"quantity\":14}"
+  },
+  {
+    "id": "C_validation_122",
+    "category": "order_extraction",
+    "prompt": "登記內容：商品：尺；購買者：顧客122。",
+    "gold": {
+      "buyer": "顧客122",
+      "item": "尺",
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客122\",\"item\":\"尺\",\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客122\",\"item\":\"尺\",\"quantity\":10}"
+  },
+  {
+    "id": "C_validation_123",
+    "category": "order_extraction",
+    "prompt": "待整理資料：購買者：顧客123。",
+    "gold": {
+      "buyer": "顧客123",
+      "item": null,
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客123\",\"item\":null,\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客123\",\"item\":null,\"quantity\":2}"
+  },
+  {
+    "id": "C_validation_124",
+    "category": "order_extraction",
+    "prompt": "訂單備註：購買者：顧客124；數量：7；商品：書籤。",
+    "gold": {
+      "buyer": "顧客124",
+      "item": "書籤",
+      "quantity": 7
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客124\",\"item\":\"書籤\",\"quantity\":7}",
+    "rejected": "{\"buyer\":\"顧客124\",\"item\":\"書籤\",\"quantity\":8}"
+  },
+  {
+    "id": "C_validation_125",
+    "category": "order_extraction",
+    "prompt": "收到以下訂購訊息：數量：11；購買者：顧客125。",
+    "gold": {
+      "buyer": "顧客125",
+      "item": null,
+      "quantity": 11
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客125\",\"item\":null,\"quantity\":11}",
+    "rejected": "{\"buyer\":\"顧客125\",\"item\":\"便利貼\",\"quantity\":11}"
+  },
+  {
+    "id": "C_validation_126",
+    "category": "order_extraction",
+    "prompt": "登記內容：商品：文件夾；購買者：顧客126。",
+    "gold": {
+      "buyer": "顧客126",
+      "item": "文件夾",
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客126\",\"item\":\"文件夾\",\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客126\",\"item\":\"文件夾\",\"quantity\":10}"
+  },
+  {
+    "id": "C_validation_127",
+    "category": "order_extraction",
+    "prompt": "待整理資料：購買者：顧客127。",
+    "gold": {
+      "buyer": "顧客127",
+      "item": null,
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客127\",\"item\":null,\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客127\",\"item\":null,\"quantity\":10}"
+  },
+  {
+    "id": "C_validation_128",
+    "category": "order_extraction",
+    "prompt": "訂單備註：數量：4；購買者：顧客128；商品：橡皮擦。",
+    "gold": {
+      "buyer": "顧客128",
+      "item": "橡皮擦",
+      "quantity": 4
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客128\",\"item\":\"橡皮擦\",\"quantity\":4}",
+    "rejected": "{\"buyer\":\"顧客128\",\"item\":\"橡皮擦\",\"quantity\":5}"
+  },
+  {
+    "id": "C_validation_129",
+    "category": "order_extraction",
+    "prompt": "收到以下訂購訊息：數量：3；購買者：顧客129。",
+    "gold": {
+      "buyer": "顧客129",
+      "item": null,
+      "quantity": 3
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客129\",\"item\":null,\"quantity\":3}",
+    "rejected": "{\"buyer\":\"顧客129\",\"item\":\"橡皮擦\",\"quantity\":3}"
+  },
+  {
+    "id": "C_validation_130",
+    "category": "order_extraction",
+    "prompt": "登記內容：商品：尺；購買者：顧客130。",
+    "gold": {
+      "buyer": "顧客130",
+      "item": "尺",
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客130\",\"item\":\"尺\",\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客130\",\"item\":\"尺\",\"quantity\":18}"
+  },
+  {
+    "id": "C_validation_131",
+    "category": "order_extraction",
+    "prompt": "待整理資料：購買者：顧客131。",
+    "gold": {
+      "buyer": "顧客131",
+      "item": null,
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客131\",\"item\":null,\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客131\",\"item\":null,\"quantity\":5}"
+  },
+  {
+    "id": "C_validation_132",
+    "category": "order_extraction",
+    "prompt": "訂單備註：購買者：顧客132；商品：筆記本；數量：19。",
+    "gold": {
+      "buyer": "顧客132",
+      "item": "筆記本",
+      "quantity": 19
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客132\",\"item\":\"筆記本\",\"quantity\":19}",
+    "rejected": "{\"buyer\":\"顧客132\",\"item\":\"筆記本\",\"quantity\":20}"
+  },
+  {
+    "id": "C_validation_133",
+    "category": "order_extraction",
+    "prompt": "收到以下訂購訊息：購買者：顧客133；數量：6。",
+    "gold": {
+      "buyer": "顧客133",
+      "item": null,
+      "quantity": 6
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客133\",\"item\":null,\"quantity\":6}",
+    "rejected": "{\"buyer\":\"顧客133\",\"item\":\"橡皮擦\",\"quantity\":6}"
+  },
+  {
+    "id": "C_validation_134",
+    "category": "order_extraction",
+    "prompt": "登記內容：購買者：顧客134；商品：尺。",
+    "gold": {
+      "buyer": "顧客134",
+      "item": "尺",
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客134\",\"item\":\"尺\",\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客134\",\"item\":\"尺\",\"quantity\":17}"
+  },
+  {
+    "id": "C_validation_135",
+    "category": "order_extraction",
+    "prompt": "待整理資料：購買者：顧客135。",
+    "gold": {
+      "buyer": "顧客135",
+      "item": null,
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客135\",\"item\":null,\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客135\",\"item\":null,\"quantity\":6}"
+  },
+  {
+    "id": "C_validation_136",
+    "category": "order_extraction",
+    "prompt": "訂單備註：數量：19；購買者：顧客136；商品：便利貼。",
+    "gold": {
+      "buyer": "顧客136",
+      "item": "便利貼",
+      "quantity": 19
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客136\",\"item\":\"便利貼\",\"quantity\":19}",
+    "rejected": "{\"buyer\":\"顧客136\",\"item\":\"便利貼\",\"quantity\":20}"
+  },
+  {
+    "id": "C_validation_137",
+    "category": "order_extraction",
+    "prompt": "收到以下訂購訊息：數量：5；購買者：顧客137。",
+    "gold": {
+      "buyer": "顧客137",
+      "item": null,
+      "quantity": 5
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客137\",\"item\":null,\"quantity\":5}",
+    "rejected": "{\"buyer\":\"顧客137\",\"item\":\"水壺\",\"quantity\":5}"
+  },
+  {
+    "id": "C_validation_138",
+    "category": "order_extraction",
+    "prompt": "登記內容：購買者：顧客138；商品：便利貼。",
+    "gold": {
+      "buyer": "顧客138",
+      "item": "便利貼",
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客138\",\"item\":\"便利貼\",\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客138\",\"item\":\"便利貼\",\"quantity\":11}"
+  },
+  {
+    "id": "C_validation_139",
+    "category": "order_extraction",
+    "prompt": "待整理資料：購買者：顧客139。",
+    "gold": {
+      "buyer": "顧客139",
+      "item": null,
+      "quantity": null
+    },
+    "metric": "json",
+    "custom_system": "你是訂單資料擷取助理。只能根據提供的證據回答。只輸出一個JSON物件，鍵為buyer、item、quantity。未提供的欄位必須為null，不可猜測。quantity有提供時為整數。不要Markdown、解釋或其他文字。",
+    "chosen": "{\"buyer\":\"顧客139\",\"item\":null,\"quantity\":null}",
+    "rejected": "{\"buyer\":\"顧客139\",\"item\":null,\"quantity\":18}"
+  }
+]

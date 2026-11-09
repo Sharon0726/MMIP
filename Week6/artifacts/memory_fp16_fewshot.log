@@ -1,0 +1,7 @@
+LOADED 16 bit; model footprint MiB= 2944.4
+MEMORY_WORKER_COMPLETE fp16_fewshot 20
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793788608.781530   13911 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

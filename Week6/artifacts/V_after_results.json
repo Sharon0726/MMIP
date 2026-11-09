@@ -1,0 +1,6492 @@
+[
+  {
+    "id": "V_test_140",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_140.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.081840629999988,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 10.567571639717748,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3735.4204088537113,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 22,
+    "gpu_trace": [
+      [
+        0.00020986699973946088,
+        3688.1875
+      ],
+      [
+        0.10314625000000888,
+        3690.1875
+      ],
+      [
+        0.2033731199999238,
+        3692.1875
+      ],
+      [
+        0.30355496899983336,
+        3732.1875
+      ],
+      [
+        0.4060128569999506,
+        3742.1875
+      ],
+      [
+        0.5061858300000495,
+        3742.1875
+      ],
+      [
+        0.6064117099999748,
+        3742.1875
+      ],
+      [
+        0.7066341519998787,
+        3742.1875
+      ],
+      [
+        0.8068548399996871,
+        3742.1875
+      ],
+      [
+        0.906997976999719,
+        3742.1875
+      ],
+      [
+        1.0072274929998457,
+        3742.1875
+      ],
+      [
+        1.1075915440001154,
+        3742.1875
+      ],
+      [
+        1.2091322000001128,
+        3742.1875
+      ],
+      [
+        1.3093799749999562,
+        3742.1875
+      ],
+      [
+        1.4096196759996928,
+        3742.1875
+      ],
+      [
+        1.5100127010000506,
+        3742.1875
+      ],
+      [
+        1.6103264019998278,
+        3742.1875
+      ],
+      [
+        1.7106013580000763,
+        3742.1875
+      ],
+      [
+        1.8108693710000807,
+        3742.1875
+      ],
+      [
+        1.9111457409999275,
+        3742.1875
+      ],
+      [
+        2.0114267280000604,
+        3742.1875
+      ],
+      [
+        2.081598055000086,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_141",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_141.png",
+    "answer": "The visible shapes are:\n1. Square\n2. Triangle\n3. Star",
+    "objective_score": 0.5,
+    "seconds": 1.509206784000071,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.926795049444433,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.187499999999,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002667990002009901,
+        3742.1875
+      ],
+      [
+        0.10161375699999553,
+        3742.1875
+      ],
+      [
+        0.20192128999997294,
+        3742.1875
+      ],
+      [
+        0.30220390800013774,
+        3742.1875
+      ],
+      [
+        0.40249570100013443,
+        3742.1875
+      ],
+      [
+        0.5028114359997744,
+        3742.1875
+      ],
+      [
+        0.6031713180000224,
+        3742.1875
+      ],
+      [
+        0.7034944339998219,
+        3742.1875
+      ],
+      [
+        0.8037799329999871,
+        3742.1875
+      ],
+      [
+        0.9041402510001717,
+        3742.1875
+      ],
+      [
+        1.0044221379998817,
+        3742.1875
+      ],
+      [
+        1.1082604819998778,
+        3742.1875
+      ],
+      [
+        1.208486080000057,
+        3742.1875
+      ],
+      [
+        1.3087116910000987,
+        3742.1875
+      ],
+      [
+        1.409017443999801,
+        3742.1875
+      ],
+      [
+        1.5089937470002042,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.5,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.6666666666666666,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_142",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_142.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.5241593399996418,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.809788863678932,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.00026172199977736454,
+        3742.1875
+      ],
+      [
+        0.10165236700004243,
+        3742.1875
+      ],
+      [
+        0.2019067559999712,
+        3742.1875
+      ],
+      [
+        0.3021684719997211,
+        3742.1875
+      ],
+      [
+        0.4025381789997482,
+        3742.1875
+      ],
+      [
+        0.5027711419998013,
+        3742.1875
+      ],
+      [
+        0.6030279039996458,
+        3742.1875
+      ],
+      [
+        0.7032585520000794,
+        3742.1875
+      ],
+      [
+        0.803550680999706,
+        3742.1875
+      ],
+      [
+        0.9038144579999425,
+        3742.1875
+      ],
+      [
+        1.004143756999838,
+        3742.1875
+      ],
+      [
+        1.1043714339998587,
+        3742.1875
+      ],
+      [
+        1.2046917349998694,
+        3742.1875
+      ],
+      [
+        1.3049431079998612,
+        3742.1875
+      ],
+      [
+        1.405187726999884,
+        3742.1875
+      ],
+      [
+        1.5054373339999074,
+        3742.1875
+      ],
+      [
+        1.5239461510000183,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_143",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_143.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 1.5775592400000278,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.4100311060266,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.00017323400015811785,
+        3742.1875
+      ],
+      [
+        0.10155110699997749,
+        3742.1875
+      ],
+      [
+        0.201778548999755,
+        3742.1875
+      ],
+      [
+        0.30206797099981486,
+        3742.1875
+      ],
+      [
+        0.40232831999992413,
+        3742.1875
+      ],
+      [
+        0.5025859990000754,
+        3742.1875
+      ],
+      [
+        0.6028672259999439,
+        3742.1875
+      ],
+      [
+        0.7031395770000017,
+        3742.1875
+      ],
+      [
+        0.8036538769997605,
+        3742.1875
+      ],
+      [
+        0.9039151849997324,
+        3742.1875
+      ],
+      [
+        1.0042296239998905,
+        3742.1875
+      ],
+      [
+        1.104570866999893,
+        3742.1875
+      ],
+      [
+        1.2048339839998334,
+        3742.1875
+      ],
+      [
+        1.3051006749997214,
+        3742.1875
+      ],
+      [
+        1.4053635919999579,
+        3742.1875
+      ],
+      [
+        1.5056241629999931,
+        3742.1875
+      ],
+      [
+        1.577305203999913,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_144",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_144.png",
+    "answer": "The visible shapes are:\n- Square\n- Triangle\n- Star\n- Circle",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.4991499509997084,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.00680424796512,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.00024114000007102732,
+        3742.1875
+      ],
+      [
+        0.1016574070004026,
+        3742.1875
+      ],
+      [
+        0.20189679500026614,
+        3742.1875
+      ],
+      [
+        0.30221103600024435,
+        3742.1875
+      ],
+      [
+        0.40244311100013874,
+        3742.1875
+      ],
+      [
+        0.5027639850000014,
+        3742.1875
+      ],
+      [
+        0.6030072739999923,
+        3742.1875
+      ],
+      [
+        0.7032988050000313,
+        3742.1875
+      ],
+      [
+        0.8036638030002905,
+        3742.1875
+      ],
+      [
+        0.9039758450003319,
+        3742.1875
+      ],
+      [
+        1.0042815870001505,
+        3742.1875
+      ],
+      [
+        1.1045532260000073,
+        3742.1875
+      ],
+      [
+        1.204805306000253,
+        3742.1875
+      ],
+      [
+        1.3051122700003361,
+        3742.1875
+      ],
+      [
+        1.4053498709999985,
+        3742.1875
+      ],
+      [
+        1.4989245620004112,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_145",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_145.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.0133241839998846,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 10.927201975139669,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 22,
+    "gpu_trace": [
+      [
+        0.0002543810001043312,
+        3742.1875
+      ],
+      [
+        0.1017117619999226,
+        3742.1875
+      ],
+      [
+        0.20198940199998106,
+        3742.1875
+      ],
+      [
+        0.30289340400031506,
+        3742.1875
+      ],
+      [
+        0.4031347879999885,
+        3742.1875
+      ],
+      [
+        0.5034329919999436,
+        3742.1875
+      ],
+      [
+        0.6037305730001208,
+        3742.1875
+      ],
+      [
+        0.7041283700000349,
+        3742.1875
+      ],
+      [
+        0.8062651650002408,
+        3742.1875
+      ],
+      [
+        0.9065098940000098,
+        3742.1875
+      ],
+      [
+        1.0068142970003464,
+        3742.1875
+      ],
+      [
+        1.1092613650002932,
+        3742.1875
+      ],
+      [
+        1.209485013000176,
+        3742.1875
+      ],
+      [
+        1.310249302000102,
+        3742.1875
+      ],
+      [
+        1.410497597000358,
+        3742.1875
+      ],
+      [
+        1.510805376999997,
+        3742.1875
+      ],
+      [
+        1.6110420850000082,
+        3742.1875
+      ],
+      [
+        1.7113999060002243,
+        3742.1875
+      ],
+      [
+        1.811661150999953,
+        3742.1875
+      ],
+      [
+        1.911911904000135,
+        3742.1875
+      ],
+      [
+        2.012166014000286,
+        3742.1875
+      ],
+      [
+        2.013108033000208,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_146",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_146.png",
+    "answer": "The visible shapes are:\n- Triangle\n- Square\n- Star",
+    "objective_score": 0.8,
+    "seconds": 1.6237122890001956,
+    "input_tokens": 125,
+    "output_tokens": 15,
+    "tokens_per_second": 9.238089839940969,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 18,
+    "gpu_trace": [
+      [
+        0.00025009699993461254,
+        3742.1875
+      ],
+      [
+        0.10157212300009633,
+        3742.1875
+      ],
+      [
+        0.20175534300005893,
+        3742.1875
+      ],
+      [
+        0.30357257000014215,
+        3742.1875
+      ],
+      [
+        0.40376205199981996,
+        3742.1875
+      ],
+      [
+        0.5040032130000327,
+        3742.1875
+      ],
+      [
+        0.6066084690000935,
+        3742.1875
+      ],
+      [
+        0.706820203999996,
+        3742.1875
+      ],
+      [
+        0.807009404999917,
+        3742.1875
+      ],
+      [
+        0.9071955280001021,
+        3742.1875
+      ],
+      [
+        1.0074115090001214,
+        3742.1875
+      ],
+      [
+        1.1116030500002125,
+        3742.1875
+      ],
+      [
+        1.2128290290002042,
+        3742.1875
+      ],
+      [
+        1.313024834999851,
+        3742.1875
+      ],
+      [
+        1.4132588279999254,
+        3742.1875
+      ],
+      [
+        1.5134913990000314,
+        3742.1875
+      ],
+      [
+        1.6137267570002223,
+        3742.1875
+      ],
+      [
+        1.623405977999937,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.3333333333333333,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_147",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_147.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.115353949999644,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 10.400150764369103,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 23,
+    "gpu_trace": [
+      [
+        0.00020950399994035251,
+        3742.1875
+      ],
+      [
+        0.10251165799991213,
+        3742.1875
+      ],
+      [
+        0.2027597199999036,
+        3742.1875
+      ],
+      [
+        0.30299309699967125,
+        3742.1875
+      ],
+      [
+        0.40325357099982284,
+        3742.1875
+      ],
+      [
+        0.5053820189996259,
+        3742.1875
+      ],
+      [
+        0.6055993840000156,
+        3742.1875
+      ],
+      [
+        0.705813648000003,
+        3742.1875
+      ],
+      [
+        0.8060307920000014,
+        3742.1875
+      ],
+      [
+        0.9066108119995988,
+        3742.1875
+      ],
+      [
+        1.0068417459997363,
+        3742.1875
+      ],
+      [
+        1.1073078129998066,
+        3742.1875
+      ],
+      [
+        1.2076932219997616,
+        3742.1875
+      ],
+      [
+        1.3084653849996357,
+        3742.1875
+      ],
+      [
+        1.4087759059998461,
+        3742.1875
+      ],
+      [
+        1.509099163999963,
+        3742.1875
+      ],
+      [
+        1.609368508999978,
+        3742.1875
+      ],
+      [
+        1.7097652869997546,
+        3742.1875
+      ],
+      [
+        1.8102527869996266,
+        3742.1875
+      ],
+      [
+        1.910600950999651,
+        3742.1875
+      ],
+      [
+        2.0109188229998836,
+        3742.1875
+      ],
+      [
+        2.1111844109996127,
+        3742.1875
+      ],
+      [
+        2.1151368199998615,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_148",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_148.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.930243050000172,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 11.397528409698479,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 21,
+    "gpu_trace": [
+      [
+        0.0002448029999868595,
+        3742.1875
+      ],
+      [
+        0.10181300500016732,
+        3742.1875
+      ],
+      [
+        0.2020737839998219,
+        3742.1875
+      ],
+      [
+        0.30246141399993576,
+        3742.1875
+      ],
+      [
+        0.4028483659999438,
+        3742.1875
+      ],
+      [
+        0.5032260839998344,
+        3742.1875
+      ],
+      [
+        0.6034817499999008,
+        3742.1875
+      ],
+      [
+        0.7038087189998805,
+        3742.1875
+      ],
+      [
+        0.8041183159998582,
+        3742.1875
+      ],
+      [
+        0.9044527490000291,
+        3742.1875
+      ],
+      [
+        1.0047947620000741,
+        3742.1875
+      ],
+      [
+        1.1052219389998754,
+        3742.1875
+      ],
+      [
+        1.2054896549998375,
+        3742.1875
+      ],
+      [
+        1.3057417400000304,
+        3742.1875
+      ],
+      [
+        1.405991732000075,
+        3742.1875
+      ],
+      [
+        1.5072671339999033,
+        3742.1875
+      ],
+      [
+        1.6076088380000328,
+        3742.1875
+      ],
+      [
+        1.7078878329998588,
+        3742.1875
+      ],
+      [
+        1.8082935269999325,
+        3742.1875
+      ],
+      [
+        1.9085970510000152,
+        3742.1875
+      ],
+      [
+        1.9299921249998988,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_149",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_149.png",
+    "answer": "The visible shapes are:\n- Square\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle",
+    "objective_score": 1.0,
+    "seconds": 2.621270672999799,
+    "input_tokens": 125,
+    "output_tokens": 32,
+    "tokens_per_second": 12.207819791223237,
+    "truncated": true,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 28,
+    "gpu_trace": [
+      [
+        0.0002390599997852405,
+        3742.1875
+      ],
+      [
+        0.10162668199973268,
+        3742.1875
+      ],
+      [
+        0.20191067199993995,
+        3742.1875
+      ],
+      [
+        0.3021561779996773,
+        3742.1875
+      ],
+      [
+        0.4041269649997048,
+        3742.1875
+      ],
+      [
+        0.5044277530000727,
+        3742.1875
+      ],
+      [
+        0.6047936529998879,
+        3742.1875
+      ],
+      [
+        0.7051047599998128,
+        3742.1875
+      ],
+      [
+        0.8054430990000583,
+        3742.1875
+      ],
+      [
+        0.9057089600000836,
+        3742.1875
+      ],
+      [
+        1.0060759739999412,
+        3742.1875
+      ],
+      [
+        1.1071789519996855,
+        3742.1875
+      ],
+      [
+        1.207427965000079,
+        3742.1875
+      ],
+      [
+        1.307721693000076,
+        3742.1875
+      ],
+      [
+        1.408127825000065,
+        3742.1875
+      ],
+      [
+        1.5084550679998756,
+        3742.1875
+      ],
+      [
+        1.6090874739998071,
+        3742.1875
+      ],
+      [
+        1.7093429849996937,
+        3742.1875
+      ],
+      [
+        1.8096082600000045,
+        3742.1875
+      ],
+      [
+        1.909975526999915,
+        3742.1875
+      ],
+      [
+        2.010458023999945,
+        3742.1875
+      ],
+      [
+        2.110826968999845,
+        3742.1875
+      ],
+      [
+        2.211089740999796,
+        3742.1875
+      ],
+      [
+        2.3113158559999647,
+        3742.1875
+      ],
+      [
+        2.4116322169998057,
+        3742.1875
+      ],
+      [
+        2.511899469999662,
+        3742.1875
+      ],
+      [
+        2.6122447389998342,
+        3742.1875
+      ],
+      [
+        2.621006075999958,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "square",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_150",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_150.png",
+    "answer": "The visible shapes are:\n- Circle\n- Triangle\n- Star\n- Square\n\nThe list of unique shape types is:\n- Circle\n-",
+    "objective_score": 0.8571428571428571,
+    "seconds": 2.6607413550000274,
+    "input_tokens": 125,
+    "output_tokens": 32,
+    "tokens_per_second": 12.026723281414052,
+    "truncated": true,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 28,
+    "gpu_trace": [
+      [
+        0.00025561200027368614,
+        3742.1875
+      ],
+      [
+        0.1016115370002808,
+        3742.1875
+      ],
+      [
+        0.20184266500018566,
+        3742.1875
+      ],
+      [
+        0.30208868199997596,
+        3742.1875
+      ],
+      [
+        0.40240483500019764,
+        3742.1875
+      ],
+      [
+        0.5028095239999857,
+        3742.1875
+      ],
+      [
+        0.6031215590001011,
+        3742.1875
+      ],
+      [
+        0.7033987110003181,
+        3742.1875
+      ],
+      [
+        0.8036602320003112,
+        3742.1875
+      ],
+      [
+        0.9039866769999207,
+        3742.1875
+      ],
+      [
+        1.0061684739998782,
+        3742.1875
+      ],
+      [
+        1.1063922600001206,
+        3742.1875
+      ],
+      [
+        1.2066623870000512,
+        3742.1875
+      ],
+      [
+        1.3069584710001436,
+        3742.1875
+      ],
+      [
+        1.4072120979999454,
+        3742.1875
+      ],
+      [
+        1.507751345000088,
+        3742.1875
+      ],
+      [
+        1.608019504999902,
+        3742.1875
+      ],
+      [
+        1.7082990160001827,
+        3742.1875
+      ],
+      [
+        1.8085403180002686,
+        3742.1875
+      ],
+      [
+        1.9089072450001368,
+        3742.1875
+      ],
+      [
+        2.0091635849998966,
+        3742.1875
+      ],
+      [
+        2.109497119000025,
+        3742.1875
+      ],
+      [
+        2.209753976000229,
+        3742.1875
+      ],
+      [
+        2.3100985710002533,
+        3742.1875
+      ],
+      [
+        2.4104264600000533,
+        3742.1875
+      ],
+      [
+        2.5112623400000302,
+        3742.1875
+      ],
+      [
+        2.611531493000257,
+        3742.1875
+      ],
+      [
+        2.660431009000149,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_151",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_151.png",
+    "answer": "The visible shapes are a triangle, a circle, and a star.",
+    "objective_score": 1.0,
+    "seconds": 1.2492839540000205,
+    "input_tokens": 125,
+    "output_tokens": 15,
+    "tokens_per_second": 12.006877981560752,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.0002631269999255892,
+        3742.1875
+      ],
+      [
+        0.10177092100002483,
+        3742.1875
+      ],
+      [
+        0.20201285199982522,
+        3742.1875
+      ],
+      [
+        0.3025003099996866,
+        3742.1875
+      ],
+      [
+        0.40275733999988006,
+        3742.1875
+      ],
+      [
+        0.5030032739996386,
+        3742.1875
+      ],
+      [
+        0.6033601619997171,
+        3742.1875
+      ],
+      [
+        0.7036678639997263,
+        3742.1875
+      ],
+      [
+        0.8053697639998063,
+        3742.1875
+      ],
+      [
+        0.907455667999784,
+        3742.1875
+      ],
+      [
+        1.0077041859999554,
+        3742.1875
+      ],
+      [
+        1.1079883319998771,
+        3742.1875
+      ],
+      [
+        1.2082438969996474,
+        3742.1875
+      ],
+      [
+        1.2490703999997095,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_152",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_152.png",
+    "answer": "The visible shapes are a circle, a square, and a triangle.",
+    "objective_score": 1.0,
+    "seconds": 1.727264911999555,
+    "input_tokens": 125,
+    "output_tokens": 15,
+    "tokens_per_second": 8.684249819348999,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.0001865679996626568,
+        3742.1875
+      ],
+      [
+        0.10216984499993487,
+        3742.1875
+      ],
+      [
+        0.20443392500010305,
+        3742.1875
+      ],
+      [
+        0.3046259759998975,
+        3742.1875
+      ],
+      [
+        0.40485394300003463,
+        3742.1875
+      ],
+      [
+        0.5050580249999257,
+        3742.1875
+      ],
+      [
+        0.6052753559997655,
+        3742.1875
+      ],
+      [
+        0.7055514949997814,
+        3742.1875
+      ],
+      [
+        0.8058154959999229,
+        3742.1875
+      ],
+      [
+        0.9061100589997295,
+        3742.1875
+      ],
+      [
+        1.006347796999762,
+        3742.1875
+      ],
+      [
+        1.1065792969998256,
+        3742.1875
+      ],
+      [
+        1.2084969709999314,
+        3742.1875
+      ],
+      [
+        1.3087426749998485,
+        3742.1875
+      ],
+      [
+        1.4089367579999816,
+        3742.1875
+      ],
+      [
+        1.509160300000076,
+        3742.1875
+      ],
+      [
+        1.6093861449999167,
+        3742.1875
+      ],
+      [
+        1.7095782209999015,
+        3742.1875
+      ],
+      [
+        1.727021311000044,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_153",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_153.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.694370225000057,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 10.62341614271426,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 18,
+    "gpu_trace": [
+      [
+        0.00019415499991737306,
+        3742.1875
+      ],
+      [
+        0.1025616820002142,
+        3742.1875
+      ],
+      [
+        0.20274602500012406,
+        3742.1875
+      ],
+      [
+        0.30299159700007294,
+        3742.1875
+      ],
+      [
+        0.40320423799994387,
+        3742.1875
+      ],
+      [
+        0.5034205729998575,
+        3742.1875
+      ],
+      [
+        0.6037304530000256,
+        3742.1875
+      ],
+      [
+        0.7040023909999036,
+        3742.1875
+      ],
+      [
+        0.8042399300002216,
+        3742.1875
+      ],
+      [
+        0.9044787590000851,
+        3742.1875
+      ],
+      [
+        1.0047602290001123,
+        3742.1875
+      ],
+      [
+        1.105109660999915,
+        3742.1875
+      ],
+      [
+        1.205462837000141,
+        3742.1875
+      ],
+      [
+        1.3057957619998888,
+        3742.1875
+      ],
+      [
+        1.4060990930001935,
+        3742.1875
+      ],
+      [
+        1.5064921950001917,
+        3742.1875
+      ],
+      [
+        1.606842572000005,
+        3742.1875
+      ],
+      [
+        1.6941589369998837,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_154",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_154.png",
+    "answer": "The visible shapes are: square, triangle, star.",
+    "objective_score": 1.0,
+    "seconds": 1.1249455329998455,
+    "input_tokens": 125,
+    "output_tokens": 12,
+    "tokens_per_second": 10.667183119524106,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 13,
+    "gpu_trace": [
+      [
+        0.00018345100033911876,
+        3742.1875
+      ],
+      [
+        0.10042053500001202,
+        3742.1875
+      ],
+      [
+        0.20073223600002166,
+        3742.1875
+      ],
+      [
+        0.3009891870001411,
+        3742.1875
+      ],
+      [
+        0.4013996329999827,
+        3742.1875
+      ],
+      [
+        0.5017450000000281,
+        3742.1875
+      ],
+      [
+        0.6021465480002917,
+        3742.1875
+      ],
+      [
+        0.7024387170004047,
+        3742.1875
+      ],
+      [
+        0.8028450500000872,
+        3742.1875
+      ],
+      [
+        0.9031556050003928,
+        3742.1875
+      ],
+      [
+        1.0035089020002488,
+        3742.1875
+      ],
+      [
+        1.1037707880000198,
+        3742.1875
+      ],
+      [
+        1.1246873730001425,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_155",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_155.png",
+    "answer": "The shapes you've mentioned are:\n1. Circle\n2. Square\n3. Triangle\n4. Star\n5. Star (if you consider the",
+    "objective_score": 0.4,
+    "seconds": 2.598868591000155,
+    "input_tokens": 125,
+    "output_tokens": 32,
+    "tokens_per_second": 12.313050421562501,
+    "truncated": true,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 27,
+    "gpu_trace": [
+      [
+        0.0002444899996589811,
+        3742.1875
+      ],
+      [
+        0.1017933319999429,
+        3742.1875
+      ],
+      [
+        0.20202315299957263,
+        3742.1875
+      ],
+      [
+        0.30231807899963314,
+        3742.1875
+      ],
+      [
+        0.40255161199957,
+        3742.1875
+      ],
+      [
+        0.5028721219996442,
+        3742.1875
+      ],
+      [
+        0.60327383799995,
+        3742.1875
+      ],
+      [
+        0.7035165409997717,
+        3742.1875
+      ],
+      [
+        0.8039376369997626,
+        3742.1875
+      ],
+      [
+        0.904169281999657,
+        3742.1875
+      ],
+      [
+        1.0045087369999237,
+        3742.1875
+      ],
+      [
+        1.104759950999778,
+        3742.1875
+      ],
+      [
+        1.205045661999975,
+        3742.1875
+      ],
+      [
+        1.3052849789996799,
+        3742.1875
+      ],
+      [
+        1.4055896039999425,
+        3742.1875
+      ],
+      [
+        1.505857475999619,
+        3742.1875
+      ],
+      [
+        1.6061189599995487,
+        3742.1875
+      ],
+      [
+        1.7064061129999573,
+        3742.1875
+      ],
+      [
+        1.8067103539997333,
+        3742.1875
+      ],
+      [
+        1.9069518649998827,
+        3742.1875
+      ],
+      [
+        2.007325118999688,
+        3742.1875
+      ],
+      [
+        2.107675903999734,
+        3742.1875
+      ],
+      [
+        2.2080372029995488,
+        3742.1875
+      ],
+      [
+        2.308285679999699,
+        3742.1875
+      ],
+      [
+        2.40858518099958,
+        3742.1875
+      ],
+      [
+        2.50882903099955,
+        3742.1875
+      ],
+      [
+        2.598615239999617,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_156",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_156.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.7843454389999351,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 12.32945119210227,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.0002210110001215071,
+        3742.1875
+      ],
+      [
+        0.10151574700012134,
+        3742.1875
+      ],
+      [
+        0.20174366500032193,
+        3742.1875
+      ],
+      [
+        0.301989089000017,
+        3742.1875
+      ],
+      [
+        0.40222957900004985,
+        3742.1875
+      ],
+      [
+        0.5024770690001787,
+        3742.1875
+      ],
+      [
+        0.6027737460003664,
+        3742.1875
+      ],
+      [
+        0.7031846660001975,
+        3742.1875
+      ],
+      [
+        0.8034950510000272,
+        3742.1875
+      ],
+      [
+        0.9037460720001036,
+        3742.1875
+      ],
+      [
+        1.0040483340003448,
+        3742.1875
+      ],
+      [
+        1.1043072970001049,
+        3742.1875
+      ],
+      [
+        1.2045995000003131,
+        3742.1875
+      ],
+      [
+        1.304828632000408,
+        3742.1875
+      ],
+      [
+        1.4051751910001258,
+        3742.1875
+      ],
+      [
+        1.5054209680001804,
+        3742.1875
+      ],
+      [
+        1.6057092570003988,
+        3742.1875
+      ],
+      [
+        1.7059517610000512,
+        3742.1875
+      ],
+      [
+        1.7841045150003083,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_157",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_157.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 1.7426442199998746,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 12.62449313951277,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.00022302500019577565,
+        3742.1875
+      ],
+      [
+        0.10158150699999169,
+        3742.1875
+      ],
+      [
+        0.20180542400021295,
+        3742.1875
+      ],
+      [
+        0.3020862789999228,
+        3742.1875
+      ],
+      [
+        0.4024674289998984,
+        3742.1875
+      ],
+      [
+        0.5029087510001773,
+        3742.1875
+      ],
+      [
+        0.6031639430002542,
+        3742.1875
+      ],
+      [
+        0.7034559540002192,
+        3742.1875
+      ],
+      [
+        0.8037091770002007,
+        3742.1875
+      ],
+      [
+        0.9039580409998962,
+        3742.1875
+      ],
+      [
+        1.0042480150000301,
+        3742.1875
+      ],
+      [
+        1.1044782660001147,
+        3742.1875
+      ],
+      [
+        1.2047630420001951,
+        3742.1875
+      ],
+      [
+        1.3051384220002546,
+        3742.1875
+      ],
+      [
+        1.4054624370000965,
+        3742.1875
+      ],
+      [
+        1.506788570000026,
+        3742.1875
+      ],
+      [
+        1.607080870000118,
+        3742.1875
+      ],
+      [
+        1.7073624370000289,
+        3742.1875
+      ],
+      [
+        1.7423856119999073,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_158",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_158.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Star\n- Triangle",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.5672478340002272,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.48510121341625,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.00021793299993078108,
+        3742.1875
+      ],
+      [
+        0.1015537260000201,
+        3742.1875
+      ],
+      [
+        0.2017763579997336,
+        3742.1875
+      ],
+      [
+        0.3020171489997665,
+        3742.1875
+      ],
+      [
+        0.40222554100000707,
+        3742.1875
+      ],
+      [
+        0.5024614849999125,
+        3742.1875
+      ],
+      [
+        0.6027408049999394,
+        3742.1875
+      ],
+      [
+        0.7029777259999719,
+        3742.1875
+      ],
+      [
+        0.8032427779999125,
+        3742.1875
+      ],
+      [
+        0.9035959149996415,
+        3742.1875
+      ],
+      [
+        1.003865157999826,
+        3742.1875
+      ],
+      [
+        1.1041541869999492,
+        3742.1875
+      ],
+      [
+        1.204426986999806,
+        3742.1875
+      ],
+      [
+        1.3048022439998022,
+        3742.1875
+      ],
+      [
+        1.4051330570000573,
+        3742.1875
+      ],
+      [
+        1.5064051360000121,
+        3742.1875
+      ],
+      [
+        1.565337179999915,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_159",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_159.png",
+    "answer": "The visible shapes are:\n1. Square\n2. Star\n3. Triangle",
+    "objective_score": 0.8,
+    "seconds": 2.007770113999868,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 8.965169804296222,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 21,
+    "gpu_trace": [
+      [
+        0.0002359079999223468,
+        3742.1875
+      ],
+      [
+        0.10538877799990587,
+        3742.1875
+      ],
+      [
+        0.20563376900008734,
+        3742.1875
+      ],
+      [
+        0.3058271810000406,
+        3742.1875
+      ],
+      [
+        0.40604289700013396,
+        3742.1875
+      ],
+      [
+        0.5062469920003423,
+        3742.1875
+      ],
+      [
+        0.6064545720000751,
+        3742.1875
+      ],
+      [
+        0.70840078800029,
+        3742.1875
+      ],
+      [
+        0.8086040430002868,
+        3742.1875
+      ],
+      [
+        0.9088106419999349,
+        3742.1875
+      ],
+      [
+        1.0089984609999192,
+        3742.1875
+      ],
+      [
+        1.1096907490000376,
+        3742.1875
+      ],
+      [
+        1.209977961000277,
+        3742.1875
+      ],
+      [
+        1.3103092760002255,
+        3742.1875
+      ],
+      [
+        1.4105394299999716,
+        3742.1875
+      ],
+      [
+        1.5107978860000912,
+        3742.1875
+      ],
+      [
+        1.611060116000317,
+        3742.1875
+      ],
+      [
+        1.7113004610000644,
+        3742.1875
+      ],
+      [
+        1.8115814900002079,
+        3742.1875
+      ],
+      [
+        1.9134062779999113,
+        3742.1875
+      ],
+      [
+        2.007518854999944,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.3333333333333333,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "original"
+  },
+  {
+    "id": "V_test_140",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_140.png",
+    "answer": "The visible shapes are: circle, square, triangle, star.",
+    "objective_score": 0.4,
+    "seconds": 1.2571924359999684,
+    "input_tokens": 125,
+    "output_tokens": 14,
+    "tokens_per_second": 11.1359244608121,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.00020340499986559735,
+        3742.1875
+      ],
+      [
+        0.10500073799994425,
+        3742.1875
+      ],
+      [
+        0.2052423049999561,
+        3742.1875
+      ],
+      [
+        0.3056303579996893,
+        3742.1875
+      ],
+      [
+        0.40598034200002076,
+        3742.1875
+      ],
+      [
+        0.5062891359998503,
+        3742.1875
+      ],
+      [
+        0.6068611749997217,
+        3742.1875
+      ],
+      [
+        0.7071380059996955,
+        3742.1875
+      ],
+      [
+        0.8074928279997948,
+        3742.1875
+      ],
+      [
+        0.9077293599998484,
+        3742.1875
+      ],
+      [
+        1.0080644399999983,
+        3742.1875
+      ],
+      [
+        1.1091905659995973,
+        3742.1875
+      ],
+      [
+        1.209518958999979,
+        3742.1875
+      ],
+      [
+        1.2568729269996766,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_141",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_141.png",
+    "answer": "The visible shapes are:\n1. Square\n2. Triangle\n3. Star",
+    "objective_score": 0.5,
+    "seconds": 1.4858908500000325,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.113944977855947,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002411469999969995,
+        3742.1875
+      ],
+      [
+        0.10169521400030135,
+        3742.1875
+      ],
+      [
+        0.20202870399998574,
+        3742.1875
+      ],
+      [
+        0.3022803990002103,
+        3742.1875
+      ],
+      [
+        0.4025481890002993,
+        3742.1875
+      ],
+      [
+        0.5028133290002188,
+        3742.1875
+      ],
+      [
+        0.603055175999998,
+        3742.1875
+      ],
+      [
+        0.7050194610001199,
+        3742.1875
+      ],
+      [
+        0.8052402779999284,
+        3742.1875
+      ],
+      [
+        0.9055430720000004,
+        3742.1875
+      ],
+      [
+        1.0059278230000928,
+        3742.1875
+      ],
+      [
+        1.106188358000054,
+        3742.1875
+      ],
+      [
+        1.2064339290000134,
+        3742.1875
+      ],
+      [
+        1.3067144100000405,
+        3742.1875
+      ],
+      [
+        1.4070011809999414,
+        3742.1875
+      ],
+      [
+        1.4856540499999937,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.5,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.6666666666666666,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_142",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_142.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.4974906820002616,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.020108182547514,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002357240000492311,
+        3742.1875
+      ],
+      [
+        0.10160790800000541,
+        3742.1875
+      ],
+      [
+        0.20193113300001642,
+        3742.1875
+      ],
+      [
+        0.3021976619997986,
+        3742.1875
+      ],
+      [
+        0.40252385899975707,
+        3742.1875
+      ],
+      [
+        0.5028354179999042,
+        3742.1875
+      ],
+      [
+        0.6031572399997458,
+        3742.1875
+      ],
+      [
+        0.7035717909998311,
+        3742.1875
+      ],
+      [
+        0.8038438690000476,
+        3742.1875
+      ],
+      [
+        0.9041649669998151,
+        3742.1875
+      ],
+      [
+        1.0044020599998476,
+        3742.1875
+      ],
+      [
+        1.104731597999944,
+        3742.1875
+      ],
+      [
+        1.2049817739998616,
+        3742.1875
+      ],
+      [
+        1.3053024380001261,
+        3742.1875
+      ],
+      [
+        1.4055330969999886,
+        3742.1875
+      ],
+      [
+        1.4972537349999584,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_143",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_143.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 1.4769681699999637,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.187127905403974,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002406219996373693,
+        3742.1875
+      ],
+      [
+        0.10164159799978734,
+        3742.1875
+      ],
+      [
+        0.20197914299978947,
+        3742.1875
+      ],
+      [
+        0.30222890100003497,
+        3742.1875
+      ],
+      [
+        0.40247318100000484,
+        3742.1875
+      ],
+      [
+        0.502706852999836,
+        3742.1875
+      ],
+      [
+        0.6030104699998446,
+        3742.1875
+      ],
+      [
+        0.7032850589998816,
+        3742.1875
+      ],
+      [
+        0.8035510869999598,
+        3742.1875
+      ],
+      [
+        0.9038650669999697,
+        3742.1875
+      ],
+      [
+        1.0041535139998814,
+        3742.1875
+      ],
+      [
+        1.1044271329997173,
+        3742.1875
+      ],
+      [
+        1.204676888999984,
+        3742.1875
+      ],
+      [
+        1.3049295329997221,
+        3742.1875
+      ],
+      [
+        1.4052299649997622,
+        3742.1875
+      ],
+      [
+        1.476723956999649,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_144",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_144.png",
+    "answer": "The visible shapes are:\n1. Square\n2. Triangle\n3. Star\n4. Circle",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.8850735109999732,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 11.670632403258205,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 20,
+    "gpu_trace": [
+      [
+        0.00024758300014582346,
+        3742.1875
+      ],
+      [
+        0.10169985699985773,
+        3742.1875
+      ],
+      [
+        0.20196902199995748,
+        3742.1875
+      ],
+      [
+        0.3022799830000622,
+        3742.1875
+      ],
+      [
+        0.4025805030000811,
+        3742.1875
+      ],
+      [
+        0.5029196989999036,
+        3742.1875
+      ],
+      [
+        0.6031744940000863,
+        3742.1875
+      ],
+      [
+        0.7034800139999788,
+        3742.1875
+      ],
+      [
+        0.8037813840001036,
+        3742.1875
+      ],
+      [
+        0.9040298699997038,
+        3742.1875
+      ],
+      [
+        1.004365690999748,
+        3742.1875
+      ],
+      [
+        1.105718836000051,
+        3742.1875
+      ],
+      [
+        1.206100891999995,
+        3742.1875
+      ],
+      [
+        1.3065197070000067,
+        3742.1875
+      ],
+      [
+        1.4068718449998414,
+        3742.1875
+      ],
+      [
+        1.5071519469997838,
+        3742.1875
+      ],
+      [
+        1.6075187709998318,
+        3742.1875
+      ],
+      [
+        1.707896530999733,
+        3742.1875
+      ],
+      [
+        1.808146792000116,
+        3742.1875
+      ],
+      [
+        1.8848139729998366,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_145",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_145.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.9252906609999627,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 11.426846057921239,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 21,
+    "gpu_trace": [
+      [
+        0.00024472399991282145,
+        3742.1875
+      ],
+      [
+        0.10166750300004423,
+        3742.1875
+      ],
+      [
+        0.20190474499986522,
+        3742.1875
+      ],
+      [
+        0.3021395619998657,
+        3742.1875
+      ],
+      [
+        0.4024468170000546,
+        3742.1875
+      ],
+      [
+        0.5026947299998028,
+        3742.1875
+      ],
+      [
+        0.6029448829999637,
+        3742.1875
+      ],
+      [
+        0.7031964070001777,
+        3742.1875
+      ],
+      [
+        0.8034933349999847,
+        3742.1875
+      ],
+      [
+        0.9038570010002331,
+        3742.1875
+      ],
+      [
+        1.004229382000176,
+        3742.1875
+      ],
+      [
+        1.1045143760002247,
+        3742.1875
+      ],
+      [
+        1.2055631510002058,
+        3742.1875
+      ],
+      [
+        1.3058224599999448,
+        3742.1875
+      ],
+      [
+        1.4060758059999898,
+        3742.1875
+      ],
+      [
+        1.5063279099999818,
+        3742.1875
+      ],
+      [
+        1.6066197410000314,
+        3742.1875
+      ],
+      [
+        1.7068713369999386,
+        3742.1875
+      ],
+      [
+        1.8071971260001192,
+        3742.1875
+      ],
+      [
+        1.9075781060000736,
+        3742.1875
+      ],
+      [
+        1.9250266029998784,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_146",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_146.png",
+    "answer": "The visible shapes are:\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8,
+    "seconds": 1.7374664270000721,
+    "input_tokens": 125,
+    "output_tokens": 15,
+    "tokens_per_second": 8.63326034212883,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.00023912699998618336,
+        3742.1875
+      ],
+      [
+        0.10178840199978367,
+        3742.1875
+      ],
+      [
+        0.20369700999981433,
+        3742.1875
+      ],
+      [
+        0.3039243449998139,
+        3742.1875
+      ],
+      [
+        0.4041429189996961,
+        3742.1875
+      ],
+      [
+        0.5056863370000428,
+        3742.1875
+      ],
+      [
+        0.6059020110001256,
+        3742.1875
+      ],
+      [
+        0.7077717140000459,
+        3742.1875
+      ],
+      [
+        0.8079604649997236,
+        3742.1875
+      ],
+      [
+        0.9081783389997327,
+        3742.1875
+      ],
+      [
+        1.0083678239998335,
+        3742.1875
+      ],
+      [
+        1.1085961349999707,
+        3742.1875
+      ],
+      [
+        1.208831397999802,
+        3742.1875
+      ],
+      [
+        1.3090394269997887,
+        3742.1875
+      ],
+      [
+        1.4092281359999106,
+        3742.1875
+      ],
+      [
+        1.5094609960001435,
+        3742.1875
+      ],
+      [
+        1.6096920360000695,
+        3742.1875
+      ],
+      [
+        1.709880505000001,
+        3742.1875
+      ],
+      [
+        1.7372371900000871,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.3333333333333333,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_147",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_147.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.1024107770003866,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 10.464177714779643,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 22,
+    "gpu_trace": [
+      [
+        0.0002044259999820497,
+        3742.1875
+      ],
+      [
+        0.1013830520000738,
+        3742.1875
+      ],
+      [
+        0.20161090800002057,
+        3742.1875
+      ],
+      [
+        0.30180484200036517,
+        3742.1875
+      ],
+      [
+        0.4020187360001728,
+        3742.1875
+      ],
+      [
+        0.5022057390001464,
+        3742.1875
+      ],
+      [
+        0.6025278870001785,
+        3742.1875
+      ],
+      [
+        0.7038028440001654,
+        3742.1875
+      ],
+      [
+        0.8043670430001839,
+        3742.1875
+      ],
+      [
+        0.9054646020003929,
+        3742.1875
+      ],
+      [
+        1.0057025150003938,
+        3742.1875
+      ],
+      [
+        1.105951441000343,
+        3742.1875
+      ],
+      [
+        1.20620611700042,
+        3742.1875
+      ],
+      [
+        1.3067170110002735,
+        3742.1875
+      ],
+      [
+        1.406960399000127,
+        3742.1875
+      ],
+      [
+        1.5071914520003702,
+        3742.1875
+      ],
+      [
+        1.6074708870000904,
+        3742.1875
+      ],
+      [
+        1.707850332000362,
+        3742.1875
+      ],
+      [
+        1.808089002000088,
+        3742.1875
+      ],
+      [
+        1.9083586300002935,
+        3742.1875
+      ],
+      [
+        2.0086404310000034,
+        3742.1875
+      ],
+      [
+        2.1021611099999973,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_148",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_148.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.8038097619996734,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 12.19640810437303,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.0002441590004309546,
+        3742.1875
+      ],
+      [
+        0.10160085100005745,
+        3742.1875
+      ],
+      [
+        0.20183842100004767,
+        3742.1875
+      ],
+      [
+        0.3020899520001876,
+        3742.1875
+      ],
+      [
+        0.404346125000302,
+        3742.1875
+      ],
+      [
+        0.5045700770001531,
+        3742.1875
+      ],
+      [
+        0.604807121000249,
+        3742.1875
+      ],
+      [
+        0.7050612070001989,
+        3742.1875
+      ],
+      [
+        0.8053004760004114,
+        3742.1875
+      ],
+      [
+        0.9055334150002636,
+        3742.1875
+      ],
+      [
+        1.0057601270000305,
+        3742.1875
+      ],
+      [
+        1.1060204810000869,
+        3742.1875
+      ],
+      [
+        1.206474831000378,
+        3742.1875
+      ],
+      [
+        1.3070747579999988,
+        3742.1875
+      ],
+      [
+        1.4073133230003805,
+        3742.1875
+      ],
+      [
+        1.5075961770003232,
+        3742.1875
+      ],
+      [
+        1.6078069580003103,
+        3742.1875
+      ],
+      [
+        1.708133996000015,
+        3742.1875
+      ],
+      [
+        1.8035829950003972,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_149",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_149.png",
+    "answer": "The visible shapes are:\n- Square\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle\n- Triangle",
+    "objective_score": 1.0,
+    "seconds": 2.6124555819997113,
+    "input_tokens": 125,
+    "output_tokens": 32,
+    "tokens_per_second": 12.249012086745418,
+    "truncated": true,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.187500000001,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 28,
+    "gpu_trace": [
+      [
+        0.00024456299979647156,
+        3742.1875
+      ],
+      [
+        0.10163827199994557,
+        3742.1875
+      ],
+      [
+        0.2018799819998094,
+        3742.1875
+      ],
+      [
+        0.30223386699981347,
+        3742.1875
+      ],
+      [
+        0.4024881129998903,
+        3742.1875
+      ],
+      [
+        0.5028018139996675,
+        3742.1875
+      ],
+      [
+        0.6030854819996421,
+        3742.1875
+      ],
+      [
+        0.7034308559996134,
+        3742.1875
+      ],
+      [
+        0.8039917859996422,
+        3742.1875
+      ],
+      [
+        0.9042465630000152,
+        3742.1875
+      ],
+      [
+        1.0044843809996564,
+        3742.1875
+      ],
+      [
+        1.1048256499998388,
+        3742.1875
+      ],
+      [
+        1.2052143999999316,
+        3742.1875
+      ],
+      [
+        1.3055407239999113,
+        3742.1875
+      ],
+      [
+        1.40582993299995,
+        3742.1875
+      ],
+      [
+        1.5061662529997193,
+        3742.1875
+      ],
+      [
+        1.607979007999802,
+        3742.1875
+      ],
+      [
+        1.7082160719996864,
+        3742.1875
+      ],
+      [
+        1.8084985689997666,
+        3742.1875
+      ],
+      [
+        1.9087234929997976,
+        3742.1875
+      ],
+      [
+        2.008985518999907,
+        3742.1875
+      ],
+      [
+        2.109214169999632,
+        3742.1875
+      ],
+      [
+        2.2094891969995842,
+        3742.1875
+      ],
+      [
+        2.309719882999616,
+        3742.1875
+      ],
+      [
+        2.410017861999677,
+        3742.1875
+      ],
+      [
+        2.5102523909999945,
+        3742.1875
+      ],
+      [
+        2.610541402999843,
+        3742.1875
+      ],
+      [
+        2.612229981999917,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "square",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_150",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_150.png",
+    "answer": "The visible shapes are:\n- Circle\n- Triangle\n- Star\n- Square",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.4576568090001274,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.348585681390267,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.00023539900030300487,
+        3742.1875
+      ],
+      [
+        0.10175752400027704,
+        3742.1875
+      ],
+      [
+        0.2019815850003397,
+        3742.1875
+      ],
+      [
+        0.30239711400008673,
+        3742.1875
+      ],
+      [
+        0.4026166030002969,
+        3742.1875
+      ],
+      [
+        0.5029812570001013,
+        3742.1875
+      ],
+      [
+        0.6032241310003883,
+        3742.1875
+      ],
+      [
+        0.7034873700004027,
+        3742.1875
+      ],
+      [
+        0.8037978199999998,
+        3742.1875
+      ],
+      [
+        0.9040514820003409,
+        3742.1875
+      ],
+      [
+        1.004384661000131,
+        3742.1875
+      ],
+      [
+        1.1046154380001099,
+        3742.1875
+      ],
+      [
+        1.205060924999998,
+        3742.1875
+      ],
+      [
+        1.3053414330001942,
+        3742.1875
+      ],
+      [
+        1.40563473300017,
+        3742.1875
+      ],
+      [
+        1.457420490000004,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_151",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_151.png",
+    "answer": "The visible shapes are:\n- Circle\n- Triangle\n- Star\n- Square\n\nThe list of unique shape types is:\n- Circle\n-",
+    "objective_score": 0.8571428571428571,
+    "seconds": 2.7515997580003386,
+    "input_tokens": 125,
+    "output_tokens": 32,
+    "tokens_per_second": 11.62959834800075,
+    "truncated": true,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 29,
+    "gpu_trace": [
+      [
+        0.0002351140001337626,
+        3742.1875
+      ],
+      [
+        0.10157252099998004,
+        3742.1875
+      ],
+      [
+        0.20180201999983183,
+        3742.1875
+      ],
+      [
+        0.30206444499981444,
+        3742.1875
+      ],
+      [
+        0.4023179069999969,
+        3742.1875
+      ],
+      [
+        0.5026183159998254,
+        3742.1875
+      ],
+      [
+        0.602894833999926,
+        3742.1875
+      ],
+      [
+        0.7032656510000379,
+        3742.1875
+      ],
+      [
+        0.8036004390000926,
+        3742.1875
+      ],
+      [
+        0.9038501620002535,
+        3742.1875
+      ],
+      [
+        1.0041463950001344,
+        3742.1875
+      ],
+      [
+        1.104477524000231,
+        3742.1875
+      ],
+      [
+        1.2047746779999216,
+        3742.1875
+      ],
+      [
+        1.3050405499998305,
+        3742.1875
+      ],
+      [
+        1.4053775390002556,
+        3742.1875
+      ],
+      [
+        1.5057265589998678,
+        3742.1875
+      ],
+      [
+        1.6059824379999554,
+        3742.1875
+      ],
+      [
+        1.7062933930001236,
+        3742.1875
+      ],
+      [
+        1.806639088999873,
+        3742.1875
+      ],
+      [
+        1.9068887869998434,
+        3742.1875
+      ],
+      [
+        2.0072068009999384,
+        3742.1875
+      ],
+      [
+        2.107609464000234,
+        3742.1875
+      ],
+      [
+        2.207966092999868,
+        3742.1875
+      ],
+      [
+        2.3083227199999783,
+        3742.1875
+      ],
+      [
+        2.4086020600002485,
+        3742.1875
+      ],
+      [
+        2.5104621999998926,
+        3742.1875
+      ],
+      [
+        2.610661573000016,
+        3742.1875
+      ],
+      [
+        2.7108463250001478,
+        3742.1875
+      ],
+      [
+        2.7511160799999743,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_152",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_152.png",
+    "answer": "The visible shapes are a circle, a square, a triangle, and a star.",
+    "objective_score": 0.8571428571428571,
+    "seconds": 2.015593697999975,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 8.9303712438975,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 22,
+    "gpu_trace": [
+      [
+        0.0001948619997165224,
+        3742.1875
+      ],
+      [
+        0.10208391400010441,
+        3742.1875
+      ],
+      [
+        0.202972563000003,
+        3742.1875
+      ],
+      [
+        0.3031570959997225,
+        3742.1875
+      ],
+      [
+        0.40335926999978255,
+        3742.1875
+      ],
+      [
+        0.5036090459998377,
+        3742.1875
+      ],
+      [
+        0.6038233069998569,
+        3742.1875
+      ],
+      [
+        0.705988244999844,
+        3742.1875
+      ],
+      [
+        0.8061904699998195,
+        3742.1875
+      ],
+      [
+        0.9063815019999311,
+        3742.1875
+      ],
+      [
+        1.006596959000035,
+        3742.1875
+      ],
+      [
+        1.1068424899999627,
+        3742.1875
+      ],
+      [
+        1.2071016750001036,
+        3742.1875
+      ],
+      [
+        1.3073282899999867,
+        3742.1875
+      ],
+      [
+        1.407569009999861,
+        3742.1875
+      ],
+      [
+        1.507785788000092,
+        3742.1875
+      ],
+      [
+        1.6079828229999293,
+        3742.1875
+      ],
+      [
+        1.7082166840000355,
+        3742.1875
+      ],
+      [
+        1.8084664200000589,
+        3742.1875
+      ],
+      [
+        1.908656485999927,
+        3742.1875
+      ],
+      [
+        2.011005806999947,
+        3742.1875
+      ],
+      [
+        2.015386405999834,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_153",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_153.png",
+    "answer": "The visible shapes are a circle, a square, a star, and a triangle.",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.5927675389998512,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.301084156513364,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.00020112099991820287,
+        3742.1875
+      ],
+      [
+        0.10193696999976964,
+        3742.1875
+      ],
+      [
+        0.20216550399982225,
+        3742.1875
+      ],
+      [
+        0.3025155029999951,
+        3742.1875
+      ],
+      [
+        0.4028555149998283,
+        3742.1875
+      ],
+      [
+        0.5032537409997531,
+        3742.1875
+      ],
+      [
+        0.6035598299999947,
+        3742.1875
+      ],
+      [
+        0.7038104319999547,
+        3742.1875
+      ],
+      [
+        0.8042408420001266,
+        3742.1875
+      ],
+      [
+        0.9045413399999234,
+        3742.1875
+      ],
+      [
+        1.0047862719998193,
+        3742.1875
+      ],
+      [
+        1.1051871700001357,
+        3742.1875
+      ],
+      [
+        1.2055523939998238,
+        3742.1875
+      ],
+      [
+        1.305795537999984,
+        3742.1875
+      ],
+      [
+        1.4060609990001467,
+        3742.1875
+      ],
+      [
+        1.506382148999819,
+        3742.1875
+      ],
+      [
+        1.5924974889999248,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_154",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_154.png",
+    "answer": "The visible shapes are: square, triangle, star.",
+    "objective_score": 1.0,
+    "seconds": 1.0357849280003393,
+    "input_tokens": 125,
+    "output_tokens": 12,
+    "tokens_per_second": 11.58541669762168,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 12,
+    "gpu_trace": [
+      [
+        0.00027442500004326575,
+        3742.1875
+      ],
+      [
+        0.10184886900015044,
+        3742.1875
+      ],
+      [
+        0.20211143899996387,
+        3742.1875
+      ],
+      [
+        0.3023639819998607,
+        3742.1875
+      ],
+      [
+        0.40261160199997903,
+        3742.1875
+      ],
+      [
+        0.5029123630001777,
+        3742.1875
+      ],
+      [
+        0.6032521369997994,
+        3742.1875
+      ],
+      [
+        0.7034792690001268,
+        3742.1875
+      ],
+      [
+        0.8037783320000926,
+        3742.1875
+      ],
+      [
+        0.9041028420001567,
+        3742.1875
+      ],
+      [
+        1.004358492999927,
+        3742.1875
+      ],
+      [
+        1.03549676800003,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_155",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_155.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.7911316400000032,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 12.282737632840856,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.0002758760001597693,
+        3742.1875
+      ],
+      [
+        0.10181320499987123,
+        3742.1875
+      ],
+      [
+        0.20204328799991345,
+        3742.1875
+      ],
+      [
+        0.3024057860002358,
+        3742.1875
+      ],
+      [
+        0.40287448400022186,
+        3742.1875
+      ],
+      [
+        0.5031227049998961,
+        3742.1875
+      ],
+      [
+        0.6034974959998181,
+        3742.1875
+      ],
+      [
+        0.7038125610001771,
+        3742.1875
+      ],
+      [
+        0.8041121950000161,
+        3742.1875
+      ],
+      [
+        0.9043599850001556,
+        3742.1875
+      ],
+      [
+        1.004722810000203,
+        3742.1875
+      ],
+      [
+        1.105088347000219,
+        3742.1875
+      ],
+      [
+        1.2053510119999373,
+        3742.1875
+      ],
+      [
+        1.305622287999995,
+        3742.1875
+      ],
+      [
+        1.4058722109998598,
+        3742.1875
+      ],
+      [
+        1.5062642560001223,
+        3742.1875
+      ],
+      [
+        1.60653881799999,
+        3742.1875
+      ],
+      [
+        1.706783032000203,
+        3742.1875
+      ],
+      [
+        1.790838807,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_156",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_156.png",
+    "answer": "The visible shapes are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 1.7813197589998708,
+    "input_tokens": 125,
+    "output_tokens": 22,
+    "tokens_per_second": 12.350393515172138,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.000260236000031,
+        3742.1875
+      ],
+      [
+        0.10412649099998816,
+        3742.1875
+      ],
+      [
+        0.2044934400000784,
+        3742.1875
+      ],
+      [
+        0.3048630900002536,
+        3742.1875
+      ],
+      [
+        0.4051679350000086,
+        3742.1875
+      ],
+      [
+        0.5055279850002989,
+        3742.1875
+      ],
+      [
+        0.605768334000004,
+        3742.1875
+      ],
+      [
+        0.7077116000000387,
+        3742.1875
+      ],
+      [
+        0.8079776690001381,
+        3742.1875
+      ],
+      [
+        0.9082518800000798,
+        3742.1875
+      ],
+      [
+        1.008556430000226,
+        3742.1875
+      ],
+      [
+        1.108934624000085,
+        3742.1875
+      ],
+      [
+        1.2093599200002245,
+        3742.1875
+      ],
+      [
+        1.3096173570002065,
+        3742.1875
+      ],
+      [
+        1.4098765870003263,
+        3742.1875
+      ],
+      [
+        1.5101650579999841,
+        3742.1875
+      ],
+      [
+        1.6104032430002917,
+        3742.1875
+      ],
+      [
+        1.7120511000002807,
+        3742.1875
+      ],
+      [
+        1.7810684690002745,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_157",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_157.png",
+    "answer": "The visible shapes are: square, circle, triangle, star.",
+    "objective_score": 0.6666666666666666,
+    "seconds": 1.1732268719997592,
+    "input_tokens": 125,
+    "output_tokens": 14,
+    "tokens_per_second": 11.932900902735948,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 13,
+    "gpu_trace": [
+      [
+        0.00028478000012910343,
+        3742.1875
+      ],
+      [
+        0.10165501600022253,
+        3742.1875
+      ],
+      [
+        0.20192071500014208,
+        3742.1875
+      ],
+      [
+        0.30212632900020253,
+        3742.1875
+      ],
+      [
+        0.40235091000022294,
+        3742.1875
+      ],
+      [
+        0.5026276829999006,
+        3742.1875
+      ],
+      [
+        0.6029006610001488,
+        3742.1875
+      ],
+      [
+        0.7032010349998927,
+        3742.1875
+      ],
+      [
+        0.8034447559998625,
+        3742.1875
+      ],
+      [
+        0.9037769940000544,
+        3742.1875
+      ],
+      [
+        1.0040180099999816,
+        3742.1875
+      ],
+      [
+        1.1043029440002101,
+        3742.1875
+      ],
+      [
+        1.1729948390002392,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_158",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_158.png",
+    "answer": "The visible shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.4644470799998999,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 12.291328410447738,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002229430001534638,
+        3742.1875
+      ],
+      [
+        0.10177623900017352,
+        3742.1875
+      ],
+      [
+        0.20207845300001281,
+        3742.1875
+      ],
+      [
+        0.3024728460000006,
+        3742.1875
+      ],
+      [
+        0.40283535200023834,
+        3742.1875
+      ],
+      [
+        0.5030448990000878,
+        3742.1875
+      ],
+      [
+        0.6032883210000364,
+        3742.1875
+      ],
+      [
+        0.7037026950001746,
+        3742.1875
+      ],
+      [
+        0.8040317820000382,
+        3742.1875
+      ],
+      [
+        0.9044769189999897,
+        3742.1875
+      ],
+      [
+        1.0047233149998647,
+        3742.1875
+      ],
+      [
+        1.1067191070001172,
+        3742.1875
+      ],
+      [
+        1.2069992510000702,
+        3742.1875
+      ],
+      [
+        1.3072422139998707,
+        3742.1875
+      ],
+      [
+        1.4074945060001482,
+        3742.1875
+      ],
+      [
+        1.4642114870002843,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_159",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_159.png",
+    "answer": "The visible shapes are:\n1. Square\n2. Star\n3. Triangle",
+    "objective_score": 0.8,
+    "seconds": 1.807572467999762,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 9.958106974221943,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.00022170800002641045,
+        3742.1875
+      ],
+      [
+        0.10160945799998444,
+        3742.1875
+      ],
+      [
+        0.2018965530000969,
+        3742.1875
+      ],
+      [
+        0.3021868790001463,
+        3742.1875
+      ],
+      [
+        0.4025383929997588,
+        3742.1875
+      ],
+      [
+        0.5028519630000119,
+        3742.1875
+      ],
+      [
+        0.6031510630000412,
+        3742.1875
+      ],
+      [
+        0.7034274009997716,
+        3742.1875
+      ],
+      [
+        0.8037086649997036,
+        3742.1875
+      ],
+      [
+        0.905001656999957,
+        3742.1875
+      ],
+      [
+        1.005192113999783,
+        3742.1875
+      ],
+      [
+        1.1054040589997385,
+        3742.1875
+      ],
+      [
+        1.2056182100000115,
+        3742.1875
+      ],
+      [
+        1.3059405959998003,
+        3742.1875
+      ],
+      [
+        1.4061392909998176,
+        3742.1875
+      ],
+      [
+        1.5063878579999255,
+        3742.1875
+      ],
+      [
+        1.6079676099998323,
+        3742.1875
+      ],
+      [
+        1.7081933219997154,
+        3742.1875
+      ],
+      [
+        1.8073116969999319,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.3333333333333333,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "dark_035"
+  },
+  {
+    "id": "V_test_140",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_140.png",
+    "answer": "The shapes that can be seen in the image are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.5315910090002944,
+    "input_tokens": 125,
+    "output_tokens": 28,
+    "tokens_per_second": 11.060238364117504,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.187499999999,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 27,
+    "gpu_trace": [
+      [
+        0.00018187800014857203,
+        3742.1875
+      ],
+      [
+        0.10188155000014376,
+        3742.1875
+      ],
+      [
+        0.2021095529999002,
+        3742.1875
+      ],
+      [
+        0.3023413979999532,
+        3742.1875
+      ],
+      [
+        0.4025890950001667,
+        3742.1875
+      ],
+      [
+        0.5027988040001219,
+        3742.1875
+      ],
+      [
+        0.6029847180002434,
+        3742.1875
+      ],
+      [
+        0.703192387999934,
+        3742.1875
+      ],
+      [
+        0.8034156730000177,
+        3742.1875
+      ],
+      [
+        0.9056164339999668,
+        3742.1875
+      ],
+      [
+        1.0058194809998895,
+        3742.1875
+      ],
+      [
+        1.106028705999961,
+        3742.1875
+      ],
+      [
+        1.2062503030001608,
+        3742.1875
+      ],
+      [
+        1.306501369000216,
+        3742.1875
+      ],
+      [
+        1.4067513130003135,
+        3742.1875
+      ],
+      [
+        1.507030106000002,
+        3742.1875
+      ],
+      [
+        1.6072906610002065,
+        3742.1875
+      ],
+      [
+        1.7075463720002517,
+        3742.1875
+      ],
+      [
+        1.8079251060003116,
+        3742.1875
+      ],
+      [
+        1.9081650729999637,
+        3742.1875
+      ],
+      [
+        2.008413204000135,
+        3742.1875
+      ],
+      [
+        2.1086753690001387,
+        3742.1875
+      ],
+      [
+        2.2089688050000404,
+        3742.1875
+      ],
+      [
+        2.309285641000315,
+        3742.1875
+      ],
+      [
+        2.4095283720002953,
+        3742.1875
+      ],
+      [
+        2.5098529130000315,
+        3742.1875
+      ],
+      [
+        2.531322475000252,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_141",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_141.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.4,
+    "seconds": 0.9611481550000462,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.44464559680653,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.00022957200008022483,
+        3742.1875
+      ],
+      [
+        0.10178367299977253,
+        3742.1875
+      ],
+      [
+        0.2032475850000992,
+        3742.1875
+      ],
+      [
+        0.3034677539999393,
+        3742.1875
+      ],
+      [
+        0.403752539999914,
+        3742.1875
+      ],
+      [
+        0.5039980219999052,
+        3742.1875
+      ],
+      [
+        0.6042896590001874,
+        3742.1875
+      ],
+      [
+        0.7046205309998186,
+        3742.1875
+      ],
+      [
+        0.8048751719998108,
+        3742.1875
+      ],
+      [
+        0.905197742999917,
+        3742.1875
+      ],
+      [
+        0.9609118349999335,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_142",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_142.png",
+    "answer": "The shapes visible in the image are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 2.0587083969999185,
+    "input_tokens": 125,
+    "output_tokens": 25,
+    "tokens_per_second": 12.143536227098311,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 22,
+    "gpu_trace": [
+      [
+        0.0002220699998360942,
+        3742.1875
+      ],
+      [
+        0.10173900099971434,
+        3742.1875
+      ],
+      [
+        0.20198309799980052,
+        3742.1875
+      ],
+      [
+        0.302264889000071,
+        3742.1875
+      ],
+      [
+        0.4039941500000168,
+        3742.1875
+      ],
+      [
+        0.5042711709998002,
+        3742.1875
+      ],
+      [
+        0.6045443469997736,
+        3742.1875
+      ],
+      [
+        0.7048159179998947,
+        3742.1875
+      ],
+      [
+        0.8050760490000357,
+        3742.1875
+      ],
+      [
+        0.9053667309999582,
+        3742.1875
+      ],
+      [
+        1.0058261049998691,
+        3742.1875
+      ],
+      [
+        1.106154585999775,
+        3742.1875
+      ],
+      [
+        1.2080785879998075,
+        3742.1875
+      ],
+      [
+        1.3101074269998207,
+        3742.1875
+      ],
+      [
+        1.4108943890000774,
+        3742.1875
+      ],
+      [
+        1.5112153539998872,
+        3742.1875
+      ],
+      [
+        1.6114529870001206,
+        3742.1875
+      ],
+      [
+        1.7116934689997834,
+        3742.1875
+      ],
+      [
+        1.8119932350000454,
+        3742.1875
+      ],
+      [
+        1.9128513519999615,
+        3742.1875
+      ],
+      [
+        2.013168935000067,
+        3742.1875
+      ],
+      [
+        2.058472920999975,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_143",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_143.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 0.9397159069999361,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.705665422986979,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.000302279000152339,
+        3742.1875
+      ],
+      [
+        0.101774923999983,
+        3742.1875
+      ],
+      [
+        0.20203922500013505,
+        3742.1875
+      ],
+      [
+        0.30230929100025605,
+        3742.1875
+      ],
+      [
+        0.4025709289999213,
+        3742.1875
+      ],
+      [
+        0.5028430950001166,
+        3742.1875
+      ],
+      [
+        0.6031179540000267,
+        3742.1875
+      ],
+      [
+        0.703411253000013,
+        3742.1875
+      ],
+      [
+        0.8036535870000989,
+        3742.1875
+      ],
+      [
+        0.9038858779999828,
+        3742.1875
+      ],
+      [
+        0.9394625549998636,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_144",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_144.png",
+    "answer": "The answer is square, triangle, star, circle",
+    "objective_score": 0.8571428571428571,
+    "seconds": 0.9636083490004239,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.415426206519056,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.0002527110000301036,
+        3742.1875
+      ],
+      [
+        0.1017145780001556,
+        3742.1875
+      ],
+      [
+        0.20202703999984806,
+        3742.1875
+      ],
+      [
+        0.30230559599976914,
+        3742.1875
+      ],
+      [
+        0.40263085100013996,
+        3742.1875
+      ],
+      [
+        0.5028795439998248,
+        3742.1875
+      ],
+      [
+        0.6031510399998297,
+        3742.1875
+      ],
+      [
+        0.7035716049999792,
+        3742.1875
+      ],
+      [
+        0.8039597020001565,
+        3742.1875
+      ],
+      [
+        0.9042475229998672,
+        3742.1875
+      ],
+      [
+        0.9633288810000522,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_145",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_145.png",
+    "answer": "The shapes that can be seen in the image are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.349081685999863,
+    "input_tokens": 125,
+    "output_tokens": 28,
+    "tokens_per_second": 11.91955144296401,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 25,
+    "gpu_trace": [
+      [
+        0.00022115199999461765,
+        3742.1875
+      ],
+      [
+        0.10170438300019669,
+        3742.1875
+      ],
+      [
+        0.20196092000014687,
+        3742.1875
+      ],
+      [
+        0.3024259339999844,
+        3742.1875
+      ],
+      [
+        0.40282658700016327,
+        3742.1875
+      ],
+      [
+        0.5034360849999757,
+        3742.1875
+      ],
+      [
+        0.6038072510000347,
+        3742.1875
+      ],
+      [
+        0.7041061150002861,
+        3742.1875
+      ],
+      [
+        0.8043594450000455,
+        3742.1875
+      ],
+      [
+        0.9045909370001937,
+        3742.1875
+      ],
+      [
+        1.0048789180000313,
+        3742.1875
+      ],
+      [
+        1.1056483160000425,
+        3742.1875
+      ],
+      [
+        1.2058769220002432,
+        3742.1875
+      ],
+      [
+        1.3062224059999608,
+        3742.1875
+      ],
+      [
+        1.4065255020000222,
+        3742.1875
+      ],
+      [
+        1.506831800999862,
+        3742.1875
+      ],
+      [
+        1.6070827200001077,
+        3742.1875
+      ],
+      [
+        1.7074187620000885,
+        3742.1875
+      ],
+      [
+        1.8077027140002428,
+        3742.1875
+      ],
+      [
+        1.9079734590000044,
+        3742.1875
+      ],
+      [
+        2.0082288779999544,
+        3742.1875
+      ],
+      [
+        2.1087126870002066,
+        3742.1875
+      ],
+      [
+        2.208988255999884,
+        3742.1875
+      ],
+      [
+        2.3093454449999626,
+        3742.1875
+      ],
+      [
+        2.3488029139998616,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_146",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_146.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 1.021930495000106,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 10.763941436153011,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 12,
+    "gpu_trace": [
+      [
+        0.00027928200006499537,
+        3742.1875
+      ],
+      [
+        0.10177036599998246,
+        3742.1875
+      ],
+      [
+        0.20204498400016746,
+        3742.1875
+      ],
+      [
+        0.30238364199976786,
+        3742.1875
+      ],
+      [
+        0.40269036300014704,
+        3742.1875
+      ],
+      [
+        0.502930951000053,
+        3742.1875
+      ],
+      [
+        0.603250893999757,
+        3742.1875
+      ],
+      [
+        0.7050511130000814,
+        3742.1875
+      ],
+      [
+        0.8052896999997756,
+        3742.1875
+      ],
+      [
+        0.9057269320001069,
+        3742.1875
+      ],
+      [
+        1.006054888000108,
+        3742.1875
+      ],
+      [
+        1.0216683519997787,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_147",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_147.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.4,
+    "seconds": 1.2419539659999828,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 8.857011049635114,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.00018442999999024323,
+        3742.1875
+      ],
+      [
+        0.10124514900007853,
+        3742.1875
+      ],
+      [
+        0.20144887900005415,
+        3742.1875
+      ],
+      [
+        0.3016630349998195,
+        3742.1875
+      ],
+      [
+        0.4018876509999245,
+        3742.1875
+      ],
+      [
+        0.5042431130000296,
+        3742.1875
+      ],
+      [
+        0.6044309389999398,
+        3742.1875
+      ],
+      [
+        0.7046358029997464,
+        3742.1875
+      ],
+      [
+        0.8048487390001355,
+        3742.1875
+      ],
+      [
+        0.9050355310000668,
+        3742.1875
+      ],
+      [
+        1.005227979999745,
+        3742.1875
+      ],
+      [
+        1.1054383609998695,
+        3742.1875
+      ],
+      [
+        1.20562304699979,
+        3742.1875
+      ],
+      [
+        1.2416901779997715,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_148",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_148.png",
+    "answer": "The shapes you can see are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.4,
+    "seconds": 2.276205115999801,
+    "input_tokens": 125,
+    "output_tokens": 24,
+    "tokens_per_second": 10.543865239252938,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.187499999999,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 24,
+    "gpu_trace": [
+      [
+        0.00025318400003015995,
+        3742.1875
+      ],
+      [
+        0.10165637299996888,
+        3742.1875
+      ],
+      [
+        0.20189520199983235,
+        3742.1875
+      ],
+      [
+        0.3026555019996522,
+        3742.1875
+      ],
+      [
+        0.402854534999733,
+        3742.1875
+      ],
+      [
+        0.5030413189997489,
+        3742.1875
+      ],
+      [
+        0.6032763619996331,
+        3742.1875
+      ],
+      [
+        0.7046280099998512,
+        3742.1875
+      ],
+      [
+        0.8056968669998241,
+        3742.1875
+      ],
+      [
+        0.9059783579996292,
+        3742.1875
+      ],
+      [
+        1.006637366999712,
+        3742.1875
+      ],
+      [
+        1.1070111449998876,
+        3742.1875
+      ],
+      [
+        1.2073167059998013,
+        3742.1875
+      ],
+      [
+        1.307645262999813,
+        3742.1875
+      ],
+      [
+        1.407882490999782,
+        3742.1875
+      ],
+      [
+        1.508288163999623,
+        3742.1875
+      ],
+      [
+        1.608533399999942,
+        3742.1875
+      ],
+      [
+        1.7088993539996409,
+        3742.1875
+      ],
+      [
+        1.8091281799997887,
+        3742.1875
+      ],
+      [
+        1.909404859999995,
+        3742.1875
+      ],
+      [
+        2.0097068569998555,
+        3742.1875
+      ],
+      [
+        2.1099638470000173,
+        3742.1875
+      ],
+      [
+        2.2103242019998106,
+        3742.1875
+      ],
+      [
+        2.275959213999613,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_149",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_149.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 0.9652152680000654,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.396421466469441,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.00025321199973404873,
+        3742.1875
+      ],
+      [
+        0.10167914199973893,
+        3742.1875
+      ],
+      [
+        0.20203612999966936,
+        3742.1875
+      ],
+      [
+        0.3024133159997291,
+        3742.1875
+      ],
+      [
+        0.4027433889996246,
+        3742.1875
+      ],
+      [
+        0.5030471879999823,
+        3742.1875
+      ],
+      [
+        0.6033027359999323,
+        3742.1875
+      ],
+      [
+        0.7036170129999846,
+        3742.1875
+      ],
+      [
+        0.8038595299999542,
+        3742.1875
+      ],
+      [
+        0.9041009149996171,
+        3742.1875
+      ],
+      [
+        0.9649485789996106,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_150",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_150.png",
+    "answer": "The shapes visible in the image are:\n1. Circle\n2. Triangle\n3. Star",
+    "objective_score": 1.0,
+    "seconds": 1.6887149829999544,
+    "input_tokens": 125,
+    "output_tokens": 21,
+    "tokens_per_second": 12.435491016189182,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 18,
+    "gpu_trace": [
+      [
+        0.00019875599991792114,
+        3742.1875
+      ],
+      [
+        0.10161666300018624,
+        3742.1875
+      ],
+      [
+        0.20184500499999558,
+        3742.1875
+      ],
+      [
+        0.3021410860001197,
+        3742.1875
+      ],
+      [
+        0.40248459399981584,
+        3742.1875
+      ],
+      [
+        0.5027271310000287,
+        3742.1875
+      ],
+      [
+        0.6030153460001202,
+        3742.1875
+      ],
+      [
+        0.7032727050000176,
+        3742.1875
+      ],
+      [
+        0.8035713829999622,
+        3742.1875
+      ],
+      [
+        0.9038039249999201,
+        3742.1875
+      ],
+      [
+        1.0042733029999908,
+        3742.1875
+      ],
+      [
+        1.1045076310001605,
+        3742.1875
+      ],
+      [
+        1.2048773510000501,
+        3742.1875
+      ],
+      [
+        1.305119504999766,
+        3742.1875
+      ],
+      [
+        1.4053620929998942,
+        3742.1875
+      ],
+      [
+        1.505597779999789,
+        3742.1875
+      ],
+      [
+        1.6058274080000956,
+        3742.1875
+      ],
+      [
+        1.6884605840000404,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_151",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_151.png",
+    "answer": "The shapes visible in the image are:\n1. Triangle\n2. Star\n3. Circle",
+    "objective_score": 1.0,
+    "seconds": 1.7067269240001224,
+    "input_tokens": 125,
+    "output_tokens": 21,
+    "tokens_per_second": 12.304253073351349,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 18,
+    "gpu_trace": [
+      [
+        0.00025282999968112563,
+        3742.1875
+      ],
+      [
+        0.10168788199962364,
+        3742.1875
+      ],
+      [
+        0.20191441599990867,
+        3742.1875
+      ],
+      [
+        0.30221675799975856,
+        3742.1875
+      ],
+      [
+        0.4025396209999599,
+        3742.1875
+      ],
+      [
+        0.5027739069996642,
+        3742.1875
+      ],
+      [
+        0.6031460089998291,
+        3742.1875
+      ],
+      [
+        0.7034032169999591,
+        3742.1875
+      ],
+      [
+        0.8036417519997485,
+        3742.1875
+      ],
+      [
+        0.9039922899996782,
+        3742.1875
+      ],
+      [
+        1.0043074579998574,
+        3742.1875
+      ],
+      [
+        1.1045462829997632,
+        3742.1875
+      ],
+      [
+        1.2047854559996267,
+        3742.1875
+      ],
+      [
+        1.306180282999776,
+        3742.1875
+      ],
+      [
+        1.4064243769998939,
+        3742.1875
+      ],
+      [
+        1.5066827829996328,
+        3742.1875
+      ],
+      [
+        1.6069951219997165,
+        3742.1875
+      ],
+      [
+        1.7064732179997009,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_152",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_152.png",
+    "answer": "The answer is triangle, square, circle",
+    "objective_score": 1.0,
+    "seconds": 0.8087221440000576,
+    "input_tokens": 125,
+    "output_tokens": 9,
+    "tokens_per_second": 11.128667697269533,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 10,
+    "gpu_trace": [
+      [
+        0.0002767179998954816,
+        3742.1875
+      ],
+      [
+        0.10171657000000778,
+        3742.1875
+      ],
+      [
+        0.20205003199998828,
+        3742.1875
+      ],
+      [
+        0.30233901900010096,
+        3742.1875
+      ],
+      [
+        0.40258038599995416,
+        3742.1875
+      ],
+      [
+        0.5028263959998185,
+        3742.1875
+      ],
+      [
+        0.6031782629997906,
+        3742.1875
+      ],
+      [
+        0.7035022740001295,
+        3742.1875
+      ],
+      [
+        0.8038134149996949,
+        3742.1875
+      ],
+      [
+        0.8085039869997672,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 1.0,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.0,
+    "exact_set": 1.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_153",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_153.png",
+    "answer": "The shapes visible are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.5088408889996572,
+    "input_tokens": 125,
+    "output_tokens": 18,
+    "tokens_per_second": 11.929687305819089,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.00026124100031665876,
+        3742.1875
+      ],
+      [
+        0.10182321799993588,
+        3742.1875
+      ],
+      [
+        0.20215299400024378,
+        3742.1875
+      ],
+      [
+        0.3023893660001704,
+        3742.1875
+      ],
+      [
+        0.40262367600007565,
+        3742.1875
+      ],
+      [
+        0.5028595630001291,
+        3742.1875
+      ],
+      [
+        0.6031936879999193,
+        3742.1875
+      ],
+      [
+        0.7035825739999382,
+        3742.1875
+      ],
+      [
+        0.8038485249999212,
+        3742.1875
+      ],
+      [
+        0.9041404859999602,
+        3742.1875
+      ],
+      [
+        1.004393887000333,
+        3742.1875
+      ],
+      [
+        1.1046321620001436,
+        3742.1875
+      ],
+      [
+        1.2049292930000775,
+        3742.1875
+      ],
+      [
+        1.3052579939999305,
+        3742.1875
+      ],
+      [
+        1.405542677000085,
+        3742.1875
+      ],
+      [
+        1.505769101000169,
+        3742.1875
+      ],
+      [
+        1.5086519510000471,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_154",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star, triangle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_154.png",
+    "answer": "The shapes are:\n- Circle\n- Square\n- Triangle\n- Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.4122966259997156,
+    "input_tokens": 125,
+    "output_tokens": 17,
+    "tokens_per_second": 12.037131355437667,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.0002266559999952733,
+        3742.1875
+      ],
+      [
+        0.10157230200002232,
+        3742.1875
+      ],
+      [
+        0.20184296300021742,
+        3742.1875
+      ],
+      [
+        0.30215371900021637,
+        3742.1875
+      ],
+      [
+        0.40243436800028576,
+        3742.1875
+      ],
+      [
+        0.5026804250001078,
+        3742.1875
+      ],
+      [
+        0.602985161000106,
+        3742.1875
+      ],
+      [
+        0.7033023459998731,
+        3742.1875
+      ],
+      [
+        0.8035476979998748,
+        3742.1875
+      ],
+      [
+        0.9039513100001386,
+        3742.1875
+      ],
+      [
+        1.0043059780000476,
+        3742.1875
+      ],
+      [
+        1.107925454999986,
+        3742.1875
+      ],
+      [
+        1.2081396710000263,
+        3742.1875
+      ],
+      [
+        1.308408232000147,
+        3742.1875
+      ],
+      [
+        1.408653478999895,
+        3742.1875
+      ],
+      [
+        1.4121045570000206,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star",
+      "triangle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_155",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle",
+    "image": "/content/mmip_week6/vlm_preference_images/test_155.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.4,
+    "seconds": 1.2126572850002049,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 9.070988263595135,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.00017018699963955441,
+        3742.1875
+      ],
+      [
+        0.10138821700002154,
+        3742.1875
+      ],
+      [
+        0.20159005899995464,
+        3742.1875
+      ],
+      [
+        0.3017864009998448,
+        3742.1875
+      ],
+      [
+        0.40204218500002753,
+        3742.1875
+      ],
+      [
+        0.5022308379998321,
+        3742.1875
+      ],
+      [
+        0.6024963239997305,
+        3742.1875
+      ],
+      [
+        0.7027549859999453,
+        3742.1875
+      ],
+      [
+        0.8053792859996065,
+        3742.1875
+      ],
+      [
+        0.9055776939999305,
+        3742.1875
+      ],
+      [
+        1.0057857929996317,
+        3742.1875
+      ],
+      [
+        1.105977344999701,
+        3742.1875
+      ],
+      [
+        1.2061924549998366,
+        3742.1875
+      ],
+      [
+        1.2123999069999627,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_156",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_156.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.4,
+    "seconds": 1.2516304340001625,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 8.788536696766332,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.00019645900010800688,
+        3742.1875
+      ],
+      [
+        0.10249699799987866,
+        3742.1875
+      ],
+      [
+        0.20269949900011852,
+        3742.1875
+      ],
+      [
+        0.302902339999946,
+        3742.1875
+      ],
+      [
+        0.40545811999982106,
+        3742.1875
+      ],
+      [
+        0.5056424189997415,
+        3742.1875
+      ],
+      [
+        0.6058612659999199,
+        3742.1875
+      ],
+      [
+        0.7060583859997678,
+        3742.1875
+      ],
+      [
+        0.8068043240000407,
+        3742.1875
+      ],
+      [
+        0.907022508999944,
+        3742.1875
+      ],
+      [
+        1.0097116219999407,
+        3742.1875
+      ],
+      [
+        1.1099398490000567,
+        3742.1875
+      ],
+      [
+        1.210223864999989,
+        3742.1875
+      ],
+      [
+        1.2513925799999015,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.4,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.75,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_157",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square",
+    "image": "/content/mmip_week6/vlm_preference_images/test_157.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 0.9731883980002749,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.303052957272198,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875000000005,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.00023043299961500452,
+        3742.1875
+      ],
+      [
+        0.10167852399990807,
+        3742.1875
+      ],
+      [
+        0.20191858099997262,
+        3742.1875
+      ],
+      [
+        0.3022141419996842,
+        3742.1875
+      ],
+      [
+        0.4035384169997087,
+        3742.1875
+      ],
+      [
+        0.5037900399997852,
+        3742.1875
+      ],
+      [
+        0.6041192469997441,
+        3742.1875
+      ],
+      [
+        0.7044292229998064,
+        3742.1875
+      ],
+      [
+        0.8046682019999025,
+        3742.1875
+      ],
+      [
+        0.9049581269996452,
+        3742.1875
+      ],
+      [
+        0.972949227999834,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_158",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "circle, square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_158.png",
+    "answer": "The shapes visible in the image are:\n1. Circle\n2. Square\n3. Triangle\n4. Star",
+    "objective_score": 0.8571428571428571,
+    "seconds": 1.9878816120003648,
+    "input_tokens": 125,
+    "output_tokens": 25,
+    "tokens_per_second": 12.57620164555122,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1874999999995,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 21,
+    "gpu_trace": [
+      [
+        0.0017914509999172878,
+        3742.1875
+      ],
+      [
+        0.10205948699967848,
+        3742.1875
+      ],
+      [
+        0.20233509599984245,
+        3742.1875
+      ],
+      [
+        0.3026516259997152,
+        3742.1875
+      ],
+      [
+        0.402944142999786,
+        3742.1875
+      ],
+      [
+        0.5032452619998367,
+        3742.1875
+      ],
+      [
+        0.6035158649997356,
+        3742.1875
+      ],
+      [
+        0.7038043369998377,
+        3742.1875
+      ],
+      [
+        0.8040304609999112,
+        3742.1875
+      ],
+      [
+        0.9042713999997432,
+        3742.1875
+      ],
+      [
+        1.0045283619997463,
+        3742.1875
+      ],
+      [
+        1.1049304979997032,
+        3742.1875
+      ],
+      [
+        1.205212792999646,
+        3742.1875
+      ],
+      [
+        1.3054848080000738,
+        3742.1875
+      ],
+      [
+        1.4057389869999497,
+        3742.1875
+      ],
+      [
+        1.506016647999786,
+        3742.1875
+      ],
+      [
+        1.6063203549997525,
+        3742.1875
+      ],
+      [
+        1.7066214699998454,
+        3742.1875
+      ],
+      [
+        1.8068840179998915,
+        3742.1875
+      ],
+      [
+        1.907142236999789,
+        3742.1875
+      ],
+      [
+        1.9876234479997947,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.8571428571428571,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.25,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "circle",
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  },
+  {
+    "id": "V_test_159",
+    "category": "shape_presence",
+    "prompt": "List every visible shape type. Use only words from circle, square, triangle, star. Return a comma-separated list of unique types, and nothing else.",
+    "gold": "square, star",
+    "image": "/content/mmip_week6/vlm_preference_images/test_159.png",
+    "answer": "The answer is circle, square, triangle, star",
+    "objective_score": 0.6666666666666666,
+    "seconds": 0.9775167990001137,
+    "input_tokens": 125,
+    "output_tokens": 11,
+    "tokens_per_second": 11.253003540452424,
+    "truncated": false,
+    "torch_peak_allocated_mib": 1919.748046875,
+    "gpu_mean_mib": 3742.1875,
+    "gpu_peak_mib": 3742.1875,
+    "gpu_samples": 11,
+    "gpu_trace": [
+      [
+        0.0009352749998470244,
+        3742.1875
+      ],
+      [
+        0.10115051399998265,
+        3742.1875
+      ],
+      [
+        0.20138573699978224,
+        3742.1875
+      ],
+      [
+        0.301749080999798,
+        3742.1875
+      ],
+      [
+        0.4020152039997811,
+        3742.1875
+      ],
+      [
+        0.5022831709998172,
+        3742.1875
+      ],
+      [
+        0.6026055289999022,
+        3742.1875
+      ],
+      [
+        0.7028672629999164,
+        3742.1875
+      ],
+      [
+        0.8031970929996533,
+        3742.1875
+      ],
+      [
+        0.9034734979995847,
+        3742.1875
+      ],
+      [
+        0.9772941149999497,
+        3742.1875
+      ]
+    ],
+    "shape_f1": 0.6666666666666666,
+    "shape_recall": 1.0,
+    "hallucination_rate": 0.5,
+    "exact_set": 0.0,
+    "predicted_shapes": [
+      "circle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "true_shapes": [
+      "square",
+      "star"
+    ],
+    "phase": "after",
+    "condition": "lowres32_jpeg20"
+  }
+]

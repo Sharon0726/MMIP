@@ -1,0 +1,2206 @@
+[
+  {
+    "id": "B01",
+    "category": "recognition",
+    "prompt": "What type of suit is the person wearing? Answer briefly.",
+    "gold": "A spacesuit.",
+    "image": "/content/mmip_week6/images/B01.png",
+    "answer": "Space suit.",
+    "objective_score": 1.0,
+    "seconds": 0.2661143140001059,
+    "input_tokens": 104,
+    "output_tokens": 4,
+    "tokens_per_second": 15.031134326725502,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.4326171875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 4,
+    "gpu_trace": [
+      [
+        0.00020665700003519305,
+        5048.1875
+      ],
+      [
+        0.10189047699986986,
+        5048.1875
+      ],
+      [
+        0.20278715199992803,
+        5048.1875
+      ],
+      [
+        0.26577169400002276,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "9783598e5ef8c656b3046ed069ab006eee7a5f54d4aabecd8cf464d5e48b8a4b",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the suit as a space suit.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B02",
+    "category": "recognition",
+    "prompt": "What animal is shown? Answer briefly.",
+    "gold": "A cat.",
+    "image": "/content/mmip_week6/images/B02.png",
+    "answer": "Cat.",
+    "objective_score": 1.0,
+    "seconds": 0.20096457299996473,
+    "input_tokens": 100,
+    "output_tokens": 3,
+    "tokens_per_second": 14.928004250781687,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4325.619140625,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 3,
+    "gpu_trace": [
+      [
+        0.00019107299999632232,
+        5048.1875
+      ],
+      [
+        0.10152390300004299,
+        5048.1875
+      ],
+      [
+        0.20071531100006723,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "c1f61fc910fee9529ce30731bc63026c659228d5ebddfff5cb009d17016f5a7c",
+    "judge_score": 4,
+    "judge_reason": "Correctly identified the animal.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B03",
+    "category": "recognition",
+    "prompt": "What beverage is in the cup? Answer briefly.",
+    "gold": "Coffee.",
+    "image": "/content/mmip_week6/images/B03.png",
+    "answer": "Coffee.",
+    "objective_score": 1.0,
+    "seconds": 0.18689717000006567,
+    "input_tokens": 102,
+    "output_tokens": 3,
+    "tokens_per_second": 16.0516074159868,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.0263671875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 3,
+    "gpu_trace": [
+      [
+        0.00018875599994316872,
+        5048.1875
+      ],
+      [
+        0.10183909400006996,
+        5048.1875
+      ],
+      [
+        0.18665031099999396,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "0dfb5f402908b17d1e751030eef30ebf03fa44accf63ad03561f2356148848f5",
+    "judge_score": 4,
+    "judge_reason": "Fully correct.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B04",
+    "category": "recognition",
+    "prompt": "What type of vehicle is shown? Answer briefly.",
+    "gold": "A rocket.",
+    "image": "/content/mmip_week6/images/B04.png",
+    "answer": "Rocket.",
+    "objective_score": 1.0,
+    "seconds": 0.20385173799991207,
+    "input_tokens": 102,
+    "output_tokens": 3,
+    "tokens_per_second": 14.716577986699795,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.0263671875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 4,
+    "gpu_trace": [
+      [
+        0.0003174870000748342,
+        5048.1875
+      ],
+      [
+        0.1012183200000436,
+        5048.1875
+      ],
+      [
+        0.20142049300011422,
+        5048.1875
+      ],
+      [
+        0.20338198600006763,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "9a9b526378c0668061f1ccd6b19ff7d52379d143ee6f58768c8048f811da8516",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the vehicle as a rocket.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B05",
+    "category": "counting",
+    "prompt": "How many red circles are visible? Answer with one integer.",
+    "gold": "3",
+    "image": "/content/mmip_week6/images/B05.png",
+    "answer": "3",
+    "objective_score": 1.0,
+    "seconds": 0.26438430200005314,
+    "input_tokens": 104,
+    "output_tokens": 3,
+    "tokens_per_second": 11.34711848360572,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.4326171875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 4,
+    "gpu_trace": [
+      [
+        0.00021789099992020056,
+        5048.1875
+      ],
+      [
+        0.1022671650000575,
+        5048.1875
+      ],
+      [
+        0.20320670399996743,
+        5048.1875
+      ],
+      [
+        0.2635214619999715,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "3783d96482145c1bb8a7e17ac4818f7c456726eea64fc3557b2452097affe03d",
+    "judge_score": 4,
+    "judge_reason": "Correctly gives the count as 3.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B06",
+    "category": "counting",
+    "prompt": "How many blue squares are visible? Answer with one integer.",
+    "gold": "5",
+    "image": "/content/mmip_week6/images/B06.png",
+    "answer": "7",
+    "objective_score": 0.0,
+    "seconds": 0.3658118230000582,
+    "input_tokens": 104,
+    "output_tokens": 3,
+    "tokens_per_second": 8.200937781061064,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.4326171875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 5,
+    "gpu_trace": [
+      [
+        0.0005649770000673016,
+        5048.1875
+      ],
+      [
+        0.10079069200014601,
+        5048.1875
+      ],
+      [
+        0.20176096200020766,
+        5048.1875
+      ],
+      [
+        0.3019663350000883,
+        5048.1875
+      ],
+      [
+        0.36396987100010847,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "e17ae3b84b9800cc826f8562ea899289282ba10e400d30c0d0f0914febd97296",
+    "judge_score": 0,
+    "judge_reason": "Incorrect count.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B07",
+    "category": "counting",
+    "prompt": "How many green triangles are visible? Answer with one integer.",
+    "gold": "4",
+    "image": "/content/mmip_week6/images/B07.png",
+    "answer": "6",
+    "objective_score": 0.0,
+    "seconds": 0.7268446660000336,
+    "input_tokens": 104,
+    "output_tokens": 3,
+    "tokens_per_second": 4.127429339902264,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.4326171875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 9,
+    "gpu_trace": [
+      [
+        0.005895390999967276,
+        5048.1875
+      ],
+      [
+        0.10608068099986667,
+        5048.1875
+      ],
+      [
+        0.20627143699994122,
+        5048.1875
+      ],
+      [
+        0.30646160899982533,
+        5048.1875
+      ],
+      [
+        0.40784035799993035,
+        5048.1875
+      ],
+      [
+        0.5098378249999769,
+        5048.1875
+      ],
+      [
+        0.6100210119998337,
+        5048.1875
+      ],
+      [
+        0.7188392989999102,
+        5048.1875
+      ],
+      [
+        0.725073663999865,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "e7ed97e608c0b02cb96a81926ff6e2b98fad43b9bb80adc669681a325acb6c23",
+    "judge_score": 0,
+    "judge_reason": "Incorrect count of green triangles.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B08",
+    "category": "counting",
+    "prompt": "How many shapes are visible in total? Answer with one integer.",
+    "gold": "8",
+    "image": "/content/mmip_week6/images/B08.png",
+    "answer": "10",
+    "objective_score": 0.0,
+    "seconds": 0.8858825040001648,
+    "input_tokens": 105,
+    "output_tokens": 4,
+    "tokens_per_second": 4.515271474420333,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.63671875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 10,
+    "gpu_trace": [
+      [
+        0.0009205050000673509,
+        5048.1875
+      ],
+      [
+        0.10112399500007996,
+        5048.1875
+      ],
+      [
+        0.2148668950001138,
+        5048.1875
+      ],
+      [
+        0.31686007500002233,
+        5048.1875
+      ],
+      [
+        0.4288604570001553,
+        5048.1875
+      ],
+      [
+        0.5328915009999946,
+        5048.1875
+      ],
+      [
+        0.6348752730000342,
+        5048.1875
+      ],
+      [
+        0.7350832629999786,
+        5048.1875
+      ],
+      [
+        0.8352877730001182,
+        5048.1875
+      ],
+      [
+        0.8806879850001224,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "ec1a9f597a91be170b8f980beef964170de3c0b4e0e89e325bb5cc7f4535644d",
+    "judge_score": 0,
+    "judge_reason": "Incorrect count provided (10 instead of 8).",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B09",
+    "category": "spatial",
+    "prompt": "What shape is to the left of the blue circle? Answer briefly.",
+    "gold": "A red square.",
+    "image": "/content/mmip_week6/images/B09.png",
+    "answer": "Square.",
+    "objective_score": 0.5,
+    "seconds": 0.3995325849998608,
+    "input_tokens": 106,
+    "output_tokens": 3,
+    "tokens_per_second": 7.508774284332892,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.187499999999,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 5,
+    "gpu_trace": [
+      [
+        0.00324038600001586,
+        5048.1875
+      ],
+      [
+        0.10523381699999845,
+        5048.1875
+      ],
+      [
+        0.20718490900003417,
+        5048.1875
+      ],
+      [
+        0.30927776800012907,
+        5048.1875
+      ],
+      [
+        0.39926737800010415,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "ee58203fcfad6a2e25c00985073d66bf517c5a34277346c9e7ca6291c12195c6",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the shape as a square.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B10",
+    "category": "spatial",
+    "prompt": "What shape is above the red square? Answer briefly.",
+    "gold": "A yellow triangle.",
+    "image": "/content/mmip_week6/images/B10.png",
+    "answer": "Triangle.",
+    "objective_score": 0.5,
+    "seconds": 0.21382953799979987,
+    "input_tokens": 103,
+    "output_tokens": 3,
+    "tokens_per_second": 14.029867099103997,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.2294921875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 4,
+    "gpu_trace": [
+      [
+        0.00020703199993477028,
+        5048.1875
+      ],
+      [
+        0.10072687299998506,
+        5048.1875
+      ],
+      [
+        0.20371308699986912,
+        5048.1875
+      ],
+      [
+        0.2136397339997984,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "77e9ec39784718e45395db79a4b3615b76020b2ae283905c7bba2534cbb7855a",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the shape as a triangle.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B11",
+    "category": "spatial",
+    "prompt": "What shape is below the green circle? Answer briefly.",
+    "gold": "A blue square.",
+    "image": "/content/mmip_week6/images/B11.png",
+    "answer": "Square.",
+    "objective_score": 0.5,
+    "seconds": 0.19019263099994532,
+    "input_tokens": 103,
+    "output_tokens": 3,
+    "tokens_per_second": 15.773481781220339,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.2294921875,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 3,
+    "gpu_trace": [
+      [
+        0.00020101599989175156,
+        5048.1875
+      ],
+      [
+        0.1023669379999319,
+        5048.1875
+      ],
+      [
+        0.18996093099985956,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "b460d19f6fc9a21d477048b69d2b8434c09e98f039919a803afdd23b9ab8bbd4",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the shape as a square.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B12",
+    "category": "spatial",
+    "prompt": "What shape is to the right of the blue square? Answer briefly.",
+    "gold": "A green triangle.",
+    "image": "/content/mmip_week6/images/B12.png",
+    "answer": "Triangle.",
+    "objective_score": 0.5,
+    "seconds": 0.17814776899990648,
+    "input_tokens": 106,
+    "output_tokens": 3,
+    "tokens_per_second": 16.83995267996634,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 3,
+    "gpu_trace": [
+      [
+        0.0001798480000161362,
+        5048.1875
+      ],
+      [
+        0.10142033199986145,
+        5048.1875
+      ],
+      [
+        0.17790289799995662,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "6a5fcb97d81b900c889dea684a174aeb4035a6288a110f34ed6c76e448822ed3",
+    "judge_score": 3,
+    "judge_reason": "Correctly identifies the shape as a triangle, omitting the color.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B13",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "MMIP 2026",
+    "image": "/content/mmip_week6/images/B13.png",
+    "answer": "MMMP 2026",
+    "objective_score": 0.0,
+    "seconds": 0.39919353000004776,
+    "input_tokens": 106,
+    "output_tokens": 8,
+    "tokens_per_second": 20.040404963474842,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 5,
+    "gpu_trace": [
+      [
+        0.00091124999994463,
+        5048.1875
+      ],
+      [
+        0.10112860699996418,
+        5048.1875
+      ],
+      [
+        0.20288934899986089,
+        5048.1875
+      ],
+      [
+        0.3030790259999776,
+        5048.1875
+      ],
+      [
+        0.3989145789998929,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "7676a85d04b0714b319534088063c831f1e46c79dfc7f023e55aa121c1f85f08",
+    "judge_score": 1,
+    "judge_reason": "Incorrect transcription (MMMP instead of MMIP).",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B14",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "ROOM B-204",
+    "image": "/content/mmip_week6/images/B14.png",
+    "answer": "ROOM B-204",
+    "objective_score": 1.0,
+    "seconds": 0.38895553499992275,
+    "input_tokens": 106,
+    "output_tokens": 8,
+    "tokens_per_second": 20.567903732239184,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 5,
+    "gpu_trace": [
+      [
+        0.0003870949999509321,
+        5048.1875
+      ],
+      [
+        0.10278468499996052,
+        5048.1875
+      ],
+      [
+        0.20468981099998018,
+        5048.1875
+      ],
+      [
+        0.3059740490000422,
+        5048.1875
+      ],
+      [
+        0.38872024399984184,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "d9cf070cf8f1f79b1833d13000be062d64370dca91c9b9024a2dfbc36a2f06de",
+    "judge_score": 4,
+    "judge_reason": "Exact transcription match.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B15",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "TOTAL 48.50",
+    "image": "/content/mmip_week6/images/B15.png",
+    "answer": "TOTAL 485.0",
+    "objective_score": 0.0,
+    "seconds": 0.5573282719999497,
+    "input_tokens": 106,
+    "output_tokens": 10,
+    "tokens_per_second": 17.942746676236986,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00017745699983606755,
+        5048.1875
+      ],
+      [
+        0.10263740099981078,
+        5048.1875
+      ],
+      [
+        0.20286126499991042,
+        5048.1875
+      ],
+      [
+        0.3030509069999425,
+        5048.1875
+      ],
+      [
+        0.4032761909998044,
+        5048.1875
+      ],
+      [
+        0.5034637419998944,
+        5048.1875
+      ],
+      [
+        0.5570743239998137,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "61b61ff2e65aacfaa6e294eb16fcd645ed6a26fdea6e5b4f415e1dc82c0d8e82",
+    "judge_score": 1,
+    "judge_reason": "The transcribed number is incorrect (485.0 instead of 48.50).",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B16",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "OPEN 09:30",
+    "image": "/content/mmip_week6/images/B16.png",
+    "answer": "OPEN 9:30",
+    "objective_score": 0.0,
+    "seconds": 0.43389964100015277,
+    "input_tokens": 106,
+    "output_tokens": 8,
+    "tokens_per_second": 18.437443233554514,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4326.83984375,
+    "gpu_mean_mib": 5048.1875,
+    "gpu_peak_mib": 5048.1875,
+    "gpu_samples": 6,
+    "gpu_trace": [
+      [
+        0.0001910409998799878,
+        5048.1875
+      ],
+      [
+        0.10582473699992079,
+        5048.1875
+      ],
+      [
+        0.20608159499988687,
+        5048.1875
+      ],
+      [
+        0.3062964829998691,
+        5048.1875
+      ],
+      [
+        0.4064926269998068,
+        5048.1875
+      ],
+      [
+        0.4336503559998164,
+        5048.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "0c1b186357c3b539164270445d15a37862461b77b7a7f609d6f3fdf512854ddc",
+    "judge_score": 3,
+    "judge_reason": "Minor transcription error missing the leading zero in 09:30.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B17",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A red circle is to the left of a blue square.",
+    "image": "/content/mmip_week6/images/B17.png",
+    "answer": "A red circle and a blue square are placed side by side on a white background.",
+    "objective_score": 0.8,
+    "seconds": 1.0100536909999391,
+    "input_tokens": 112,
+    "output_tokens": 18,
+    "tokens_per_second": 17.820834833225796,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4328.0595703125,
+    "gpu_mean_mib": 5048.1922457447945,
+    "gpu_peak_mib": 5050.1875,
+    "gpu_samples": 12,
+    "gpu_trace": [
+      [
+        0.0006794020000597811,
+        5048.1875
+      ],
+      [
+        0.10090207300004295,
+        5048.1875
+      ],
+      [
+        0.20114506999993864,
+        5048.1875
+      ],
+      [
+        0.3026325099999667,
+        5048.1875
+      ],
+      [
+        0.40283175400008986,
+        5048.1875
+      ],
+      [
+        0.503030476000049,
+        5048.1875
+      ],
+      [
+        0.6033036020000964,
+        5048.1875
+      ],
+      [
+        0.7035023420000925,
+        5048.1875
+      ],
+      [
+        0.8046448850000161,
+        5048.1875
+      ],
+      [
+        0.9048555990000295,
+        5048.1875
+      ],
+      [
+        1.0050594520000686,
+        5048.1875
+      ],
+      [
+        1.009848712000121,
+        5050.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "747a42619d1e1608d80219fc39797d4b9498e3be0b930e3db991c055f8c476ae",
+    "judge_score": 4,
+    "judge_reason": "Accurately describes shapes, colors, and spatial relationship.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B18",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A blue triangle is above a yellow circle.",
+    "image": "/content/mmip_week6/images/B18.png",
+    "answer": "A blue triangle is above a yellow circle.",
+    "objective_score": 1.0,
+    "seconds": 0.5981245300001774,
+    "input_tokens": 112,
+    "output_tokens": 10,
+    "tokens_per_second": 16.718926408179637,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4328.0595703125,
+    "gpu_mean_mib": 5050.1875,
+    "gpu_peak_mib": 5050.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.0002239599998574704,
+        5050.1875
+      ],
+      [
+        0.10881102499979534,
+        5050.1875
+      ],
+      [
+        0.20902867299992067,
+        5050.1875
+      ],
+      [
+        0.3092323339999439,
+        5050.1875
+      ],
+      [
+        0.41074889399988024,
+        5050.1875
+      ],
+      [
+        0.5109610019999309,
+        5050.1875
+      ],
+      [
+        0.5978769559999364,
+        5050.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "688474ad9c2f906afb6aa7fe18a44318394522652d2f4316fa04f034126b9a75",
+    "judge_score": 4,
+    "judge_reason": "Accurately describes shapes, colors, and spatial relationship.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B19",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "Two red squares and one green circle are arranged in a row, with the circle on the right.",
+    "image": "/content/mmip_week6/images/B19.png",
+    "answer": "Three red squares and one green circle are arranged in a horizontal line.",
+    "objective_score": 0.8,
+    "seconds": 0.781276236000167,
+    "input_tokens": 112,
+    "output_tokens": 15,
+    "tokens_per_second": 19.199355245712084,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4328.0595703125,
+    "gpu_mean_mib": 5050.1875,
+    "gpu_peak_mib": 5050.1875,
+    "gpu_samples": 9,
+    "gpu_trace": [
+      [
+        0.0002179859998250322,
+        5050.1875
+      ],
+      [
+        0.10246639299998606,
+        5050.1875
+      ],
+      [
+        0.2026577719998386,
+        5050.1875
+      ],
+      [
+        0.30290059799995106,
+        5050.1875
+      ],
+      [
+        0.4031078719999641,
+        5050.1875
+      ],
+      [
+        0.5033544669997809,
+        5050.1875
+      ],
+      [
+        0.6035477460000038,
+        5050.1875
+      ],
+      [
+        0.7054194319998714,
+        5050.1875
+      ],
+      [
+        0.7810426249998272,
+        5050.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "abd22b750aaf2a97ef0cca69e0cc8ad9985211e9002bc39f92c5ca9154fdb8cb",
+    "judge_score": 2,
+    "judge_reason": "Incorrect count of shapes (says three red squares instead of two).",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B20",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A red triangle is to the right of a blue circle.",
+    "image": "/content/mmip_week6/images/B20.png",
+    "answer": "A blue circle and a red triangle are placed next to each other on a white background.",
+    "objective_score": 0.8,
+    "seconds": 1.0124338470000112,
+    "input_tokens": 112,
+    "output_tokens": 19,
+    "tokens_per_second": 18.76665824270866,
+    "truncated": false,
+    "torch_peak_allocated_mib": 4328.0595703125,
+    "gpu_mean_mib": 5050.1875,
+    "gpu_peak_mib": 5050.1875,
+    "gpu_samples": 12,
+    "gpu_trace": [
+      [
+        0.00017852399992079881,
+        5050.1875
+      ],
+      [
+        0.10260440899992318,
+        5050.1875
+      ],
+      [
+        0.20283440799994423,
+        5050.1875
+      ],
+      [
+        0.30305898599999637,
+        5050.1875
+      ],
+      [
+        0.40591816000005565,
+        5050.1875
+      ],
+      [
+        0.506115101999967,
+        5050.1875
+      ],
+      [
+        0.6063365679999606,
+        5050.1875
+      ],
+      [
+        0.7065423110000211,
+        5050.1875
+      ],
+      [
+        0.8067442639999172,
+        5050.1875
+      ],
+      [
+        0.9069201049999265,
+        5050.1875
+      ],
+      [
+        1.0071181209998485,
+        5050.1875
+      ],
+      [
+        1.0122235520000231,
+        5050.1875
+      ]
+    ],
+    "condition": "SmolVLM2-2.2B-Instruct_fp16",
+    "judge_key": "1dfa97b517d66cd3633d5a82312c7cc315f5e05cb282e11394484761c11a216a",
+    "judge_score": 3,
+    "judge_reason": "Describes the shapes and colors, but adds an unmentioned white background.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B01",
+    "category": "recognition",
+    "prompt": "What type of suit is the person wearing? Answer briefly.",
+    "gold": "A spacesuit.",
+    "image": "/content/mmip_week6/images/B01.png",
+    "answer": "space suit",
+    "objective_score": 1.0,
+    "seconds": 0.46605583199993816,
+    "input_tokens": 322,
+    "output_tokens": 3,
+    "tokens_per_second": 6.436997016272501,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7228.52783203125,
+    "gpu_mean_mib": 7900.1875,
+    "gpu_peak_mib": 7900.1875,
+    "gpu_samples": 6,
+    "gpu_trace": [
+      [
+        0.00028792400007660035,
+        7900.1875
+      ],
+      [
+        0.1015612640001109,
+        7900.1875
+      ],
+      [
+        0.20181299799992303,
+        7900.1875
+      ],
+      [
+        0.3020561749999615,
+        7900.1875
+      ],
+      [
+        0.4022364770000877,
+        7900.1875
+      ],
+      [
+        0.46581651499991494,
+        7900.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "d4cfca64326d5fe048fe4a76fcb9fea026ff00e0c4f89c0d6721582d250da8ec",
+    "judge_score": 4,
+    "judge_reason": "Semantically equivalent to the reference.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B02",
+    "category": "recognition",
+    "prompt": "What animal is shown? Answer briefly.",
+    "gold": "A cat.",
+    "image": "/content/mmip_week6/images/B02.png",
+    "answer": "cat",
+    "objective_score": 1.0,
+    "seconds": 0.39473343800000293,
+    "input_tokens": 309,
+    "output_tokens": 2,
+    "tokens_per_second": 5.066710360625656,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7226.43505859375,
+    "gpu_mean_mib": 7900.187500000001,
+    "gpu_peak_mib": 7900.1875,
+    "gpu_samples": 5,
+    "gpu_trace": [
+      [
+        0.00022631699994235532,
+        7900.1875
+      ],
+      [
+        0.10118406099991262,
+        7900.1875
+      ],
+      [
+        0.2013877639999464,
+        7900.1875
+      ],
+      [
+        0.3015946890000123,
+        7900.1875
+      ],
+      [
+        0.39449796500002776,
+        7900.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "c271a133fa2584d1d299318da09a5d0378d0777654fdfc082e4e2b96fdcf5746",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the animal as a cat.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B03",
+    "category": "recognition",
+    "prompt": "What beverage is in the cup? Answer briefly.",
+    "gold": "Coffee.",
+    "image": "/content/mmip_week6/images/B03.png",
+    "answer": "coffee",
+    "objective_score": 1.0,
+    "seconds": 0.42304445500008114,
+    "input_tokens": 325,
+    "output_tokens": 2,
+    "tokens_per_second": 4.727635538916629,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7229.03662109375,
+    "gpu_mean_mib": 7900.187499999998,
+    "gpu_peak_mib": 7900.1875,
+    "gpu_samples": 6,
+    "gpu_trace": [
+      [
+        0.0001945690000866307,
+        7900.1875
+      ],
+      [
+        0.10120450099998379,
+        7900.1875
+      ],
+      [
+        0.20149855300019226,
+        7900.1875
+      ],
+      [
+        0.30170731700013675,
+        7900.1875
+      ],
+      [
+        0.40192483800001355,
+        7900.1875
+      ],
+      [
+        0.42283037500010323,
+        7900.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "fc4c49c30f84491b630eaf72e2c1e7c18f31aefac9b0e1c36e4c6c1efc77d829",
+    "judge_score": 4,
+    "judge_reason": "Accurately identifies the beverage as coffee.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B04",
+    "category": "recognition",
+    "prompt": "What type of vehicle is shown? Answer briefly.",
+    "gold": "A rocket.",
+    "image": "/content/mmip_week6/images/B04.png",
+    "answer": "rocket",
+    "objective_score": 1.0,
+    "seconds": 0.46632099499993274,
+    "input_tokens": 376,
+    "output_tokens": 2,
+    "tokens_per_second": 4.288891174630232,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7236.9521484375,
+    "gpu_mean_mib": 7918.157454794233,
+    "gpu_peak_mib": 7922.1875,
+    "gpu_samples": 6,
+    "gpu_trace": [
+      [
+        0.0002693179999369022,
+        7900.1875
+      ],
+      [
+        0.1012708369999018,
+        7920.1875
+      ],
+      [
+        0.2014607139999498,
+        7920.1875
+      ],
+      [
+        0.30165512700000363,
+        7920.1875
+      ],
+      [
+        0.4018304270000499,
+        7920.1875
+      ],
+      [
+        0.4661291329998676,
+        7922.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "4158aae4bfc35279d0c73dc217bc60344fe8c2315a6063286b1347ef51b3fa8a",
+    "judge_score": 4,
+    "judge_reason": "Correctly identified the vehicle type.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B05",
+    "category": "counting",
+    "prompt": "How many red circles are visible? Answer with one integer.",
+    "gold": "3",
+    "image": "/content/mmip_week6/images/B05.png",
+    "answer": "3",
+    "objective_score": 1.0,
+    "seconds": 0.5410188509999898,
+    "input_tokens": 424,
+    "output_tokens": 2,
+    "tokens_per_second": 3.6967288594534344,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7922.260635883875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00026779599988913105,
+        7922.1875
+      ],
+      [
+        0.10049113299987766,
+        7922.1875
+      ],
+      [
+        0.20070135099990694,
+        7922.1875
+      ],
+      [
+        0.3009268880000491,
+        7922.1875
+      ],
+      [
+        0.401097209999989,
+        7922.1875
+      ],
+      [
+        0.5012946869999269,
+        7922.1875
+      ],
+      [
+        0.5408291169999302,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "3783d96482145c1bb8a7e17ac4818f7c456726eea64fc3557b2452097affe03d",
+    "judge_score": 4,
+    "judge_reason": "Correctly gives the count as 3.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B06",
+    "category": "counting",
+    "prompt": "How many blue squares are visible? Answer with one integer.",
+    "gold": "5",
+    "image": "/content/mmip_week6/images/B06.png",
+    "answer": "5",
+    "objective_score": 1.0,
+    "seconds": 0.547602617999928,
+    "input_tokens": 424,
+    "output_tokens": 2,
+    "tokens_per_second": 3.6522834885355913,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00023017499984234746,
+        7924.1875
+      ],
+      [
+        0.10124015499991401,
+        7924.1875
+      ],
+      [
+        0.20171382499984247,
+        7924.1875
+      ],
+      [
+        0.3019110870000077,
+        7924.1875
+      ],
+      [
+        0.40209994799988635,
+        7924.1875
+      ],
+      [
+        0.5023054139999203,
+        7924.1875
+      ],
+      [
+        0.5460389459999533,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "c4a1399fe2581bded31c4687eaaa91515466aee875aa4b67671d216b06c38ad8",
+    "judge_score": 4,
+    "judge_reason": "Correctly provides the integer 5.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B07",
+    "category": "counting",
+    "prompt": "How many green triangles are visible? Answer with one integer.",
+    "gold": "4",
+    "image": "/content/mmip_week6/images/B07.png",
+    "answer": "4",
+    "objective_score": 1.0,
+    "seconds": 0.5430849330000456,
+    "input_tokens": 424,
+    "output_tokens": 2,
+    "tokens_per_second": 3.682665230559494,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187500000001,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.0002070210000510997,
+        7924.1875
+      ],
+      [
+        0.1011696140001277,
+        7924.1875
+      ],
+      [
+        0.20137023100005536,
+        7924.1875
+      ],
+      [
+        0.30153168100014227,
+        7924.1875
+      ],
+      [
+        0.4016955480001343,
+        7924.1875
+      ],
+      [
+        0.5018802040001447,
+        7924.1875
+      ],
+      [
+        0.542892128999938,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "c24374022987cd9ede832502a0b956144140db1437047694e69c41d720a8ca0a",
+    "judge_score": 4,
+    "judge_reason": "Correctly gives the count as 4.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B08",
+    "category": "counting",
+    "prompt": "How many shapes are visible in total? Answer with one integer.",
+    "gold": "8",
+    "image": "/content/mmip_week6/images/B08.png",
+    "answer": "8",
+    "objective_score": 1.0,
+    "seconds": 0.5370917289999397,
+    "input_tokens": 425,
+    "output_tokens": 2,
+    "tokens_per_second": 3.723758702678187,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.0002299399998264562,
+        7924.1875
+      ],
+      [
+        0.10122052099995926,
+        7924.1875
+      ],
+      [
+        0.2014199179998286,
+        7924.1875
+      ],
+      [
+        0.3016397029998643,
+        7924.1875
+      ],
+      [
+        0.4018307730000288,
+        7924.1875
+      ],
+      [
+        0.5020467659999213,
+        7924.1875
+      ],
+      [
+        0.5368561239999963,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "e6f2bb11f130d99ada61d0e9ea2700c524d16c82c7ebd40d7604b95aabf72caa",
+    "judge_score": 4,
+    "judge_reason": "Correctly counts the total number of shapes.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B09",
+    "category": "spatial",
+    "prompt": "What shape is to the left of the blue circle? Answer briefly.",
+    "gold": "A red square.",
+    "image": "/content/mmip_week6/images/B09.png",
+    "answer": "square",
+    "objective_score": 0.5,
+    "seconds": 0.5610780849999628,
+    "input_tokens": 426,
+    "output_tokens": 2,
+    "tokens_per_second": 3.564566240365871,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00021508100007849862,
+        7924.1875
+      ],
+      [
+        0.10115498100003606,
+        7924.1875
+      ],
+      [
+        0.20136716199999682,
+        7924.1875
+      ],
+      [
+        0.30155751000006603,
+        7924.1875
+      ],
+      [
+        0.40174409400015065,
+        7924.1875
+      ],
+      [
+        0.5019166940001014,
+        7924.1875
+      ],
+      [
+        0.5608789460000025,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "bf873dc5da0650fd2e06cc8759b7fa21bd243aac7e8a2aff088afd56bc31461f",
+    "judge_score": 3,
+    "judge_reason": "Correctly identifies the shape, though misses the color.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B10",
+    "category": "spatial",
+    "prompt": "What shape is above the red square? Answer briefly.",
+    "gold": "A yellow triangle.",
+    "image": "/content/mmip_week6/images/B10.png",
+    "answer": "Triangle",
+    "objective_score": 0.5,
+    "seconds": 0.5510737580000296,
+    "input_tokens": 423,
+    "output_tokens": 2,
+    "tokens_per_second": 3.629278242641147,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.0002078940001410956,
+        7924.1875
+      ],
+      [
+        0.10117525100008606,
+        7924.1875
+      ],
+      [
+        0.20140464900009647,
+        7924.1875
+      ],
+      [
+        0.30161275000000387,
+        7924.1875
+      ],
+      [
+        0.401826316000097,
+        7924.1875
+      ],
+      [
+        0.5020785399999568,
+        7924.1875
+      ],
+      [
+        0.5508787840001332,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "6c696a99cafc23c98e4190a3fd0cd32b1ba3729e20fa1ddf6890617cd035f9ae",
+    "judge_score": 3,
+    "judge_reason": "Correctly identified the shape, missing color.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B11",
+    "category": "spatial",
+    "prompt": "What shape is below the green circle? Answer briefly.",
+    "gold": "A blue square.",
+    "image": "/content/mmip_week6/images/B11.png",
+    "answer": "square",
+    "objective_score": 0.5,
+    "seconds": 0.5570547979998537,
+    "input_tokens": 423,
+    "output_tokens": 2,
+    "tokens_per_second": 3.590311055898176,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00023326599989559327,
+        7924.1875
+      ],
+      [
+        0.10120948999997381,
+        7924.1875
+      ],
+      [
+        0.2013895049999519,
+        7924.1875
+      ],
+      [
+        0.3015941409998959,
+        7924.1875
+      ],
+      [
+        0.4018056309998883,
+        7924.1875
+      ],
+      [
+        0.5019958729999416,
+        7924.1875
+      ],
+      [
+        0.5567958100000396,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "a4128e97c79cdaa0ee851732fe0ea0e0e069c5efc3f71322ccbed7ec84a7eb11",
+    "judge_score": 4,
+    "judge_reason": "Correctly identifies the shape as a square.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B12",
+    "category": "spatial",
+    "prompt": "What shape is to the right of the blue square? Answer briefly.",
+    "gold": "A green triangle.",
+    "image": "/content/mmip_week6/images/B12.png",
+    "answer": "triangle",
+    "objective_score": 0.5,
+    "seconds": 0.5589545370000906,
+    "input_tokens": 426,
+    "output_tokens": 2,
+    "tokens_per_second": 3.578108535864118,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 7,
+    "gpu_trace": [
+      [
+        0.00022868399992148625,
+        7924.1875
+      ],
+      [
+        0.10118387200009238,
+        7924.1875
+      ],
+      [
+        0.20146219899993412,
+        7924.1875
+      ],
+      [
+        0.3016857610000443,
+        7924.1875
+      ],
+      [
+        0.40192822099993464,
+        7924.1875
+      ],
+      [
+        0.502098222000086,
+        7924.1875
+      ],
+      [
+        0.5587592950000726,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "7ab1f45fe092af34c98d9b2e94aee47183b0592b3d733be3a75244c630bcde57",
+    "judge_score": 3,
+    "judge_reason": "Correct shape, missing color.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B13",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "MMIP 2026",
+    "image": "/content/mmip_week6/images/B13.png",
+    "answer": "MMIP 2026",
+    "objective_score": 1.0,
+    "seconds": 0.7345129670000006,
+    "input_tokens": 309,
+    "output_tokens": 8,
+    "tokens_per_second": 10.891570822329667,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7225.34814453125,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 9,
+    "gpu_trace": [
+      [
+        0.00023061000001689536,
+        7924.1875
+      ],
+      [
+        0.10113797200006047,
+        7924.1875
+      ],
+      [
+        0.20134726600008435,
+        7924.1875
+      ],
+      [
+        0.3015344150001056,
+        7924.1875
+      ],
+      [
+        0.40172390499992616,
+        7924.1875
+      ],
+      [
+        0.5019247010000072,
+        7924.1875
+      ],
+      [
+        0.6021013560000483,
+        7924.1875
+      ],
+      [
+        0.702316023000094,
+        7924.1875
+      ],
+      [
+        0.7342976330000965,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "f9d79b389980aa836297364a2d7ea7d905727e907c03b625b465309964f8ac3a",
+    "judge_score": 4,
+    "judge_reason": "Exact transcription match.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B14",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "ROOM B-204",
+    "image": "/content/mmip_week6/images/B14.png",
+    "answer": "ROOM B-204",
+    "objective_score": 1.0,
+    "seconds": 0.6739088530000572,
+    "input_tokens": 309,
+    "output_tokens": 7,
+    "tokens_per_second": 10.3871613629023,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7225.34814453125,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 8,
+    "gpu_trace": [
+      [
+        0.00021401899994089035,
+        7924.1875
+      ],
+      [
+        0.101056078000056,
+        7924.1875
+      ],
+      [
+        0.2012705059999007,
+        7924.1875
+      ],
+      [
+        0.30145360400001664,
+        7924.1875
+      ],
+      [
+        0.40167881399997896,
+        7924.1875
+      ],
+      [
+        0.5018740719999641,
+        7924.1875
+      ],
+      [
+        0.6020750449999923,
+        7924.1875
+      ],
+      [
+        0.6737072559999433,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "d9cf070cf8f1f79b1833d13000be062d64370dca91c9b9024a2dfbc36a2f06de",
+    "judge_score": 4,
+    "judge_reason": "Exact transcription match.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B15",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "TOTAL 48.50",
+    "image": "/content/mmip_week6/images/B15.png",
+    "answer": "TOTAL 48.50",
+    "objective_score": 1.0,
+    "seconds": 0.7435965889999352,
+    "input_tokens": 309,
+    "output_tokens": 8,
+    "tokens_per_second": 10.758521647818771,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7225.34814453125,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 9,
+    "gpu_trace": [
+      [
+        0.00020497400009844569,
+        7924.1875
+      ],
+      [
+        0.10105483200004528,
+        7924.1875
+      ],
+      [
+        0.2013175310000861,
+        7924.1875
+      ],
+      [
+        0.30150331499999083,
+        7924.1875
+      ],
+      [
+        0.40169677400012915,
+        7924.1875
+      ],
+      [
+        0.5019316780001191,
+        7924.1875
+      ],
+      [
+        0.6022497680000924,
+        7924.1875
+      ],
+      [
+        0.7024977190001209,
+        7924.1875
+      ],
+      [
+        0.7433910240001751,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "1d13a220d62bbc6c8971e8d45c2f59732a24b14be8001da94dc0988978da34cf",
+    "judge_score": 4,
+    "judge_reason": "Fully correct.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B16",
+    "category": "ocr",
+    "prompt": "Transcribe the visible text exactly. Do not add other text.",
+    "gold": "OPEN 09:30",
+    "image": "/content/mmip_week6/images/B16.png",
+    "answer": "OPEN 09:30",
+    "objective_score": 1.0,
+    "seconds": 0.8690553949998048,
+    "input_tokens": 309,
+    "output_tokens": 8,
+    "tokens_per_second": 9.205397085190176,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7225.34814453125,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 10,
+    "gpu_trace": [
+      [
+        0.00021737300016866357,
+        7924.1875
+      ],
+      [
+        0.10111088300004667,
+        7924.1875
+      ],
+      [
+        0.20135621500003253,
+        7924.1875
+      ],
+      [
+        0.30154415400011203,
+        7924.1875
+      ],
+      [
+        0.40314233000003696,
+        7924.1875
+      ],
+      [
+        0.5033515330001137,
+        7924.1875
+      ],
+      [
+        0.6035548150000523,
+        7924.1875
+      ],
+      [
+        0.7037548060000063,
+        7924.1875
+      ],
+      [
+        0.8039463640000122,
+        7924.1875
+      ],
+      [
+        0.868819718000168,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "a99b88fb761de58bd6dbf26ae1ef321469dd3c0baa3fc681432ddad69cdc0b83",
+    "judge_score": 4,
+    "judge_reason": "Accurately transcribes the text without extra words.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B17",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A red circle is to the left of a blue square.",
+    "image": "/content/mmip_week6/images/B17.png",
+    "answer": "A red circle is to the left of a blue square on a white background.",
+    "objective_score": 1.0,
+    "seconds": 1.57079458599992,
+    "input_tokens": 432,
+    "output_tokens": 17,
+    "tokens_per_second": 10.822548124061885,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.1875,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 17,
+    "gpu_trace": [
+      [
+        0.000197498000034102,
+        7924.1875
+      ],
+      [
+        0.10197510700004386,
+        7924.1875
+      ],
+      [
+        0.20217043000002377,
+        7924.1875
+      ],
+      [
+        0.30235950600012984,
+        7924.1875
+      ],
+      [
+        0.4025944659999823,
+        7924.1875
+      ],
+      [
+        0.5028162430000975,
+        7924.1875
+      ],
+      [
+        0.6036743239999396,
+        7924.1875
+      ],
+      [
+        0.7039069850000033,
+        7924.1875
+      ],
+      [
+        0.804129408000108,
+        7924.1875
+      ],
+      [
+        0.9043032690001382,
+        7924.1875
+      ],
+      [
+        1.0044850020001377,
+        7924.1875
+      ],
+      [
+        1.1046727340001326,
+        7924.1875
+      ],
+      [
+        1.2056768150000607,
+        7924.1875
+      ],
+      [
+        1.3058296560000144,
+        7924.1875
+      ],
+      [
+        1.406041714000139,
+        7924.1875
+      ],
+      [
+        1.50620493800011,
+        7924.1875
+      ],
+      [
+        1.570569790000036,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "0a5589773f172723a77ac72d3ae63962dfb89a5786c5e54b69c20d4584a12431",
+    "judge_score": 3,
+    "judge_reason": "Correct meaning with minor additional detail.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B18",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A blue triangle is above a yellow circle.",
+    "image": "/content/mmip_week6/images/B18.png",
+    "answer": "A blue triangle is above a yellow circle on a white background.",
+    "objective_score": 1.0,
+    "seconds": 1.2457561940000232,
+    "input_tokens": 432,
+    "output_tokens": 14,
+    "tokens_per_second": 11.238154036422747,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187499999999,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 14,
+    "gpu_trace": [
+      [
+        0.00018019099979937891,
+        7924.1875
+      ],
+      [
+        0.10138153899993085,
+        7924.1875
+      ],
+      [
+        0.20158724499992786,
+        7924.1875
+      ],
+      [
+        0.30193266699984633,
+        7924.1875
+      ],
+      [
+        0.40215951199979827,
+        7924.1875
+      ],
+      [
+        0.502359763999948,
+        7924.1875
+      ],
+      [
+        0.6028734889998759,
+        7924.1875
+      ],
+      [
+        0.7031827039998007,
+        7924.1875
+      ],
+      [
+        0.8034483709998312,
+        7924.1875
+      ],
+      [
+        0.9036876779998693,
+        7924.1875
+      ],
+      [
+        1.003974922999987,
+        7924.1875
+      ],
+      [
+        1.104227126999831,
+        7924.1875
+      ],
+      [
+        1.204522216999976,
+        7924.1875
+      ],
+      [
+        1.2455474539999614,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "573ee734b71b4dfe2066c2ed9a333eb96c5ffa8843f8999af3a799879bb84231",
+    "judge_score": 4,
+    "judge_reason": "Accurately describes shapes, colors, and spatial relationship.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B19",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "Two red squares and one green circle are arranged in a row, with the circle on the right.",
+    "image": "/content/mmip_week6/images/B19.png",
+    "answer": "Two red squares are adjacent to each other on the left side of a green circle on the right side.",
+    "objective_score": 1.0,
+    "seconds": 1.8025127110001904,
+    "input_tokens": 432,
+    "output_tokens": 22,
+    "tokens_per_second": 12.205184388293436,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187500000001,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 19,
+    "gpu_trace": [
+      [
+        0.00021103299991409585,
+        7924.1875
+      ],
+      [
+        0.10137564000001476,
+        7924.1875
+      ],
+      [
+        0.20163552999997592,
+        7924.1875
+      ],
+      [
+        0.3018174100000124,
+        7924.1875
+      ],
+      [
+        0.4020086049999918,
+        7924.1875
+      ],
+      [
+        0.5021979489999921,
+        7924.1875
+      ],
+      [
+        0.6023967239998456,
+        7924.1875
+      ],
+      [
+        0.7025998849999269,
+        7924.1875
+      ],
+      [
+        0.8027910789999169,
+        7924.1875
+      ],
+      [
+        0.9029928309998922,
+        7924.1875
+      ],
+      [
+        1.003479711999944,
+        7924.1875
+      ],
+      [
+        1.103665028000023,
+        7924.1875
+      ],
+      [
+        1.2039010309999867,
+        7924.1875
+      ],
+      [
+        1.3041192629998477,
+        7924.1875
+      ],
+      [
+        1.404344854999863,
+        7924.1875
+      ],
+      [
+        1.5045732979999684,
+        7924.1875
+      ],
+      [
+        1.6047628329999952,
+        7924.1875
+      ],
+      [
+        1.7049547639999219,
+        7924.1875
+      ],
+      [
+        1.802305841999896,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "efdc7f92c15be7d1be6b9952e2b6c8b68271583a45ec21eb17ba060eb2f2b58c",
+    "judge_score": 4,
+    "judge_reason": "Accurately describes shapes, colors, and spatial arrangement.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "id": "B20",
+    "category": "caption",
+    "prompt": "Describe the visible shapes, colors, and their spatial relationship in one sentence. Do not invent objects.",
+    "gold": "A red triangle is to the right of a blue circle.",
+    "image": "/content/mmip_week6/images/B20.png",
+    "answer": "A blue circle is to the left of a red triangle on a white background.",
+    "objective_score": 0.8,
+    "seconds": 1.5050806550000289,
+    "input_tokens": 432,
+    "output_tokens": 17,
+    "tokens_per_second": 11.295075744628233,
+    "truncated": false,
+    "torch_peak_allocated_mib": 7246.42919921875,
+    "gpu_mean_mib": 7924.187500000001,
+    "gpu_peak_mib": 7924.1875,
+    "gpu_samples": 16,
+    "gpu_trace": [
+      [
+        0.000220304999857035,
+        7924.1875
+      ],
+      [
+        0.10120625900003688,
+        7924.1875
+      ],
+      [
+        0.20280135799998789,
+        7924.1875
+      ],
+      [
+        0.3030000129999735,
+        7924.1875
+      ],
+      [
+        0.4032120140000188,
+        7924.1875
+      ],
+      [
+        0.5034173120000105,
+        7924.1875
+      ],
+      [
+        0.6036664799999016,
+        7924.1875
+      ],
+      [
+        0.7038530289999017,
+        7924.1875
+      ],
+      [
+        0.8040393060000497,
+        7924.1875
+      ],
+      [
+        0.9042636149999908,
+        7924.1875
+      ],
+      [
+        1.00446402700004,
+        7924.1875
+      ],
+      [
+        1.1046657750000577,
+        7924.1875
+      ],
+      [
+        1.2048673589999908,
+        7924.1875
+      ],
+      [
+        1.305075296000041,
+        7924.1875
+      ],
+      [
+        1.4052835400000276,
+        7924.1875
+      ],
+      [
+        1.5048841139998785,
+        7924.1875
+      ]
+    ],
+    "condition": "Qwen2.5-VL-3B-Instruct_fp16",
+    "judge_key": "9510986be893f4fa44d9e9219b40f8bc84d8f3d873d275aad3c0566e128747f3",
+    "judge_score": 4,
+    "judge_reason": "Accurately describes the shapes, colors, and spatial relationship in one sentence.",
+    "judge_model": "google/gemini-3.5-flash-lite"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "G001",
+    "category": "arithmetic",
+    "prompt": "13加4等於多少？只回答數字。",
+    "gold": "17",
+    "metric": "number"
+  },
+  {
+    "id": "G002",
+    "category": "arithmetic",
+    "prompt": "16減5等於多少？只回答數字。",
+    "gold": "11",
+    "metric": "number"
+  },
+  {
+    "id": "G003",
+    "category": "arithmetic",
+    "prompt": "19乘6等於多少？只回答數字。",
+    "gold": "114",
+    "metric": "number"
+  },
+  {
+    "id": "G004",
+    "category": "arithmetic",
+    "prompt": "154除以7等於多少？只回答數字。",
+    "gold": "22",
+    "metric": "number"
+  },
+  {
+    "id": "G005",
+    "category": "arithmetic",
+    "prompt": "25加8等於多少？只回答數字。",
+    "gold": "33",
+    "metric": "number"
+  },
+  {
+    "id": "G006",
+    "category": "arithmetic",
+    "prompt": "28減9等於多少？只回答數字。",
+    "gold": "19",
+    "metric": "number"
+  },
+  {
+    "id": "G007",
+    "category": "arithmetic",
+    "prompt": "31乘10等於多少？只回答數字。",
+    "gold": "310",
+    "metric": "number"
+  },
+  {
+    "id": "G008",
+    "category": "arithmetic",
+    "prompt": "136除以4等於多少？只回答數字。",
+    "gold": "34",
+    "metric": "number"
+  },
+  {
+    "id": "G009",
+    "category": "arithmetic",
+    "prompt": "37加5等於多少？只回答數字。",
+    "gold": "42",
+    "metric": "number"
+  },
+  {
+    "id": "G010",
+    "category": "arithmetic",
+    "prompt": "40減6等於多少？只回答數字。",
+    "gold": "34",
+    "metric": "number"
+  },
+  {
+    "id": "G011",
+    "category": "arithmetic",
+    "prompt": "43乘7等於多少？只回答數字。",
+    "gold": "301",
+    "metric": "number"
+  },
+  {
+    "id": "G012",
+    "category": "arithmetic",
+    "prompt": "368除以8等於多少？只回答數字。",
+    "gold": "46",
+    "metric": "number"
+  },
+  {
+    "id": "G013",
+    "category": "arithmetic",
+    "prompt": "49加9等於多少？只回答數字。",
+    "gold": "58",
+    "metric": "number"
+  },
+  {
+    "id": "G014",
+    "category": "arithmetic",
+    "prompt": "52減10等於多少？只回答數字。",
+    "gold": "42",
+    "metric": "number"
+  },
+  {
+    "id": "G015",
+    "category": "arithmetic",
+    "prompt": "55乘4等於多少？只回答數字。",
+    "gold": "220",
+    "metric": "number"
+  },
+  {
+    "id": "G016",
+    "category": "arithmetic",
+    "prompt": "290除以5等於多少？只回答數字。",
+    "gold": "58",
+    "metric": "number"
+  },
+  {
+    "id": "G017",
+    "category": "arithmetic",
+    "prompt": "61加6等於多少？只回答數字。",
+    "gold": "67",
+    "metric": "number"
+  },
+  {
+    "id": "G018",
+    "category": "arithmetic",
+    "prompt": "64減7等於多少？只回答數字。",
+    "gold": "57",
+    "metric": "number"
+  },
+  {
+    "id": "G019",
+    "category": "arithmetic",
+    "prompt": "67乘8等於多少？只回答數字。",
+    "gold": "536",
+    "metric": "number"
+  },
+  {
+    "id": "G020",
+    "category": "arithmetic",
+    "prompt": "630除以9等於多少？只回答數字。",
+    "gold": "70",
+    "metric": "number"
+  },
+  {
+    "id": "G021",
+    "category": "logic",
+    "prompt": "P0比P1早抵達，P1比P2早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P2",
+    "metric": "exact"
+  },
+  {
+    "id": "G022",
+    "category": "logic",
+    "prompt": "P3比P4高，P4比P5高。誰最高？只回答代碼。",
+    "gold": "P3",
+    "metric": "exact"
+  },
+  {
+    "id": "G023",
+    "category": "logic",
+    "prompt": "P6比P7早抵達，P7比P8早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P8",
+    "metric": "exact"
+  },
+  {
+    "id": "G024",
+    "category": "logic",
+    "prompt": "P9比P10高，P10比P11高。誰最高？只回答代碼。",
+    "gold": "P9",
+    "metric": "exact"
+  },
+  {
+    "id": "G025",
+    "category": "logic",
+    "prompt": "P12比P13早抵達，P13比P14早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P14",
+    "metric": "exact"
+  },
+  {
+    "id": "G026",
+    "category": "logic",
+    "prompt": "P15比P16高，P16比P17高。誰最高？只回答代碼。",
+    "gold": "P15",
+    "metric": "exact"
+  },
+  {
+    "id": "G027",
+    "category": "logic",
+    "prompt": "P18比P19早抵達，P19比P20早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P20",
+    "metric": "exact"
+  },
+  {
+    "id": "G028",
+    "category": "logic",
+    "prompt": "P21比P22高，P22比P23高。誰最高？只回答代碼。",
+    "gold": "P21",
+    "metric": "exact"
+  },
+  {
+    "id": "G029",
+    "category": "logic",
+    "prompt": "P24比P25早抵達，P25比P26早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P26",
+    "metric": "exact"
+  },
+  {
+    "id": "G030",
+    "category": "logic",
+    "prompt": "P27比P28高，P28比P29高。誰最高？只回答代碼。",
+    "gold": "P27",
+    "metric": "exact"
+  },
+  {
+    "id": "G031",
+    "category": "logic",
+    "prompt": "P30比P31早抵達，P31比P32早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P32",
+    "metric": "exact"
+  },
+  {
+    "id": "G032",
+    "category": "logic",
+    "prompt": "P33比P34高，P34比P35高。誰最高？只回答代碼。",
+    "gold": "P33",
+    "metric": "exact"
+  },
+  {
+    "id": "G033",
+    "category": "logic",
+    "prompt": "P36比P37早抵達，P37比P38早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P38",
+    "metric": "exact"
+  },
+  {
+    "id": "G034",
+    "category": "logic",
+    "prompt": "P39比P40高，P40比P41高。誰最高？只回答代碼。",
+    "gold": "P39",
+    "metric": "exact"
+  },
+  {
+    "id": "G035",
+    "category": "logic",
+    "prompt": "P42比P43早抵達，P43比P44早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P44",
+    "metric": "exact"
+  },
+  {
+    "id": "G036",
+    "category": "logic",
+    "prompt": "P45比P46高，P46比P47高。誰最高？只回答代碼。",
+    "gold": "P45",
+    "metric": "exact"
+  },
+  {
+    "id": "G037",
+    "category": "logic",
+    "prompt": "P48比P49早抵達，P49比P50早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P50",
+    "metric": "exact"
+  },
+  {
+    "id": "G038",
+    "category": "logic",
+    "prompt": "P51比P52高，P52比P53高。誰最高？只回答代碼。",
+    "gold": "P51",
+    "metric": "exact"
+  },
+  {
+    "id": "G039",
+    "category": "logic",
+    "prompt": "P54比P55早抵達，P55比P56早抵達。誰最後抵達？只回答代碼。",
+    "gold": "P56",
+    "metric": "exact"
+  },
+  {
+    "id": "G040",
+    "category": "logic",
+    "prompt": "P57比P58高，P58比P59高。誰最高？只回答代碼。",
+    "gold": "P57",
+    "metric": "exact"
+  },
+  {
+    "id": "G041",
+    "category": "english",
+    "prompt": "What is the opposite of hot? Return only one English word.",
+    "gold": "cold",
+    "metric": "exact"
+  },
+  {
+    "id": "G042",
+    "category": "english",
+    "prompt": "What is the opposite of big? Return only one English word.",
+    "gold": "small",
+    "metric": "exact"
+  },
+  {
+    "id": "G043",
+    "category": "english",
+    "prompt": "What is the opposite of up? Return only one English word.",
+    "gold": "down",
+    "metric": "exact"
+  },
+  {
+    "id": "G044",
+    "category": "english",
+    "prompt": "What is the opposite of left? Return only one English word.",
+    "gold": "right",
+    "metric": "exact"
+  },
+  {
+    "id": "G045",
+    "category": "english",
+    "prompt": "What is the opposite of day? Return only one English word.",
+    "gold": "night",
+    "metric": "exact"
+  },
+  {
+    "id": "G046",
+    "category": "english",
+    "prompt": "What is the opposite of open? Return only one English word.",
+    "gold": "close",
+    "metric": "exact"
+  },
+  {
+    "id": "G047",
+    "category": "english",
+    "prompt": "What is the opposite of true? Return only one English word.",
+    "gold": "false",
+    "metric": "exact"
+  },
+  {
+    "id": "G048",
+    "category": "english",
+    "prompt": "What is the opposite of fast? Return only one English word.",
+    "gold": "slow",
+    "metric": "exact"
+  },
+  {
+    "id": "G049",
+    "category": "english",
+    "prompt": "What is the opposite of old? Return only one English word.",
+    "gold": "new",
+    "metric": "exact"
+  },
+  {
+    "id": "G050",
+    "category": "english",
+    "prompt": "What is the opposite of happy? Return only one English word.",
+    "gold": "sad",
+    "metric": "exact"
+  },
+  {
+    "id": "G051",
+    "category": "english",
+    "prompt": "What is the plural of cat? Return only one English word.",
+    "gold": "cats",
+    "metric": "exact"
+  },
+  {
+    "id": "G052",
+    "category": "english",
+    "prompt": "What is the plural of book? Return only one English word.",
+    "gold": "books",
+    "metric": "exact"
+  },
+  {
+    "id": "G053",
+    "category": "english",
+    "prompt": "What is the plural of dog? Return only one English word.",
+    "gold": "dogs",
+    "metric": "exact"
+  },
+  {
+    "id": "G054",
+    "category": "english",
+    "prompt": "What is the plural of car? Return only one English word.",
+    "gold": "cars",
+    "metric": "exact"
+  },
+  {
+    "id": "G055",
+    "category": "english",
+    "prompt": "What is the plural of tree? Return only one English word.",
+    "gold": "trees",
+    "metric": "exact"
+  },
+  {
+    "id": "G056",
+    "category": "english",
+    "prompt": "What is the plural of bird? Return only one English word.",
+    "gold": "birds",
+    "metric": "exact"
+  },
+  {
+    "id": "G057",
+    "category": "english",
+    "prompt": "What is the plural of desk? Return only one English word.",
+    "gold": "desks",
+    "metric": "exact"
+  },
+  {
+    "id": "G058",
+    "category": "english",
+    "prompt": "What is the plural of apple? Return only one English word.",
+    "gold": "apples",
+    "metric": "exact"
+  },
+  {
+    "id": "G059",
+    "category": "english",
+    "prompt": "What is the plural of cup? Return only one English word.",
+    "gold": "cups",
+    "metric": "exact"
+  },
+  {
+    "id": "G060",
+    "category": "english",
+    "prompt": "What is the plural of pen? Return only one English word.",
+    "gold": "pens",
+    "metric": "exact"
+  },
+  {
+    "id": "G061",
+    "category": "science",
+    "prompt": "水的化學式是什麼？只回答化學式或符號。",
+    "gold": "H2O",
+    "metric": "exact"
+  },
+  {
+    "id": "G062",
+    "category": "science",
+    "prompt": "二氧化碳的化學式是什麼？只回答化學式或符號。",
+    "gold": "CO2",
+    "metric": "exact"
+  },
+  {
+    "id": "G063",
+    "category": "science",
+    "prompt": "氧元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "O",
+    "metric": "exact"
+  },
+  {
+    "id": "G064",
+    "category": "science",
+    "prompt": "金元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "Au",
+    "metric": "exact"
+  },
+  {
+    "id": "G065",
+    "category": "science",
+    "prompt": "鐵元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "Fe",
+    "metric": "exact"
+  },
+  {
+    "id": "G066",
+    "category": "science",
+    "prompt": "氦元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "He",
+    "metric": "exact"
+  },
+  {
+    "id": "G067",
+    "category": "science",
+    "prompt": "鈉元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "Na",
+    "metric": "exact"
+  },
+  {
+    "id": "G068",
+    "category": "science",
+    "prompt": "碳元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "C",
+    "metric": "exact"
+  },
+  {
+    "id": "G069",
+    "category": "science",
+    "prompt": "氫元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "H",
+    "metric": "exact"
+  },
+  {
+    "id": "G070",
+    "category": "science",
+    "prompt": "氮元素的化學符號是什麼？只回答化學式或符號。",
+    "gold": "N",
+    "metric": "exact"
+  },
+  {
+    "id": "G071",
+    "category": "science",
+    "prompt": "一小時有幾分鐘？只回答數字。",
+    "gold": "60",
+    "metric": "number"
+  },
+  {
+    "id": "G072",
+    "category": "science",
+    "prompt": "一分鐘有幾秒？只回答數字。",
+    "gold": "60",
+    "metric": "number"
+  },
+  {
+    "id": "G073",
+    "category": "science",
+    "prompt": "一公尺有幾公分？只回答數字。",
+    "gold": "100",
+    "metric": "number"
+  },
+  {
+    "id": "G074",
+    "category": "science",
+    "prompt": "一公斤有幾公克？只回答數字。",
+    "gold": "1000",
+    "metric": "number"
+  },
+  {
+    "id": "G075",
+    "category": "science",
+    "prompt": "一公里有幾公尺？只回答數字。",
+    "gold": "1000",
+    "metric": "number"
+  },
+  {
+    "id": "G076",
+    "category": "science",
+    "prompt": "一週有幾天？只回答數字。",
+    "gold": "7",
+    "metric": "number"
+  },
+  {
+    "id": "G077",
+    "category": "science",
+    "prompt": "三角形有幾條邊？只回答數字。",
+    "gold": "3",
+    "metric": "number"
+  },
+  {
+    "id": "G078",
+    "category": "science",
+    "prompt": "正方形有幾條邊？只回答數字。",
+    "gold": "4",
+    "metric": "number"
+  },
+  {
+    "id": "G079",
+    "category": "science",
+    "prompt": "六邊形有幾條邊？只回答數字。",
+    "gold": "6",
+    "metric": "number"
+  },
+  {
+    "id": "G080",
+    "category": "science",
+    "prompt": "十進位的十乘十等於多少？只回答數字。",
+    "gold": "100",
+    "metric": "number"
+  },
+  {
+    "id": "G081",
+    "category": "comparison",
+    "prompt": "數列77,65,25,31,81中最大值是多少？只回答數字。",
+    "gold": "81",
+    "metric": "number"
+  },
+  {
+    "id": "G082",
+    "category": "comparison",
+    "prompt": "數列30,53,58,10,56中最小值是多少？只回答數字。",
+    "gold": "10",
+    "metric": "number"
+  },
+  {
+    "id": "G083",
+    "category": "comparison",
+    "prompt": "數列67,74,82,52,33中最大值是多少？只回答數字。",
+    "gold": "82",
+    "metric": "number"
+  },
+  {
+    "id": "G084",
+    "category": "comparison",
+    "prompt": "數列85,48,20,66,50中最小值是多少？只回答數字。",
+    "gold": "20",
+    "metric": "number"
+  },
+  {
+    "id": "G085",
+    "category": "comparison",
+    "prompt": "數列63,68,59,38,23中最大值是多少？只回答數字。",
+    "gold": "68",
+    "metric": "number"
+  },
+  {
+    "id": "G086",
+    "category": "comparison",
+    "prompt": "數列60,83,12,57,76中最小值是多少？只回答數字。",
+    "gold": "12",
+    "metric": "number"
+  },
+  {
+    "id": "G087",
+    "category": "comparison",
+    "prompt": "數列19,77,35,32,24中最大值是多少？只回答數字。",
+    "gold": "77",
+    "metric": "number"
+  },
+  {
+    "id": "G088",
+    "category": "comparison",
+    "prompt": "數列82,85,24,71,79中最小值是多少？只回答數字。",
+    "gold": "24",
+    "metric": "number"
+  },
+  {
+    "id": "G089",
+    "category": "comparison",
+    "prompt": "數列65,84,29,14,72中最大值是多少？只回答數字。",
+    "gold": "84",
+    "metric": "number"
+  },
+  {
+    "id": "G090",
+    "category": "comparison",
+    "prompt": "數列58,62,71,50,20中最小值是多少？只回答數字。",
+    "gold": "20",
+    "metric": "number"
+  },
+  {
+    "id": "G091",
+    "category": "comparison",
+    "prompt": "數列82,34,16,18,39中最大值是多少？只回答數字。",
+    "gold": "82",
+    "metric": "number"
+  },
+  {
+    "id": "G092",
+    "category": "comparison",
+    "prompt": "數列59,21,33,73,43中最小值是多少？只回答數字。",
+    "gold": "21",
+    "metric": "number"
+  },
+  {
+    "id": "G093",
+    "category": "comparison",
+    "prompt": "數列44,32,51,62,65中最大值是多少？只回答數字。",
+    "gold": "65",
+    "metric": "number"
+  },
+  {
+    "id": "G094",
+    "category": "comparison",
+    "prompt": "數列69,83,43,35,56中最小值是多少？只回答數字。",
+    "gold": "35",
+    "metric": "number"
+  },
+  {
+    "id": "G095",
+    "category": "comparison",
+    "prompt": "數列59,70,38,46,57中最大值是多少？只回答數字。",
+    "gold": "70",
+    "metric": "number"
+  },
+  {
+    "id": "G096",
+    "category": "comparison",
+    "prompt": "數列17,19,57,56,41中最小值是多少？只回答數字。",
+    "gold": "17",
+    "metric": "number"
+  },
+  {
+    "id": "G097",
+    "category": "comparison",
+    "prompt": "數列85,38,33,18,24中最大值是多少？只回答數字。",
+    "gold": "85",
+    "metric": "number"
+  },
+  {
+    "id": "G098",
+    "category": "comparison",
+    "prompt": "數列33,31,64,56,51中最小值是多少？只回答數字。",
+    "gold": "31",
+    "metric": "number"
+  },
+  {
+    "id": "G099",
+    "category": "comparison",
+    "prompt": "數列25,71,89,29,12中最大值是多少？只回答數字。",
+    "gold": "89",
+    "metric": "number"
+  },
+  {
+    "id": "G100",
+    "category": "comparison",
+    "prompt": "數列63,40,39,67,87中最小值是多少？只回答數字。",
+    "gold": "39",
+    "metric": "number"
+  }
+]

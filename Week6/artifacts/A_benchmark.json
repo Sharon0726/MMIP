@@ -1,0 +1,154 @@
+[
+  {
+    "id": "A01",
+    "category": "算術",
+    "prompt": "一本筆記本45元，買7本，付500元，應找回多少元？只回答數字。",
+    "gold": "185",
+    "metric": "number"
+  },
+  {
+    "id": "A02",
+    "category": "算術",
+    "prompt": "商品原價1200元，先打八折，再加收折扣後價格的5%服務費。最後金額多少元？只回答數字。",
+    "gold": "1008",
+    "metric": "number"
+  },
+  {
+    "id": "A03",
+    "category": "算術",
+    "prompt": "四次測驗平均75分，前三次為68、72、80分。第四次幾分？只回答數字。",
+    "gold": "80",
+    "metric": "number"
+  },
+  {
+    "id": "A04",
+    "category": "算術",
+    "prompt": "水槽原有120公升，每分鐘流入8公升並流出3公升，10分鐘後有幾公升？只回答數字。",
+    "gold": "170",
+    "metric": "number"
+  },
+  {
+    "id": "A05",
+    "category": "邏輯",
+    "prompt": "若所有甲都是乙，且沒有乙是丙，是否可能有甲是丙？只回答「可能」或「不可能」。",
+    "gold": "不可能",
+    "metric": "exact"
+  },
+  {
+    "id": "A06",
+    "category": "邏輯",
+    "prompt": "小安比小柏高，小柏比小辰高。三人中誰最矮？只回答名字。",
+    "gold": "小辰",
+    "metric": "exact"
+  },
+  {
+    "id": "A07",
+    "category": "邏輯",
+    "prompt": "盒子X上寫「獎品在Y」，盒子Y上寫「獎品不在Y」。兩句中恰好一句為真。僅憑這些資訊能否確定獎品在哪個盒子？回答「能」或「不能」。",
+    "gold": "不能",
+    "metric": "exact"
+  },
+  {
+    "id": "A08",
+    "category": "邏輯",
+    "prompt": "規則：如果下雨，地面就濕。現在地面濕了，是否一定下過雨？回答「是」或「否」。",
+    "gold": "否",
+    "metric": "exact"
+  },
+  {
+    "id": "A09",
+    "category": "閱讀",
+    "prompt": "通知：展覽週二至週日開放，週一休館。週五延長至20:00，其餘開館日18:00閉館。週五幾點閉館？只回答HH:MM。",
+    "gold": "20:00",
+    "metric": "exact"
+  },
+  {
+    "id": "A10",
+    "category": "閱讀",
+    "prompt": "紀錄：A組完成12件，B組完成15件，C組完成9件。完成最多的是哪一組？只回答A、B或C。",
+    "gold": "B",
+    "metric": "exact"
+  },
+  {
+    "id": "A11",
+    "category": "閱讀",
+    "prompt": "公告：報名截止11月12日，繳費截止11月15日，活動在11月20日舉行。繳費截止為幾月幾日？使用MM-DD格式。",
+    "gold": "11-15",
+    "metric": "exact"
+  },
+  {
+    "id": "A12",
+    "category": "閱讀",
+    "prompt": "文章：研究使用80張影像，其中訓練50張、驗證10張、測試20張。測試資料有幾張？只回答數字。",
+    "gold": "20",
+    "metric": "number"
+  },
+  {
+    "id": "A13",
+    "category": "翻譯",
+    "prompt": "把「請在星期五之前提交報告。」翻譯成英文。",
+    "gold": "Please submit the report before Friday.",
+    "metric": "translation"
+  },
+  {
+    "id": "A14",
+    "category": "翻譯",
+    "prompt": "把「The meeting was postponed because of heavy rain.」翻譯成繁體中文。",
+    "gold": "會議因為大雨而延期。",
+    "metric": "translation"
+  },
+  {
+    "id": "A15",
+    "category": "翻譯",
+    "prompt": "把「這個模型可以辨識圖片中的物件。」翻譯成英文。",
+    "gold": "This model can recognize objects in images.",
+    "metric": "translation"
+  },
+  {
+    "id": "A16",
+    "category": "翻譯",
+    "prompt": "把「Please turn off the lights when you leave the room.」翻譯成繁體中文。",
+    "gold": "離開房間時請關燈。",
+    "metric": "translation"
+  },
+  {
+    "id": "A17",
+    "category": "格式",
+    "prompt": "只輸出合法JSON物件，鍵名為name與age，值分別是Mina與21。不要加Markdown。",
+    "gold": {
+      "name": "Mina",
+      "age": 21
+    },
+    "metric": "json"
+  },
+  {
+    "id": "A18",
+    "category": "格式",
+    "prompt": "將數列9,2,7,2由小到大排序，保留重複值。只輸出JSON陣列。",
+    "gold": [
+      2,
+      2,
+      7,
+      9
+    ],
+    "metric": "json"
+  },
+  {
+    "id": "A19",
+    "category": "格式",
+    "prompt": "從red, blue, red, green去除重複值並保留首次出現順序，只輸出JSON字串陣列。",
+    "gold": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "metric": "json"
+  },
+  {
+    "id": "A20",
+    "category": "格式",
+    "prompt": "將apple與banana轉為大寫，以一個逗號連接，不要空格或其他文字。",
+    "gold": "APPLE,BANANA",
+    "metric": "exact"
+  }
+]

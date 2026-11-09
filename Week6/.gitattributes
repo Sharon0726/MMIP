@@ -1,0 +1,4 @@
+# Preserve exact evidence bytes and SHA-256 across Windows/Linux.
+* -text
+*.safetensors binary
+*.png binary

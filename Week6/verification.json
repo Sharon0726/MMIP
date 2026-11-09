@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "audit_date": "2026-11-09",
+  "checks_passed": 2528,
+  "formal_inferences": 540,
+  "resource_validation_inferences": 100,
+  "adapter_audit": {
+    "text": {
+      "tensors": 112,
+      "nonzero_lora_B": 401408,
+      "trainable_parameters": 1089536
+    },
+    "vision": {
+      "tensors": 204,
+      "nonzero_lora_B": 786432,
+      "trainable_parameters": 2568192
+    }
+  },
+  "scope": "Offline re-scoring, evidence consistency, syntax and weight checks; no new GPU training or commercial grading.",
+  "limitations": [
+    "FP16 unquantized baseline converts native BF16 checkpoint for T4.",
+    "Commercial VLM grading uses reference scene annotations, not direct image input.",
+    "Synthetic preferences, one seed, small benchmarks; no guaranteed score or improvement."
+  ]
+}
