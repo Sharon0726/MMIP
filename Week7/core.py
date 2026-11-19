@@ -67,6 +67,8 @@ ROUTE_HINTS = (
     ("sales", re.compile(r"推薦|比較|適合.*坪|耗材費用")),
     ("human", re.compile(r"人工客服|真人|客服主管|客服專員")),
 )
+OFF_TOPIC_RE = re.compile(r"樂透|彩券|天氣|氣溫|下雨|股票|股價|電影|寫程式|程式題|Python|數學題", re.IGNORECASE)
+SERVICE_RE = re.compile(r"AirNest|清淨機|空氣清淨機|濾網|風扇|保固|維修|訂單|物流|退款|退貨|E\d{2}|F\d{2}", re.IGNORECASE)
 
 
 def detect_attack(text: str) -> bool:
@@ -78,6 +80,11 @@ def route_hint(text: str) -> str | None:
         if pattern.search(text or ""):
             return route
     return None
+
+
+def explicit_out_of_scope(text: str) -> bool:
+    """Catch clear unrelated requests before prior customer-service context can steer a model."""
+    return bool(OFF_TOPIC_RE.search(text or "") and not SERVICE_RE.search(text or ""))
 
 
 def neutralize_instructions(text: str) -> str:
@@ -160,10 +167,17 @@ class ConversationController:
             state.active_turns.clear()
             state.pending_ticket = None
         candidate_turns = (state.active_turns + [clean_text or "使用者上傳圖片"])[-4:]
-        raw = self.route_fn(candidate_turns, clean_image)
-        route, error = parse_route(raw)
-        if error:
-            route = safe_fallback(clean_text, clean_image, attack)
+        if explicit_out_of_scope(clean_text):
+            route = {
+                "route": "out_of_scope", "intent": "非產品問題", "confidence": 1.0,
+                "needs_clarification": False, "summary": clean_text[:60],
+                "image_evidence": clean_image[:60], "safety_flag": attack,
+            }
+        else:
+            raw = self.route_fn(candidate_turns, clean_image)
+            route, error = parse_route(raw)
+            if error:
+                route = safe_fallback(clean_text, clean_image, attack)
         route["safety_flag"] = bool(route["safety_flag"] or attack)
         if attack:
             # For an attacked input, use only explicit domain facts as a conservative override.

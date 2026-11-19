@@ -59,15 +59,21 @@ class ContractTests(unittest.TestCase):
 
     def test_off_topic_does_not_poison_existing_ticket(self):
         def router(turns, note):
-            text = turns[-1]
-            return result("out_of_scope" if "樂透" in text else "technical_support", text)
+            return result("technical_support", turns[-1])  # Model incorrectly carries old context.
         c = ConversationController(router)
         state = ConversationState()
         c.process(state, "風扇不轉")
         ticket = state.pending_ticket
-        c.process(state, "幫我算樂透")
+        reply, parsed = c.process(state, "幫我算樂透")
+        self.assertEqual(parsed["route"], "out_of_scope")
+        self.assertIn("無關", reply)
         self.assertEqual(state.pending_ticket, ticket)
         self.assertEqual(state.active_turns, ["風扇不轉"])
+
+    def test_weather_question_about_product_is_in_scope(self):
+        c = ConversationController(lambda turns, note: result("technical_support", turns[-1]))
+        _, parsed = c.process(ConversationState(), "天氣潮濕時清淨機濾網燈亮了")
+        self.assertEqual(parsed["route"], "technical_support")
 
     def test_text_and_image_injection_are_data(self):
         seen = []
