@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_examples": 160,
+  "epochs": 3,
+  "steps": 60,
+  "train_loss": 0.05878268684803819,
+  "seconds": 69.63571425667033,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "note": "SFT only; no RLHF/DPO claim"
+}

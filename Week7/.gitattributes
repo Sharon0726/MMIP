@@ -1,0 +1,6 @@
+* -text
+*.safetensors binary
+*.png binary
+artifacts/router_lora/tokenizer.json -diff
+artifacts/router_lora/merges.txt -diff
+artifacts/router_lora/vocab.json -diff

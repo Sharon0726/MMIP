@@ -1,0 +1,12 @@
+{
+  "gradio_version": "5.50.0",
+  "mode": "stub_models_no_gpu",
+  "checks": [
+    "components_created",
+    "text_and_image_send_callback",
+    "ticket_confirmation_callback",
+    "new_topic_callback"
+  ],
+  "passed": true,
+  "limitation": "Does not test real GPU models or browser interactions."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "B15",
+    "method": "A",
+    "raw_route": "order",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B15",
+    "method": "B",
+    "raw_route": "order",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B15",
+    "method": "C",
+    "raw_route": "order",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B15",
+    "method": "D",
+    "raw_route": "clarify",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B16",
+    "method": "A",
+    "raw_route": "order",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B16",
+    "method": "B",
+    "raw_route": "invalid_schema",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B16",
+    "method": "C",
+    "raw_route": "order",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  },
+  {
+    "id": "B16",
+    "method": "D",
+    "raw_route": "clarify",
+    "guarded_route": "technical_support",
+    "safety_flag": true,
+    "expected_route": "technical_support",
+    "guarded_correct": true
+  }
+]

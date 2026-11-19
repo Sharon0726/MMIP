@@ -1,0 +1,13 @@
+transformers>=4.52,<5
+accelerate>=1.7,<2
+peft>=0.15,<1
+datasets>=3.6,<5
+pyarrow>=21,<26
+lm-format-enforcer>=0.10,<1
+scikit-learn>=1.5,<2
+Pillow>=10,<12
+gradio>=5.30,<6
+jsonschema>=4.23,<5
+torch>=2.5
+bitsandbytes>=0.45,<1
+qwen-vl-utils>=0.0.10,<1

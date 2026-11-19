@@ -1,0 +1,41 @@
+{
+  "vision": "model",
+  "gpu_hourly_usd_assumption": 1.0,
+  "hardware": "NVIDIA GeForce RTX 3090",
+  "note": "成本為 GPU 推論時間乘指定費率的估算；D 的 CPU 推論不計 GPU 費用。非 Colab 實際帳單；模型下載與訓練另計。",
+  "summary": {
+    "A": {
+      "n": 20,
+      "format_valid_rate": 0.5,
+      "route_accuracy": 0.05,
+      "median_seconds": 1.604,
+      "p95_seconds": 3.988,
+      "total_gpu_cost_usd": 0.01162
+    },
+    "B": {
+      "n": 20,
+      "format_valid_rate": 0.85,
+      "route_accuracy": 0.65,
+      "median_seconds": 2.297,
+      "p95_seconds": 6.179,
+      "total_gpu_cost_usd": 0.01745
+    },
+    "C": {
+      "n": 20,
+      "format_valid_rate": 1,
+      "route_accuracy": 0.15,
+      "median_seconds": 7.845,
+      "p95_seconds": 10.309,
+      "total_gpu_cost_usd": 0.04569
+    },
+    "D": {
+      "n": 20,
+      "format_valid_rate": 1,
+      "route_accuracy": 0.45,
+      "median_seconds": 0.001,
+      "p95_seconds": 2.203,
+      "total_gpu_cost_usd": 0.00278
+    }
+  },
+  "d_rerun": "D re-evaluated on the identical cached VLM observations after enforcing schema field lengths"
+}

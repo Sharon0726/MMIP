@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-label="AirNest 多模態多輪客服分流架構圖">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4a6478"/></marker>
+    <style>
+      .title { font: 700 34px "Microsoft JhengHei",Arial,sans-serif; fill: #12385a; }
+      .label { font: 600 23px "Microsoft JhengHei",Arial,sans-serif; fill: #173a51; text-anchor: middle; }
+      .small { font: 18px "Microsoft JhengHei",Arial,sans-serif; fill: #315569; text-anchor: middle; }
+      .note { font: 17px "Microsoft JhengHei",Arial,sans-serif; fill: #597181; }
+      .box { fill: #fff; stroke: #2d6887; stroke-width: 2.5; rx: 18; }
+      .blue { fill: #e9f5fb; }
+      .green { fill: #eaf7ee; stroke: #418662; }
+      .orange { fill: #fff3df; stroke: #b57829; }
+      .line { fill: none; stroke: #4a6478; stroke-width: 2.7; marker-end: url(#arrow); }
+      .dash { fill: none; stroke: #9a7d52; stroke-width: 2.4; stroke-dasharray: 8 7; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1600" height="760" fill="#f7fafc"/>
+  <text x="55" y="65" class="title">AirNest 多模態多輪客服分流架構</text>
+  <text x="55" y="99" class="note">四種方法共用圖片觀察與輸出規格；工單須經使用者確認</text>
+
+  <rect x="45" y="270" width="185" height="130" class="box blue"/>
+  <text x="138" y="317" class="label">使用者</text><text x="138" y="354" class="small">文字／產品照片</text>
+
+  <rect x="280" y="270" width="190" height="130" class="box orange"/>
+  <text x="375" y="314" class="label">安全邊界</text><text x="375" y="352" class="small">攻擊訊號與資料清理</text>
+
+  <rect x="520" y="172" width="210" height="105" class="box blue"/>
+  <text x="625" y="214" class="label">Context Keeper</text><text x="625" y="248" class="small">主題 ID／最近四輪</text>
+  <rect x="520" y="385" width="210" height="110" class="box blue"/>
+  <text x="625" y="426" class="label">Qwen2.5-VL</text><text x="625" y="461" class="small">只描述圖片可見事實</text>
+
+  <rect x="790" y="260" width="165" height="145" class="box blue"/>
+  <text x="872" y="306" class="label">分流節點</text><text x="872" y="343" class="small">A / B / C / D</text><text x="872" y="373" class="small">同一份輸入</text>
+
+  <rect x="1010" y="140" width="215" height="270" class="box"/>
+  <text x="1117" y="186" class="label">四種方法</text>
+  <text x="1117" y="232" class="small">A：Prompt</text>
+  <text x="1117" y="277" class="small">B：SFT LoRA</text>
+  <text x="1117" y="322" class="small">C：約束解碼</text>
+  <text x="1117" y="367" class="small">D：快速分類器</text>
+
+  <rect x="1275" y="245" width="220" height="140" class="box green"/>
+  <text x="1385" y="295" class="label">Schema 驗證</text><text x="1385" y="335" class="small">錯誤則追問／不派單</text>
+
+  <rect x="1105" y="515" width="275" height="105" class="box green"/>
+  <text x="1242" y="557" class="label">待確認工單</text><text x="1242" y="590" class="small">使用者核對摘要</text>
+  <rect x="1415" y="515" width="150" height="105" class="box green"/>
+  <text x="1490" y="557" class="label">部門佇列</text><text x="1490" y="590" class="small">人工處理</text>
+
+  <rect x="525" y="570" width="280" height="105" class="box orange"/>
+  <text x="665" y="610" class="label">新話題／題外問題</text><text x="665" y="645" class="small">切換脈絡或保留舊工單</text>
+
+  <path d="M230 335 H280" class="line"/>
+  <path d="M470 315 H490 V225 H520" class="line"/>
+  <path d="M470 355 H490 V440 H520" class="line"/>
+  <path d="M730 225 H760 V310 H790" class="line"/>
+  <path d="M730 440 H760 V355 H790" class="line"/>
+  <path d="M955 330 H1010" class="line"/>
+  <path d="M1225 330 H1275" class="line"/>
+  <path d="M1385 385 V470 H1242 V515" class="line"/>
+  <path d="M1380 568 H1415" class="line"/>
+  <path d="M625 277 V570" class="dash"/>
+  <path d="M805 623 H900 V445 H1010" class="dash"/>
+  <text x="62" y="720" class="note">邊界情境：多輪補資訊、換題、題外問題、文字／圖片提示注入、格式錯誤安全回退</text>
+</svg>
