@@ -4,3 +4,6 @@
 artifacts/router_lora/tokenizer.json -diff
 artifacts/router_lora/merges.txt -diff
 artifacts/router_lora/vocab.json -diff
+artifacts/colab_t4_20261119/router_lora/tokenizer.json -diff
+artifacts/colab_t4_20261119/router_lora/merges.txt -diff
+artifacts/colab_t4_20261119/router_lora/vocab.json -diff

@@ -1,0 +1,40 @@
+{
+  "vision": "model",
+  "gpu_hourly_usd_assumption": 1.0,
+  "hardware": "Tesla T4",
+  "note": "成本為 GPU 推論時間乘指定費率的估算；D 的 CPU 推論不計 GPU 費用。非 Colab 實際帳單；模型下載與訓練另計。",
+  "summary": {
+    "A": {
+      "n": 20,
+      "format_valid_rate": 0.4,
+      "route_accuracy": 0,
+      "median_seconds": 2.169,
+      "p95_seconds": 5.5,
+      "total_gpu_cost_usd": 0.01808
+    },
+    "B": {
+      "n": 20,
+      "format_valid_rate": 0.75,
+      "route_accuracy": 0.55,
+      "median_seconds": 3.317,
+      "p95_seconds": 9.531,
+      "total_gpu_cost_usd": 0.02702
+    },
+    "C": {
+      "n": 20,
+      "format_valid_rate": 0.95,
+      "route_accuracy": 0.15,
+      "median_seconds": 10.36,
+      "p95_seconds": 13.457,
+      "total_gpu_cost_usd": 0.0626
+    },
+    "D": {
+      "n": 20,
+      "format_valid_rate": 1,
+      "route_accuracy": 0.45,
+      "median_seconds": 0.002,
+      "p95_seconds": 3.4,
+      "total_gpu_cost_usd": 0.00576
+    }
+  }
+}

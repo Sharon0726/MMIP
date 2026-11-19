@@ -1,15 +1,15 @@
 # MMIP Week7 執行說明
 
-本資料夾依老師的三張 Week7 作業投影片完成多模態多輪客服、四種分流節點比較，以及聊天介面整合。先看 [老師要求逐項對照](RUBRIC.md)、[完整報告](REPORT.md)、[架構圖](architecture.svg)與[實測表](artifacts/benchmark_model/results.md)。A/B/C/D 各有 20 題實測資料；B 的訓練權重也已保存。上傳檔案的完整性可用 [SHA-256 清單](SHA256SUMS.json)核對。
+本資料夾依老師的三張 Week7 作業投影片完成多模態多輪客服、四種分流節點比較，以及聊天介面整合。先看 [老師要求逐項對照](RUBRIC.md)、[完整報告](REPORT.md)、[架構圖](architecture.svg)、[RTX 3090 實測表](artifacts/benchmark_model/results.md)與 [Colab T4 實測表](artifacts/colab_t4_20261119/benchmark_model/results.md)。兩次實驗各有 A/B/C/D 的 20 題真實模型結果及 B 的訓練權重。[真實模型瀏覽器端到端驗證](artifacts/colab_t4_20261119/ui_e2e.json)也已完成。上傳檔案的完整性可用 [SHA-256 清單](SHA256SUMS.json)核對。
 
-講義原檔與作業投影片截圖未公開上傳。訓練與模型推論在遠端 GPU 完成；本機只做程式、資料及假模型 UI 測試。
+講義原檔與作業投影片截圖未公開上傳。訓練與模型推論在遠端 RTX 3090 和 Google Colab T4 完成；本機只做程式、資料及假模型 UI 測試。
 
 ## 最容易的方式：Google Colab
 
 1. 在 [Google Colab 直接開啟重跑筆記本](https://colab.research.google.com/github/Sharon0726/MMIP/blob/main/Week7/MMIP_Week7_Colab.ipynb)。
 2. 選「執行階段 → 變更執行階段類型 → GPU」。
 3. 第一個程式區塊會自行解開筆記本內含的作業檔，不需再上傳壓縮包。
-4. 按順序執行安裝、資料驗證、LoRA 訓練、四方法 Benchmark、下載結果、啟動介面。
+4. 按順序執行安裝、資料驗證、LoRA 訓練、四方法 Benchmark、下載結果、啟動介面。安裝步驟會移除 Colab 目前與 PEFT 不相容的預裝 `torchao`；主要步驟失敗時會停止。
 5. 重跑後的實測會出現在 `artifacts/benchmark_model/results.md`；逐題原始回覆在 `all_results.csv`。下載的 `MMIP_Week7_results.zip` 含 adapter 與實測資料。
 
 Colab 執行階段可能中斷。訓練完成後建議先下載結果。合成資料不是實際售後客訴；報告應標明此限制。
@@ -37,5 +37,7 @@ Colab 執行階段可能中斷。訓練完成後建議先下載結果。合成�
 | `artifacts/benchmark_model/` | 20 題 × 4 方法的原始結果與摘要 |
 | `artifacts/attack_replay.json` | 八筆攻擊案例經聊天室控制層處理的結果 |
 | `artifacts/ui_smoke.json` | 假模型 UI 回呼測試紀錄與限制 |
+| `artifacts/colab_t4_20261119/` | T4 獨立訓練權重、80 筆逐題結果、攻擊重播及真實模型瀏覽器測試 |
+| `MMIP_Week7_Executed_Colab_T4.ipynb` | Colab 實際執行記錄；保留首次依賴錯誤與修正後重跑輸出 |
 
-**實測狀態**：B 已完成 3 epoch SFT LoRA 訓練；A/B/C/D 各完成 20 題評估。B 的分流正確率最高，為 65%；完整限制與分析見報告。六項控制流程測試與假模型 UI 回呼測試通過；遠端 UI 已停止，尚未完成真實 GPU 模型的瀏覽器端到端驗證。
+**實測狀態**：RTX 3090 與 Colab T4 各完成 B 的 3 epoch SFT LoRA 訓練及 A/B/C/D 的 20 題評估。B 的分流正確率分別是 65% 與 55%；完整限制與分析見報告。八項控制流程測試、假模型 UI 回呼測試及 Colab 真實模型的瀏覽器端到端測試已通過；Colab 暫時介面於驗證後停止。

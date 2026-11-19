@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_examples": 160,
+  "epochs": 3,
+  "steps": 60,
+  "train_loss": 0.059147963017070045,
+  "seconds": 90.694902421,
+  "gpu": "Tesla T4",
+  "note": "SFT only; no RLHF/DPO claim"
+}
