@@ -69,6 +69,7 @@ ROUTE_HINTS = (
 )
 OFF_TOPIC_RE = re.compile(r"樂透|彩券|天氣|氣溫|下雨|股票|股價|電影|寫程式|程式題|Python|數學題", re.IGNORECASE)
 SERVICE_RE = re.compile(r"AirNest|清淨機|空氣清淨機|濾網|風扇|保固|維修|訂單|物流|退款|退貨|E\d{2}|F\d{2}", re.IGNORECASE)
+ERROR_CODE_RE = re.compile(r"\b[EF]\d{2}\b", re.IGNORECASE)
 
 
 def detect_attack(text: str) -> bool:
@@ -159,6 +160,11 @@ class ConversationController:
         attack = detect_attack(text) or detect_attack(image_note)
         clean_text = neutralize_instructions(text)
         clean_image = neutralize_instructions(image_note)
+        if detect_attack(image_note) and not clean_image:
+            # Retain only a diagnostic code when an attack shares its sentence.
+            code = ERROR_CODE_RE.search(image_note)
+            if code:
+                clean_image = f"圖片可見故障碼 {code.group().upper()}"
         hint = route_hint(clean_text)
         switched = bool(state.active_route and hint and hint != state.active_route)
         if TOPIC_RE.search(clean_text) or switched:
@@ -179,6 +185,15 @@ class ConversationController:
             if error:
                 route = safe_fallback(clean_text, clean_image, attack)
         route["safety_flag"] = bool(route["safety_flag"] or attack)
+        if ERROR_CODE_RE.search(clean_image) and not hint and route["route"] != "technical_support":
+            # A visible diagnostic code goes to troubleshooting unless the user
+            # explicitly requests another service such as warranty or return.
+            route["route"] = "technical_support"
+            route["intent"] = "故障排查"
+            route["needs_clarification"] = False
+            route["confidence"] = min(float(route["confidence"]), 0.5)
+            route["summary"] = (clean_text or "使用者上傳故障照片")[:60]
+            route["image_evidence"] = clean_image[:60]
         if attack:
             # For an attacked input, use only explicit domain facts as a conservative override.
             if hint and route["route"] != hint:

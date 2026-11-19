@@ -75,6 +75,17 @@ class ContractTests(unittest.TestCase):
         _, parsed = c.process(ConversationState(), "天氣潮濕時清淨機濾網燈亮了")
         self.assertEqual(parsed["route"], "technical_support")
 
+    def test_error_code_photo_prefers_technical_support(self):
+        c = ConversationController(
+            lambda turns, note: result("warranty", turns[-1]),
+            lambda path: "AirNest 螢幕顯示 E03，風扇停機",
+        )
+        _, parsed = c.process(ConversationState(), "我的清淨機不能開機，請看照片", "fake.png")
+        self.assertEqual(parsed["route"], "technical_support")
+        self.assertIn("E03", parsed["image_evidence"])
+        _, warranty = c.process(ConversationState(), "我要申請保固，照片上有 E03", "fake.png")
+        self.assertEqual(warranty["route"], "warranty")
+
     def test_text_and_image_injection_are_data(self):
         seen = []
         def router(turns, note):
